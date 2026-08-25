@@ -1,0 +1,40 @@
+{
+  "name": "apartment-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that watches Israeli rental listing sites and alerts on new matches",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "probe": "tsx scripts/probe.ts",
+    "dry-run": "tsx scripts/dry-run.ts",
+    "fb-login": "tsx scripts/fb-login.ts",
+    "extract-test": "tsx scripts/extract-test.ts",
+    "setup-bot": "tsx scripts/setup-bot.ts",
+    "telegram-probe": "tsx scripts/telegram-probe.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@grammyjs/auto-retry": "^2.0.2",
+    "better-sqlite3": "^11.7.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.32.0",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "playwright": "^1.62.1",
+    "undici": "^7.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

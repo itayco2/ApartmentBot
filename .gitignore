@@ -1,0 +1,10 @@
+node_modules/
+.env
+data/
+debug/
+.user-data/
+*.log
+
+# Logged-in browser profiles: session cookies for real accounts.
+.fb-profile/
+.madlan-profile/
