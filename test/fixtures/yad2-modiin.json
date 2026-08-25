@@ -1,0 +1,5521 @@
+{
+  "data": {
+    "markers": [
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הפרחים"
+          },
+          "street": {
+            "text": "שושן צחור"
+          },
+          "house": {
+            "number": 15,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.905736,
+            "lon": 35.008217
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 1100,
+        "token": "r3ucqnoa",
+        "additionalDetails": {
+          "property": {
+            "text": "מחסן"
+          },
+          "roomsCount": 1,
+          "squareMeter": 25,
+          "propertyCondition": {
+            "id": 3
+          }
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 25
+        },
+        "tags": [],
+        "orderId": 57246076,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "שאר העיר"
+          },
+          "street": {
+            "text": "הרכבת"
+          },
+          "house": {
+            "number": 1,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.900598,
+            "lon": 35.006308
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 0,
+        "token": "dryoat28",
+        "additionalDetails": {
+          "property": {
+            "text": "חניה"
+          },
+          "roomsCount": 1,
+          "squareMeter": 10,
+          "propertyCondition": {
+            "id": 2
+          }
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/24/2_2/o/y2_1pa_010126_20260724101103.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/24/2_2/o/y2_1pa_010126_20260724101103.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202607/24/2_2/o/y2_1_010745_20260724101052.mov"
+        },
+        "tags": [],
+        "orderId": 57273112,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "יצחק בן צבי"
+          },
+          "house": {
+            "number": 7,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.975053,
+            "lat": 31.900452
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 12000,
+        "token": "pezjhf0o",
+        "additionalDetails": {
+          "property": {
+            "text": "גג/ פנטהאוז"
+          },
+          "roomsCount": 5,
+          "squareMeter": 155,
+          "propertyCondition": {
+            "id": 6
+          }
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010689_20260726140412.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010689_20260726140412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010138_20260726140411.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010039_20260726140412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010006_20260726140412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010427_20260726140413.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_1pa_010510_20260726140415.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_7_09727_20260726142352.jpeg",
+            "https://img.yad2.co.il/Pic/202607/26/2_2/o/y2_8_09137_20260726142355.jpeg"
+          ],
+          "squareMeterBuild": 155
+        },
+        "tags": [],
+        "orderId": 57280338,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 48,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.984093,
+            "lat": 31.903024
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7500,
+        "token": "n4y1u284",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 130,
+          "propertyCondition": {
+            "id": 6
+          }
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_1_07439_20260729112424.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_1_07439_20260729112424.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_2_03936_20260729112430.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_3_03343_20260729112435.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_4_09482_20260729112442.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_5_09863_20260729112445.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_6_06697_20260729112449.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_7_07246_20260729112452.jpeg"
+          ],
+          "squareMeterBuild": 118
+        },
+        "tags": [],
+        "orderId": 57295618,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "שאר העיר"
+          },
+          "street": {
+            "text": "ערער"
+          },
+          "house": {
+            "number": 13,
+            "floor": 13
+          },
+          "coords": {
+            "lon": 35.007353,
+            "lat": 31.900772
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 8200,
+        "token": "mk7io6lo",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 90,
+          "propertyCondition": {
+            "id": 6
+          }
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1_08586_20260804133118.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1_08586_20260804133118.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_2_05076_20260804133121.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_3_02456_20260804133125.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_4_02336_20260804133128.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_5_08865_20260804133132.jpeg"
+          ],
+          "squareMeterBuild": 70
+        },
+        "tags": [],
+        "orderId": 57282658,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 32,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.902741,
+            "lon": 34.986924
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 550,
+        "token": "3veydmk8",
+        "additionalDetails": {
+          "property": {
+            "text": "מחסן"
+          },
+          "roomsCount": 1,
+          "squareMeter": 10,
+          "propertyCondition": {
+            "id": 6
+          }
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 10
+        },
+        "tags": [],
+        "orderId": 57287447,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "מגדל הלבנון"
+          },
+          "house": {
+            "number": 17,
+            "floor": 8
+          },
+          "coords": {
+            "lon": 35.007206,
+            "lat": 31.894513
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 8000,
+        "token": "j7f1tmra",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5.5,
+          "squareMeter": 170,
+          "propertyCondition": {
+            "id": 3
+          }
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 140
+        },
+        "tags": [],
+        "orderId": 57335134,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נחל יגור"
+          },
+          "house": {
+            "number": 9,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.007181,
+            "lat": 31.891906
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9500,
+        "token": "gsp94iiy",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 7,
+          "squareMeter": 180,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_1pa_010371_20260805133942.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_1pa_010371_20260805133942.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_1pa_010597_20260805134029.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_1pa_010259_20260805134029.jpeg"
+          ],
+          "squareMeterBuild": 150
+        },
+        "tags": [],
+        "orderId": 57329319,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "שאר העיר"
+          },
+          "street": {
+            "text": "פיקוס"
+          },
+          "house": {
+            "number": 4,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.00903,
+            "lat": 31.90169
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 650,
+        "token": "hbb3qz66",
+        "additionalDetails": {
+          "property": {
+            "text": "מחסן"
+          },
+          "roomsCount": 1,
+          "squareMeter": 8,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010339_20260810140930.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010339_20260810140930.jpeg"
+          ],
+          "squareMeterBuild": 8
+        },
+        "tags": [],
+        "orderId": 57351458,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הציפורים"
+          },
+          "street": {
+            "text": "נחליאלי"
+          },
+          "house": {
+            "number": 19,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.993201,
+            "lat": 31.895458
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 13000,
+        "token": "go1bl9kj",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 5.5,
+          "squareMeter": 236,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010381_20260813134759.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010381_20260813134759.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010209_20260813134800.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010811_20260813134800.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010882_20260813134801.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010512_20260813134802.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010177_20260813134805.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010371_20260813134805.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010888_20260813134806.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010825_20260813134806.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_2/o/y2_1pa_010000_20260813134808.jpeg"
+          ],
+          "squareMeterBuild": 146
+        },
+        "tags": [],
+        "orderId": 57367097,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "עמק החולה"
+          },
+          "house": {
+            "number": 27,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 35.020409,
+            "lat": 31.895368
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 6700,
+        "token": "h52pbaex",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3.5,
+          "squareMeter": 110,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010925_20260814082504.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010925_20260814082504.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010124_20260814082504.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010649_20260814082503.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010669_20260814082504.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010230_20260814082504.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010034_20260814082504.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010972_20260814082504.jpeg"
+          ],
+          "squareMeterBuild": 85
+        },
+        "tags": [],
+        "orderId": 57370041,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "street": {
+            "text": "זכריה הנביא"
+          },
+          "house": {
+            "number": 4,
+            "floor": 6
+          },
+          "coords": {
+            "lon": 35.01298,
+            "lat": 31.911085
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 10000,
+        "token": "ypc61lcp",
+        "additionalDetails": {
+          "property": {
+            "text": "סאבלט"
+          },
+          "roomsCount": 4,
+          "squareMeter": 120,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010414_20260804153914.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010414_20260804153914.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010113_20260804153915.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010176_20260804153915.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010327_20260804153915.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010899_20260804153915.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010885_20260804153916.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010214_20260804153921.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010277_20260804153922.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010193_20260804153923.jpeg",
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1pa_010348_20260804153923.jpeg"
+          ]
+        },
+        "tags": [],
+        "priceBeforeTag": 10500,
+        "orderId": 57324509,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מכבים"
+          },
+          "street": {
+            "text": "הר גוונים"
+          },
+          "house": {
+            "number": 533,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.037778,
+            "lat": 31.887402
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 4800,
+        "token": "61bdkhrf",
+        "additionalDetails": {
+          "property": {
+            "text": "מרתף/ פרטר"
+          },
+          "roomsCount": 2.5,
+          "squareMeter": 60,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010831_20260810181327.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010831_20260810181327.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010403_20260810181328.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010462_20260810181328.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010094_20260810181328.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_2/o/y2_1pa_010047_20260810181604.jpeg"
+          ],
+          "squareMeterBuild": 60
+        },
+        "tags": [],
+        "priceBeforeTag": 5200,
+        "orderId": 57352961,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הפרחים"
+          },
+          "street": {
+            "text": "עמק איילון"
+          },
+          "house": {
+            "number": 4,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 35.017982,
+            "lat": 31.906663
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 5300,
+        "token": "x18qted0",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010334_20260817141514.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010334_20260817141514.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010574_20260817141702.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010323_20260817141833.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010530_20260817141911.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010289_20260817141941.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1pa_010073_20260817142215.jpeg"
+          ],
+          "squareMeterBuild": 70
+        },
+        "tags": [],
+        "orderId": 57382953,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שמעון פרס"
+          },
+          "house": {
+            "number": 20,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.981277,
+            "lat": 31.903795
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 10500,
+        "token": "xgd6k4bc",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 6.5,
+          "squareMeter": 170,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/21/2_2/o/y2_1pa_010798_20260721120324.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/21/2_2/o/y2_1pa_010798_20260721120324.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_2_03321_20260807155014.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_3_03961_20260807155019.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_4_09442_20260807155023.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_5_04783_20260807155027.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_6_03756_20260807155031.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_7_03952_20260807155035.jpeg",
+            "https://img.yad2.co.il/Pic/202608/07/2_2/o/y2_8_03624_20260807155039.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_9_03818_20260809120930.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_10_09856_20260809120937.jpeg"
+          ],
+          "squareMeterBuild": 170
+        },
+        "tags": [],
+        "priceBeforeTag": 10800,
+        "orderId": 57260127,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 1,
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.991851,
+            "lat": 31.901138
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7200,
+        "token": "ccxe7unn",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 99,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010925_20260819211025.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010925_20260819211025.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010973_20260819211026.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010081_20260819211026.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010764_20260819211026.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010804_20260819211026.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010040_20260819211027.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010462_20260819211027.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010779_20260819211028.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010773_20260819211028.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010197_20260819211028.jpeg"
+          ],
+          "squareMeterBuild": 87
+        },
+        "tags": [],
+        "orderId": 57395705,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "המגינים"
+          },
+          "street": {
+            "text": "מבצע קדש"
+          },
+          "house": {
+            "number": 20,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.002906,
+            "lat": 31.906765
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 15000,
+        "token": "7xfm4y15",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 6,
+          "squareMeter": 195,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1_03131_20260817092108.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_1_03131_20260817092108.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_2_05302_20260817092111.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_3_08274_20260817092115.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_4_05163_20260817092119.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_5_03944_20260817092122.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_6_09093_20260817092126.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_7_01448_20260817092129.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_8_01310_20260817092133.jpeg",
+            "https://img.yad2.co.il/Pic/202608/17/2_2/o/y2_9_04151_20260817092136.jpeg"
+          ],
+          "squareMeterBuild": 195
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "3 כיווני אוויר",
+            "id": 1007,
+            "priority": 1
+          }
+        ],
+        "orderId": 57380772,
+        "priority": 2
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "עמק חפר"
+          },
+          "house": {
+            "number": 1,
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.978116,
+            "lat": 31.904109
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7200,
+        "token": "bdtbepuv",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 87,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 87
+        },
+        "tags": [],
+        "orderId": 57374457,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נחל צין"
+          },
+          "house": {
+            "number": 34,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 35.013131,
+            "lat": 31.894493
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 5800,
+        "token": "u826f4sw",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 3,
+          "squareMeter": 50,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_1pa_010917_20260820131428.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_1pa_010917_20260820131428.jpeg",
+            "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_2_08741_20260820231504.jpeg",
+            "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_1pa_010283_20260820131524.jpeg",
+            "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_1pa_010147_20260820131538.jpeg",
+            "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_1pa_010936_20260820131600.jpeg",
+            "https://img.yad2.co.il/Pic/202608/20/2_2/o/y2_1pa_010204_20260820133525.jpeg"
+          ],
+          "squareMeterBuild": 45
+        },
+        "tags": [
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "orderId": 57398239,
+        "priority": 2
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "חיים הרצוג"
+          },
+          "house": {
+            "number": 22,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.977684,
+            "lat": 31.90132
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7800,
+        "token": "dwyqix0v",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 3,
+          "squareMeter": 264,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010546_20260818193004.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010546_20260818193004.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010030_20260818193031.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010606_20260818193053.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010605_20260818193509.jpeg"
+          ],
+          "squareMeterBuild": 84
+        },
+        "tags": [],
+        "orderId": 57390149,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "המגינים"
+          },
+          "street": {
+            "text": "יגאל ידין"
+          },
+          "house": {
+            "number": 35,
+            "floor": 11
+          },
+          "coords": {
+            "lon": 35.004168,
+            "lat": 31.905564
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9750,
+        "token": "g4qjyvf6",
+        "additionalDetails": {
+          "property": {
+            "text": "גג/ פנטהאוז"
+          },
+          "roomsCount": 5,
+          "squareMeter": 191,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010206_20260816162831.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010206_20260816162831.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010655_20260816162831.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010594_20260816162831.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010835_20260816162831.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010963_20260816162831.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010129_20260816162831.jpeg"
+          ],
+          "squareMeterBuild": 156
+        },
+        "tags": [],
+        "orderId": 57378130,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "המגינים"
+          },
+          "street": {
+            "text": "חטיבת הצנחנים"
+          },
+          "house": {
+            "number": 23,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.998561,
+            "lat": 31.908062
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 6300,
+        "token": "zgvj1gfn",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 4.5,
+          "squareMeter": 123,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010768_20260814094729.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010768_20260814094729.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010415_20260814094730.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010531_20260814094730.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010229_20260814094730.jpeg",
+            "https://img.yad2.co.il/Pic/202608/14/2_2/o/y2_1pa_010834_20260814094730.jpeg"
+          ],
+          "squareMeterBuild": 123
+        },
+        "tags": [],
+        "priceBeforeTag": 6500,
+        "orderId": 57370272,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "נופים"
+          },
+          "street": {
+            "text": "יער בארי"
+          },
+          "house": {
+            "number": 28,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.895011,
+            "lon": 34.981459
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 13000,
+        "token": "47h9f4lq",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 5.5,
+          "squareMeter": 230,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 200
+        },
+        "tags": [],
+        "orderId": 57405575,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שמעון פרס"
+          },
+          "house": {
+            "number": 38,
+            "floor": 2
+          },
+          "coords": {
+            "lat": 31.90536,
+            "lon": 34.983431
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9600,
+        "token": "4cpv05zt",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 6,
+          "squareMeter": 164,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1_09887_20260804160931.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/04/2_2/o/y2_1_09887_20260804160931.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_2_05799_20260805150634.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_3_02144_20260805150636.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_4_02234_20260805150639.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_5_09845_20260805150643.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_6_02521_20260805150645.jpeg",
+            "https://img.yad2.co.il/Pic/202608/05/2_2/o/y2_7_06674_20260805150649.jpeg"
+          ],
+          "squareMeterBuild": 148
+        },
+        "tags": [],
+        "orderId": 57300385,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנחלים"
+          },
+          "street": {
+            "text": "עמק יזרעאל"
+          },
+          "house": {
+            "number": 3,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 35.01742,
+            "lat": 31.898651
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 5700,
+        "token": "rz004u0y",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 60,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1pa_010898_20260711203557.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1pa_010898_20260711203557.jpeg",
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1pa_010662_20260711203612.jpeg",
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1pa_010305_20260711203612.jpeg",
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1pa_010919_20260711203612.jpeg",
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1pa_010528_20260711203613.jpeg"
+          ],
+          "squareMeterBuild": 60
+        },
+        "tags": [],
+        "orderId": 57212922,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "המגינים"
+          },
+          "street": {
+            "text": "יגאל ידין"
+          },
+          "house": {
+            "number": 43,
+            "floor": 5
+          },
+          "coords": {
+            "lon": 35.00436,
+            "lat": 31.904076
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9300,
+        "token": "p22ixqva",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 143,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010861_20260812143147.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010861_20260812143147.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010650_20260812143147.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010343_20260812143147.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010501_20260812143147.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010814_20260812143147.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010651_20260812143148.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_1pa_010090_20260812143153.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1012,
+            "priority": 1
+          }
+        ],
+        "orderId": 57362782,
+        "priority": 2
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מכבים"
+          },
+          "street": {
+            "text": "הדורית"
+          },
+          "house": {
+            "number": 267,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.030018,
+            "lat": 31.892698
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 0,
+        "token": "yhpo5d9b",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 2,
+          "squareMeter": 60,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010359_20260823140620.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010359_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010954_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010713_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010431_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010907_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010776_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010774_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010393_20260823140620.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1pa_010483_20260823140620.jpeg"
+          ],
+          "squareMeterBuild": 60
+        },
+        "tags": [],
+        "orderId": 57408529,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "רעות"
+          },
+          "street": {
+            "text": "ספיר"
+          },
+          "house": {
+            "number": 14,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.013481,
+            "lat": 31.885555
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7500,
+        "token": "fpjbjz0l",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 3,
+          "squareMeter": 80,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_1_06853_20260802104126.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_1_06853_20260802104126.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_2_02256_20260802104131.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_3_02008_20260802104136.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_4_02213_20260802104141.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_5_07012_20260802104146.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_6_03154_20260802104151.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_2/o/y2_7_07108_20260802104156.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_bp3h4vdi/format/url/protocol/http",
+          "squareMeterBuild": 80
+        },
+        "tags": [],
+        "orderId": 57293036,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "שאר העיר"
+          },
+          "street": {
+            "text": "הרכבת"
+          },
+          "house": {
+            "number": 1,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.006308,
+            "lat": 31.900598
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7300,
+        "token": "kl6afle3",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 78,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010008_20260816175505.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010008_20260816175505.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010192_20260816175510.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010109_20260816175516.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010558_20260816175530.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010015_20260816175536.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1pa_010152_20260816175736.jpeg"
+          ]
+        },
+        "tags": [],
+        "priceBeforeTag": 7700,
+        "orderId": 57378635,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 54,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.903095,
+            "lon": 34.98498
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 600,
+        "token": "rx2qw2vy",
+        "additionalDetails": {
+          "property": {
+            "text": "מחסן"
+          },
+          "roomsCount": 1,
+          "squareMeter": 8,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1_04229_20260823224123.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/23/2_2/o/y2_1_04229_20260823224123.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57410998,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נהר הירדן"
+          },
+          "house": {
+            "number": 8,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 35.011243,
+            "lat": 31.89503
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 6300,
+        "token": "k4vg4ujw",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1_02194_20260816145716.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1_02194_20260816145716.jpeg",
+            "https://img.yad2.co.il/Pic/202607/06/2_2/o/y2_1pa_010001_20260706121551.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_3_05868_20260816145719.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_4_02437_20260816145722.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_7_07454_20260816145725.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_atpg0d5c/format/url/protocol/http"
+        },
+        "tags": [],
+        "orderId": 57188360,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שמעון פרס"
+          },
+          "house": {
+            "number": 20,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.903795,
+            "lon": 34.981277
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 250,
+        "token": "o9gmbovd",
+        "additionalDetails": {
+          "property": {
+            "text": "חניה"
+          },
+          "roomsCount": 1,
+          "squareMeter": 15,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/05/2_2/o/y2_1pa_010845_20260705160929.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/05/2_2/o/y2_1pa_010845_20260705160929.jpeg",
+            "https://img.yad2.co.il/Pic/202607/05/2_2/o/y2_1pa_010170_20260705160934.jpeg",
+            "https://img.yad2.co.il/Pic/202607/05/2_2/o/y2_1pa_010767_20260705160958.jpeg"
+          ],
+          "squareMeterBuild": 15
+        },
+        "tags": [],
+        "orderId": 57183801,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "יצחק נבון"
+          },
+          "house": {
+            "number": 14,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.98947,
+            "lat": 31.901804
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7501,
+        "token": "2413vxmb",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 3,
+          "squareMeter": 238,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 85
+        },
+        "tags": [],
+        "orderId": 57401909,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "street": {
+            "text": "תשרי"
+          },
+          "house": {
+            "number": 2,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.91335,
+            "lon": 35.010503
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 800,
+        "token": "773dv8mu",
+        "additionalDetails": {
+          "property": {
+            "text": "מחסן"
+          },
+          "roomsCount": 1,
+          "squareMeter": 12,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_1_06242_20260518130152.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_1_06242_20260518130152.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_2_07895_20260518130157.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_3_06540_20260518130202.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_4_03768_20260518130206.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_5_04914_20260518130211.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_2/o/y2_6_01487_20260518130216.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_ns0x6rbc/format/url/protocol/http"
+        },
+        "tags": [],
+        "orderId": 56650876,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "המגינים"
+          },
+          "street": {
+            "text": "חטיבת הראל"
+          },
+          "house": {
+            "number": 10,
+            "floor": 11
+          },
+          "coords": {
+            "lat": 31.913202,
+            "lon": 34.998662
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9000,
+        "token": "4769s7le",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 135,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010344_20260824164402.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010344_20260824164402.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010392_20260824164402.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010952_20260824164407.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010690_20260824164407.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010558_20260824164412.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010421_20260824164408.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010051_20260824164409.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010285_20260824164408.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010447_20260824164409.jpeg"
+          ],
+          "squareMeterBuild": 112
+        },
+        "tags": [],
+        "orderId": 57415275,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "street": {
+            "text": "כסלו"
+          },
+          "house": {
+            "number": 38,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 35.006354,
+            "lat": 31.915455
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7500,
+        "token": "fsg21pa7",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 100,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010010_20260824174427.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010010_20260824174427.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010394_20260824174427.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010110_20260824174427.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010609_20260824174427.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57415629,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מכבים"
+          },
+          "street": {
+            "text": "הדורית"
+          },
+          "house": {
+            "number": 267,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.030018,
+            "lat": 31.892698
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 4900,
+        "token": "ohellgmy",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 2,
+          "squareMeter": 90,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010183_20260824185945.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010183_20260824185945.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010723_20260824185946.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010048_20260824185945.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010604_20260824185946.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_2/o/y2_1pa_010128_20260824185946.jpeg"
+          ],
+          "squareMeterBuild": 60
+        },
+        "tags": [],
+        "orderId": 57416054,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "יצחק נבון"
+          },
+          "house": {
+            "number": 22,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.989239,
+            "lat": 31.902865
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 8900,
+        "token": "f8etkbqk",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 134,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_1_08773_20260803132741.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_1_08773_20260803132741.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_2_08128_20260727093121.jpeg",
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_3_03789_20260803144327.jpeg",
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_4_07947_20260803144336.jpeg",
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_5_04110_20260803144341.jpeg",
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_6_06787_20260803144348.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_7_01302_20260729112910.jpeg",
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_8_04455_20260803144354.jpeg",
+            "https://img.yad2.co.il/Pic/202608/03/2_2/o/y2_9_09438_20260803144400.jpeg",
+            "https://img.yad2.co.il/Pic/202607/29/2_2/o/y2_10_08202_20260729112922.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_ovupjsn3/format/url/protocol/http",
+          "squareMeterBuild": 122
+        },
+        "tags": [],
+        "orderId": 57227666,
+        "priority": 1
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "street": {
+            "text": "ירח אב"
+          },
+          "house": {
+            "number": 13,
+            "floor": 2
+          },
+          "coords": {
+            "lat": 31.91373,
+            "lon": 35.012135
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 10500,
+        "token": "1t5oajsb",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 143,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_1_03697_20260613215805.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_1_03697_20260613215805.jpeg",
+            "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_2_06325_20260613215809.jpeg"
+          ],
+          "squareMeterBuild": 131
+        },
+        "tags": [
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          }
+        ],
+        "orderId": 57033359,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מכבים"
+          },
+          "street": {
+            "text": "נחל דן"
+          },
+          "house": {
+            "number": 836,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.029937,
+            "lat": 31.886204
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 4800,
+        "token": "lfo4j96g",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 2,
+          "squareMeter": 26,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_1_01088_20260806165205.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_1_01088_20260806165205.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_1pa_010442_20260806161349.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_1pa_010935_20260806161355.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_1pa_010072_20260806161357.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_1pa_010500_20260806161421.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_6_03973_20260806165214.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_2/o/y2_7_06675_20260806165218.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "נכס עורפי",
+            "id": 1002,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1092,
+            "priority": 10
+          }
+        ],
+        "priceBeforeTag": 5000,
+        "orderId": 57335688,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 112,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 34.977097,
+            "lat": 31.9028
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9300,
+        "token": "vvn3yn5i",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 141,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010929_20260630171617.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010929_20260630171617.jpeg",
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010829_20260630171618.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "חדש מקבלן",
+            "id": 1000,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          }
+        ],
+        "orderId": 57162001,
+        "priority": 2
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הפרחים"
+          },
+          "street": {
+            "text": "שושן צחור"
+          },
+          "house": {
+            "number": 16,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.008524,
+            "lat": 31.905853
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9000,
+        "token": "ftlu6fni",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 5,
+          "squareMeter": 180,
+          "propertyCondition": {
+            "id": 5
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010222_20260818162338.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010222_20260818162338.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010315_20260818162338.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010274_20260818162339.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010297_20260818162339.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010768_20260818162339.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010227_20260818162339.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010490_20260818162344.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010087_20260818162345.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010221_20260818162347.jpeg",
+            "https://img.yad2.co.il/Pic/202608/18/2_2/o/y2_1pa_010554_20260818162348.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "orderId": 57388965,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 9,
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.99163,
+            "lat": 31.900396
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7350,
+        "token": "hqjn6ki3",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 122,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010368_20260819212344.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010368_20260819212344.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010804_20260819212350.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010042_20260819212350.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010912_20260819212351.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010837_20260819212351.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010461_20260819212351.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010674_20260819212354.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010513_20260819212355.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010638_20260819212356.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_2/o/y2_1pa_010954_20260819212401.jpeg"
+          ],
+          "squareMeterBuild": 110
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          }
+        ],
+        "orderId": 57395763,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נחל שורק"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.0076723977273,
+            "lat": 31.8951677954545
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 16000,
+        "token": "ba9r5ln5",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 7,
+          "squareMeter": 250,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "inProperty": {
+          "isAssetExclusive": true
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_1pa_010914_20260618160146.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_1pa_010914_20260618160146.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_2_FOFMQ3Mxwy_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_3_oVSSdPuXa0_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_4_147LPIi33k_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_5_IilrbdHLmp_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_6_0k9317rxOG_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_7_LpoowSFoov_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_8_hEMbkUQyPt_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_9_rWLiia79iL_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_10__6SErnmSx5_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_11_skdZDirwMO_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_12_1FVELJlUsG_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_13_cQLrBqNQNo_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_14_9MdjUM6rCf_20260618.jpeg",
+            "https://img.yad2.co.il/Pic/202606/18/2_6/o/y2_15_KhYNh57hNF_20260618.jpeg"
+          ],
+          "squareMeterBuild": 200
+        },
+        "tags": [],
+        "priceBeforeTag": 20000,
+        "orderId": 57105212,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.997349,
+            "lat": 31.903942
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9900,
+        "token": "ul0c80nx",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 6,
+          "squareMeter": 135,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010595_20260816161412.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010595_20260816161412.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010233_20260816161412.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010939_20260816161412.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010230_20260816161412.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57378008,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "street": {
+            "text": "יגאל ידין"
+          },
+          "house": {
+            "number": 43,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.00436,
+            "lat": 31.904076
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8500,
+        "token": "swl4muh7",
+        "additionalDetails": {
+          "property": {
+            "text": "כללי"
+          },
+          "roomsCount": 4,
+          "squareMeter": 100,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202605/08/2_6/o/y2_1pa_010960_20260508180811.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202605/08/2_6/o/y2_1pa_010960_20260508180811.jpeg",
+            "https://img.yad2.co.il/Pic/202605/08/2_6/o/y2_1pa_010881_20260508180817.jpeg",
+            "https://img.yad2.co.il/Pic/202605/08/2_6/o/y2_1pa_09999_20260508180817.jpeg",
+            "https://img.yad2.co.il/Pic/202605/08/2_6/o/y2_1pa_010401_20260508180817.jpeg",
+            "https://img.yad2.co.il/Pic/202605/08/2_6/o/y2_1pa_010955_20260508180817.jpeg"
+          ],
+          "squareMeterBuild": 75
+        },
+        "tags": [],
+        "orderId": 56914664,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנחלים"
+          },
+          "street": {
+            "text": "נחל הירקון"
+          },
+          "house": {
+            "floor": 2
+          },
+          "coords": {
+            "lat": 31.8976880588235,
+            "lon": 35.0199275588235
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7500,
+        "token": "smfuvspx",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 150,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010591_20260813094018.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010591_20260813094018.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010304_20260813094011.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010832_20260813094011.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010939_20260813094011.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010412_20260813094011.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010185_20260813094011.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010504_20260813094012.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010866_20260813094012.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010415_20260813094012.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010439_20260813094012.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010238_20260813094012.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57365667,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "נופים"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.981066,
+            "lat": 31.896377
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9200,
+        "token": "2wotddyx",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 152,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "inProperty": {
+          "isAssetExclusive": true
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010169_20260809134701.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010169_20260809134701.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010294_20260809134701.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010340_20260809134701.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010510_20260809134701.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010407_20260809134701.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010397_20260809134701.jpeg"
+          ],
+          "squareMeterBuild": 130
+        },
+        "tags": [],
+        "priceBeforeTag": 9500,
+        "orderId": 57345378,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.997349,
+            "lat": 31.903942
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 10300,
+        "token": "vpx0fjvg",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 4,
+          "squareMeter": 350,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010357_20260819172550.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010357_20260819172550.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010855_20260819172554.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010271_20260819172552.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010522_20260819172548.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010763_20260819172549.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010579_20260819172552.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010167_20260819172549.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010980_20260819172550.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010930_20260819172551.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010737_20260819172552.jpeg"
+          ],
+          "squareMeterBuild": 110
+        },
+        "tags": [],
+        "orderId": 57394667,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנביאים"
+          },
+          "street": {
+            "text": "כיכר עמוס הנביא"
+          },
+          "house": {
+            "floor": 23
+          },
+          "coords": {
+            "lon": 35.00249445,
+            "lat": 31.914964
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8500,
+        "token": "jt7l6rji",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 155,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1_anH4CqbQe4_20260714.png",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1_anH4CqbQe4_20260714.png",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_2_NicEzkdJvB_20260714.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_3_zvGFC5HsEP_20260714.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_4_PWAyj2_uDs_20260714.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_5_vUhoPAh7NH_20260714.jpeg"
+          ],
+          "squareMeterBuild": 102
+        },
+        "tags": [],
+        "orderId": 57227612,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנחלים"
+          },
+          "street": {
+            "text": "לבונה"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lon": 35.0109055111111,
+            "lat": 31.9006214222222
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7500,
+        "token": "jgj6i41v",
+        "additionalDetails": {
+          "property": {
+            "text": "גג/ פנטהאוז"
+          },
+          "roomsCount": 4,
+          "squareMeter": 114,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_996399_20260702110453.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_996399_20260702110453.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_993425_20260702110453.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_994032_20260702110453.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_995852_20260702110453.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_996096_20260702110454.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_999034_20260702110453.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_997604_20260702110454.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_991081_20260702110454.jpeg",
+            "https://img.yad2.co.il/Pic/202607/02/2_6/o/y2_1pa_999708_20260702110454.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57358771,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "יצחק שמיר"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.98025805,
+            "lat": 31.9031208
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 6000,
+        "token": "ydouzp7u",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 125,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010350_20260625211330.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010350_20260625211330.jpeg",
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010753_20260625211324.jpeg",
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010140_20260625211330.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57140475,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "house": {
+            "floor": 15
+          },
+          "coords": {
+            "lat": 31.903942,
+            "lon": 34.997349
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 5500,
+        "token": "c61bmtaq",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4.5,
+          "squareMeter": 142,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010256_20260806140744.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010256_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010267_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010694_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010436_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010214_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010586_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010574_20260806140744.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010586_20260806140744.jpeg"
+          ],
+          "squareMeterBuild": 130
+        },
+        "tags": [],
+        "orderId": 57334926,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "שאר העיר"
+          },
+          "street": {
+            "text": "לב העיר"
+          },
+          "house": {
+            "floor": 2
+          },
+          "coords": {
+            "lon": 35.0072996875,
+            "lat": 31.8992493125
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 11950,
+        "token": "1enyl1l3",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 150,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010062_20260723163151.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010062_20260723163151.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010965_20260723163151.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010581_20260723163151.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010301_20260723163151.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010912_20260723163151.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010876_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010071_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010208_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010369_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010349_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010929_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010050_20260723163153.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010537_20260723163152.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010348_20260723163153.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1pa_010102_20260723163153.jpeg"
+          ],
+          "squareMeterBuild": 132
+        },
+        "tags": [],
+        "orderId": 57270934,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "רעות"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.017617,
+            "lat": 31.887879
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 6700,
+        "token": "vw1la3q6",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 3.5,
+          "squareMeter": 85,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 85
+        },
+        "tags": [],
+        "orderId": 57280122,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "number": 102,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 34.976739,
+            "lat": 31.90161
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9300,
+        "token": "jjz2mfwj",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 130,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1_tS6a06wgJD_20260723.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_1_tS6a06wgJD_20260723.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_2_Xad25Cv2vl_20260723.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_3_4bJBiJW_LZ_20260723.jpeg",
+            "https://img.yad2.co.il/Pic/202607/23/2_6/o/y2_4_FTekc8vmE6_20260723.jpeg"
+          ],
+          "squareMeterBuild": 130
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57231653,
+        "priority": 2,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.012735,
+            "lat": 31.894596
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 10500,
+        "token": "5kzhhwfr",
+        "additionalDetails": {
+          "property": {
+            "text": "דופלקס"
+          },
+          "roomsCount": 5.5,
+          "squareMeter": 163,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010058_20260809010839.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010058_20260809010839.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010281_20260809010839.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010449_20260809010839.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010396_20260809010839.jpeg"
+          ],
+          "squareMeterBuild": 163
+        },
+        "tags": [],
+        "orderId": 57342881,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שמעון פרס"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.982344925,
+            "lat": 31.904206675
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9000,
+        "token": "tyjvc2ng",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 110,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 110
+        },
+        "tags": [],
+        "orderId": 57419692,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "אבני חן"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.995631,
+            "lat": 31.904295
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7500,
+        "token": "0xbeu0hk",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 4,
+          "squareMeter": 125,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010466_20260823132325.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010466_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010857_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010509_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010082_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010937_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010765_20260823132328.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010857_20260823132331.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010600_20260823132331.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010941_20260823132332.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010446_20260823132331.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010392_20260823132335.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010874_20260823132331.jpeg"
+          ],
+          "squareMeterBuild": 106
+        },
+        "tags": [],
+        "orderId": 57408179,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנחלים"
+          },
+          "street": {
+            "text": "תפוח"
+          },
+          "house": {
+            "floor": 2
+          },
+          "coords": {
+            "lon": 35.0147278461539,
+            "lat": 31.9010533076923
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 4200,
+        "token": "7pp9924g",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 1,
+          "squareMeter": 60,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_992751_20260810201017.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_992751_20260810201017.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_993295_20260810201018.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_998761_20260810201017.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_999088_20260810201017.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_992186_20260810201017.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_996507_20260810201017.jpeg"
+          ],
+          "squareMeterBuild": 40
+        },
+        "tags": [],
+        "orderId": 57359418,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנחלים"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.012759,
+            "lat": 31.899947
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 4500,
+        "token": "5llqhzfp",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 2,
+          "squareMeter": 40,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010806_20260813100403.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010806_20260813100403.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010315_20260813100402.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010713_20260813100402.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010141_20260813100402.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010366_20260813100403.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010739_20260813100402.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010949_20260813100403.jpeg",
+            "https://img.yad2.co.il/Pic/202608/13/2_6/o/y2_1pa_010306_20260813100403.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57365774,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מכבים"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.034043,
+            "lat": 31.89033
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 4500,
+        "token": "p20vj0yx",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 2,
+          "squareMeter": 52,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_7_FGZ5phYlRK_20260720.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_7_FGZ5phYlRK_20260720.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1_8tzrt9CKOh_20260720.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_2_h3ewdcBmxK_20260720.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_3_QbzlIRio0P_20260720.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_4_MzM5JNsYE1_20260720.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_6_UhzCY5I2i7_20260720.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57255957,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הפרחים"
+          },
+          "street": {
+            "text": "עמק איילון"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lat": 31.9040113703704,
+            "lon": 35.0138081111111
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8300,
+        "token": "ipno749b",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 130,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "inProperty": {
+          "isAssetExclusive": true
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010695_20260809104311.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010695_20260809104311.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010733_20260809104313.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010005_20260809104308.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010043_20260809104307.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010032_20260809104307.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010167_20260809104307.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010519_20260809104315.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_6/o/y2_1pa_010176_20260809104315.jpeg"
+          ],
+          "squareMeterBuild": 130
+        },
+        "tags": [
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "orderId": 57343892,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שמעון פרס"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.982344925,
+            "lat": 31.904206675
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 11500,
+        "token": "eblgjzhb",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 6,
+          "squareMeter": 260,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_1_HVvEWbA9EU_20240305.jpg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_1_HVvEWbA9EU_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_2_cNgwc0aQEu_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_3_IYpvJ8tZYW_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_4_XBuNWsrfAC_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_5_86qU5lg9bt_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_6_bXYSCPeTTz_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_7_Pop1hei9An_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_8_ZbwH3FmDty_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_9_PZ56USgMT8_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_10_9_NdxGaS8w_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_11_Dx8Nlxy_Z6_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_12_0O8oneiUQD_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_13_8NmrNbr6uu_20240305.jpg",
+            "https://img.yad2.co.il/Pic/202403/05/2_6/o/y2_14_kzN0iRRbZu_20240305.jpg"
+          ],
+          "squareMeterBuild": 147
+        },
+        "tags": [],
+        "orderId": 52538244,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "שאר העיר"
+          },
+          "street": {
+            "text": "ערער"
+          },
+          "house": {
+            "floor": 9
+          },
+          "coords": {
+            "lon": 35.0080777368421,
+            "lat": 31.9006894736842
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7789,
+        "token": "tjlxini9",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2,
+          "squareMeter": 73,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010717_20260720134956.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010717_20260720134956.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010013_20260720134957.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010283_20260720134958.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010320_20260720135023.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010039_20260720135023.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010062_20260720135025.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010613_20260720135045.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010475_20260720135046.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010795_20260720135113.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010205_20260720135113.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010841_20260720135115.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010654_20260720135218.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010976_20260720135219.jpeg",
+            "https://img.yad2.co.il/Pic/202607/20/2_6/o/y2_1pa_010532_20260720135219.jpeg"
+          ],
+          "squareMeterBuild": 62
+        },
+        "tags": [],
+        "orderId": 57254799,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "עמק חפר"
+          },
+          "house": {
+            "floor": 2
+          },
+          "coords": {
+            "lon": 34.9810986451613,
+            "lat": 31.9052081290323
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9200,
+        "token": "1ejdf7hk",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 148,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_1_999068_20240204.jpg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_1_999068_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_2_997290_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_3_991524_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_4_994788_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_5_999641_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_6_998404_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_7_997499_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_8_998918_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_9_998234_20240204.jpg",
+            "https://img.yad2.co.il/Pic/202402/04/2_6/o/y2_10_ZfJMb_996662_20240204.jpg"
+          ],
+          "squareMeterBuild": 125
+        },
+        "tags": [],
+        "orderId": 57380730,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מכבים"
+          },
+          "street": {
+            "text": "הר כנען"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.0370726666667,
+            "lat": 31.8842347777778
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 18000,
+        "token": "ezk3g22f",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 8,
+          "squareMeter": 270,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_1_7tYtZGBUeG_20260812.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_1_7tYtZGBUeG_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_2_1jIoZ8ezuy_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_3_BYDzDHn9Xy_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_4_tpQoNdggYE_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_5_U7OBd1852P_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_6_JuHaTMUk_g_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_7_1XHmXW5b7S_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_8_VaG86HVIs1_20260812.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_6/o/y2_9_GdzSKtXg6J_20260812.jpeg"
+          ],
+          "squareMeterBuild": 270
+        },
+        "tags": [],
+        "orderId": 57362568,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "חיים הרצוג"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.97869,
+            "lat": 31.9021624545455
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7800,
+        "token": "c5wdj25g",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 135,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010627_20260811162840.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010627_20260811162840.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010705_20260811162840.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010460_20260811162841.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010351_20260811162842.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010875_20260811162841.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010260_20260811162841.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010566_20260811162841.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010249_20260811162842.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010020_20260811162842.jpeg"
+          ],
+          "squareMeterBuild": 110
+        },
+        "tags": [],
+        "orderId": 57357882,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הציפורים"
+          },
+          "house": {
+            "floor": 11
+          },
+          "coords": {
+            "lon": 34.996201,
+            "lat": 31.896159
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 15000,
+        "token": "8n3dw87u",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 142,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_2_DSTjB8RbwE_20260628.png",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_2_DSTjB8RbwE_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1_wQs5zYSQ46_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_3_YHgY24d3Te_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_4_gxKEL69MT7_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_5_POoB9PhLlz_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_6_LXtqHOKV7__20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_7_W7zVWRc0Ts_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_8_PEnRh9cRse_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_9_s8BQb13VX9_20260628.png",
+            "https://img.yad2.co.il/Pic/202607/08/2_6/o/y2_11_6VLzl1sFih_20260708.png"
+          ],
+          "squareMeterBuild": 128
+        },
+        "tags": [],
+        "orderId": 57148761,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "street": {
+            "text": "כסלו"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.0078457027027,
+            "lat": 31.9152724189189
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7800,
+        "token": "94vh26bg",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 92,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 92
+        },
+        "tags": [],
+        "orderId": 57315019,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הנחלים"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.012759,
+            "lat": 31.899947
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 14000,
+        "token": "g7ce0q39",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 7,
+          "squareMeter": 190,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/17/2_6/o/y2_1pa_010945_20260717085503.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/17/2_6/o/y2_1pa_010945_20260717085503.jpeg",
+            "https://img.yad2.co.il/Pic/202607/17/2_6/o/y2_1pa_010939_20260717085507.jpeg",
+            "https://img.yad2.co.il/Pic/202607/17/2_6/o/y2_1pa_010423_20260717085515.jpeg",
+            "https://img.yad2.co.il/Pic/202607/17/2_6/o/y2_1pa_010807_20260717085524.jpeg",
+            "https://img.yad2.co.il/Pic/202607/17/2_6/o/y2_1pa_010512_20260717085529.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57242566,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נחל ארנון"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.0049898214286,
+            "lat": 31.8942562142857
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 11000,
+        "token": "fd655vp5",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 6.5,
+          "squareMeter": 220,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010775_20260806113611.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010775_20260806113611.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010012_20260806113629.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010960_20260806113640.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010054_20260806113647.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010541_20260806113656.jpeg",
+            "https://img.yad2.co.il/Pic/202608/06/2_6/o/y2_1pa_010466_20260806113706.jpeg"
+          ],
+          "squareMeterBuild": 170
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57333987,
+        "priority": 2,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נחל שניר"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.014502779661,
+            "lat": 31.8949810169492
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 10400,
+        "token": "30ems87b",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 5,
+          "squareMeter": 150,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_12_JvOmtKNB6J_20260821.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_12_JvOmtKNB6J_20260821.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_14_7SSKYUtsc3_20260821.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010907_20260816095540.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010408_20260816095634.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010194_20260816095718.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010477_20260816095750.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010382_20260816095824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010297_20260816095844.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010853_20260816095921.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_12_R6Y1QpBulj_20260816.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_1pa_010818_20260816100057.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_6/o/y2_13_unuDVDBupS_20260816.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_13_TtJ0ZeupsV_20260821.jpeg",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_14_sFBXtwToy8_20260825.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202608/16/2_6/o/y2_1_010914_20260816095442.mov",
+          "squareMeterBuild": 150
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1212,
+            "priority": 1
+          }
+        ],
+        "orderId": 57375414,
+        "priority": 2,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "גולדה מאיר"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.9843216870748,
+            "lat": 31.9015973809524
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7700,
+        "token": "pbzhagt7",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 3,
+          "squareMeter": 220,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010923_20260518114305.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010923_20260518114305.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010798_20260518114305.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010405_20260518114305.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010651_20260518114305.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010119_20260518114305.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010291_20260518114305.jpeg",
+            "https://img.yad2.co.il/Pic/202605/18/2_6/o/y2_1pa_010638_20260518114305.jpeg"
+          ],
+          "squareMeterBuild": 85
+        },
+        "tags": [],
+        "orderId": 56959102,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מוריה"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lat": 31.881622,
+            "lon": 35.00601
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 14500,
+        "token": "k7haib4d",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 150,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010174_20260714170244.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010174_20260714170244.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010414_20260714170244.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010472_20260714170244.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010562_20260714170244.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010497_20260714170244.jpeg",
+            "https://img.yad2.co.il/Pic/202607/14/2_6/o/y2_1pa_010200_20260714170244.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57229720,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "משואה"
+          },
+          "street": {
+            "text": "נחל שניר"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.014502779661,
+            "lat": 31.8949810169492
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 10400,
+        "token": "y8ce1c3q",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 5,
+          "squareMeter": 175,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010676_20260821085859.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010676_20260821085859.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010990_20260821085905.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010601_20260821085918.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010237_20260821085941.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010966_20260821085953.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010618_20260821090029.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010510_20260821090102.jpeg",
+            "https://img.yad2.co.il/Pic/202608/21/2_6/o/y2_1pa_010727_20260821090136.jpeg",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_9_KjfOkImW_J_20260825.jpeg",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_10_FGHUhwmsat_20260825.jpeg",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_11_RczCLgMm8D_20260825.jpeg"
+          ],
+          "squareMeterBuild": 150
+        },
+        "tags": [],
+        "orderId": 57401267,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שדרות צה\"ל"
+          },
+          "house": {
+            "number": 11,
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.991716,
+            "lat": 31.901661
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8700,
+        "token": "5x7s7g0t",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 144,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010698_20260824085849.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010698_20260824085849.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010978_20260824085849.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010970_20260824085849.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010114_20260824085850.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010762_20260824085849.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010884_20260824085849.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010318_20260824085850.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_010428_20260824085850.jpeg"
+          ],
+          "squareMeterBuild": 128
+        },
+        "tags": [],
+        "orderId": 57412256,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הפרחים"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lat": 31.906366,
+            "lon": 35.012885
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8300,
+        "token": "4esydoes",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 135,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010153_20260811172855.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010153_20260811172855.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010089_20260811172855.jpeg"
+          ],
+          "squareMeterBuild": 130
+        },
+        "tags": [],
+        "orderId": 57358241,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 35.009196,
+            "lat": 31.915043
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 10500,
+        "token": "r1pwaal7",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 4,
+          "squareMeter": 130,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010117_20260808213938.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010117_20260808213938.jpeg",
+            "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010134_20260808213937.jpeg",
+            "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010053_20260808213936.jpeg",
+            "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010781_20260808213936.jpeg",
+            "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010438_20260808213936.jpeg",
+            "https://img.yad2.co.il/Pic/202608/08/2_6/o/y2_1pa_010431_20260808213935.jpeg"
+          ],
+          "squareMeterBuild": 130
+        },
+        "tags": [],
+        "orderId": 57342314,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "house": {
+            "floor": 5
+          },
+          "coords": {
+            "lon": 34.997349,
+            "lat": 31.903942
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 15500,
+        "token": "g61vc2hq",
+        "additionalDetails": {
+          "property": {
+            "text": "גג/ פנטהאוז"
+          },
+          "roomsCount": 6,
+          "squareMeter": 270,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010348_20260628152610.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010348_20260628152610.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010631_20260628152602.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010768_20260628152606.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010828_20260628152602.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010003_20260628152602.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010711_20260628152601.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010074_20260628152605.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010966_20260628152614.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010071_20260628152611.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010382_20260628152606.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010689_20260628152610.jpeg",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1pa_010263_20260628152610.jpeg"
+          ],
+          "squareMeterBuild": 160
+        },
+        "tags": [],
+        "orderId": 57149390,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הכרמים"
+          },
+          "street": {
+            "text": "תשרי"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lat": 31.9158506530612,
+            "lon": 35.0094328367347
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7800,
+        "token": "zlg9zpp2",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 95,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010177_20260707154916.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010177_20260707154916.jpeg",
+            "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010751_20260707154916.jpeg",
+            "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010846_20260707154914.jpeg",
+            "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010838_20260707154915.jpeg",
+            "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010170_20260707154916.jpeg",
+            "https://img.yad2.co.il/Pic/202607/07/2_6/o/y2_1pa_010214_20260707154915.jpeg"
+          ],
+          "squareMeterBuild": 95
+        },
+        "tags": [],
+        "orderId": 57195885,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "street": {
+            "text": "נחל ארנון"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 35.0049898214286,
+            "lat": 31.8942562142857
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 11000,
+        "token": "ek9ispof",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 6.5,
+          "squareMeter": 170,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 170
+        },
+        "tags": [],
+        "priceBeforeTag": 12000,
+        "orderId": 56793574,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "יצחק שמיר"
+          },
+          "house": {
+            "number": 6,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.980769,
+            "lat": 31.90192
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8900,
+        "token": "2zq4tvcz",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 142,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/10/2_6/o/y2_1pa_010519_20260610081321.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/10/2_6/o/y2_1pa_010519_20260610081321.jpeg",
+            "https://img.yad2.co.il/Pic/202606/10/2_6/o/y2_1pa_010723_20260610081321.jpeg",
+            "https://img.yad2.co.il/Pic/202606/10/2_6/o/y2_1pa_010186_20260610081321.jpeg",
+            "https://img.yad2.co.il/Pic/202606/10/2_6/o/y2_1pa_010167_20260610081321.jpeg",
+            "https://img.yad2.co.il/Pic/202606/10/2_6/o/y2_1pa_010767_20260610081321.jpeg"
+          ],
+          "squareMeterBuild": 128
+        },
+        "tags": [],
+        "orderId": 57063906,
+        "priority": 1,
+        "packages": {}
+      }
+    ],
+    "yad1Markers": [],
+    "clusters": [
+      {
+        "docCount": 26,
+        "key": "672",
+        "center": [
+          34.981357,
+          31.903935
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 672
+      },
+      {
+        "docCount": 11,
+        "key": "94",
+        "center": [
+          35.012735,
+          31.894596
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 94
+      },
+      {
+        "docCount": 7,
+        "key": "97",
+        "center": [
+          35.009196,
+          31.915043
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 97
+      },
+      {
+        "docCount": 6,
+        "key": "1561",
+        "center": [
+          35.019992,
+          31.903942
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 1561
+      },
+      {
+        "docCount": 6,
+        "key": "90",
+        "center": [
+          35.034043,
+          31.89033
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 90
+      },
+      {
+        "docCount": 6,
+        "key": "96",
+        "center": [
+          35.012759,
+          31.899947
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 96
+      },
+      {
+        "docCount": 6,
+        "key": "99",
+        "center": [
+          35.000702,
+          31.908397
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 99
+      },
+      {
+        "docCount": 5,
+        "key": "95",
+        "center": [
+          35.012885,
+          31.906366
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 95
+      },
+      {
+        "docCount": 3,
+        "key": "671",
+        "center": [
+          34.996201,
+          31.896159
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 671
+      },
+      {
+        "docCount": 2,
+        "key": "673",
+        "center": [
+          34.981066,
+          31.896377
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 673
+      },
+      {
+        "docCount": 2,
+        "key": "93",
+        "center": [
+          35.017617,
+          31.887879
+        ],
+        "regionId": 1,
+        "areaId": 8,
+        "cityId": "1200",
+        "hoodId": 93
+      }
+    ],
+    "yad1Promotions": [],
+    "agencyPromotions": [
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "שמעון פרס"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.982344925,
+            "lat": 31.904206675
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9000,
+        "token": "tyjvc2ng",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 110,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "images": [],
+          "squareMeterBuild": 110
+        },
+        "tags": [],
+        "orderId": 57419692,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "הציפורים"
+          },
+          "house": {
+            "floor": 11
+          },
+          "coords": {
+            "lon": 34.996201,
+            "lat": 31.896159
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 15000,
+        "token": "8n3dw87u",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 142,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_2_DSTjB8RbwE_20260628.png",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_2_DSTjB8RbwE_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_1_wQs5zYSQ46_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_3_YHgY24d3Te_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_4_gxKEL69MT7_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_5_POoB9PhLlz_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_6_LXtqHOKV7__20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_7_W7zVWRc0Ts_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_8_PEnRh9cRse_20260628.png",
+            "https://img.yad2.co.il/Pic/202606/28/2_6/o/y2_9_s8BQb13VX9_20260628.png",
+            "https://img.yad2.co.il/Pic/202607/08/2_6/o/y2_11_6VLzl1sFih_20260708.png"
+          ],
+          "squareMeterBuild": 128
+        },
+        "tags": [],
+        "orderId": 57148761,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "מורשת"
+          },
+          "street": {
+            "text": "יצחק שמיר"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.98025805,
+            "lat": 31.9031208
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 6000,
+        "token": "ydouzp7u",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 125,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010350_20260625211330.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010350_20260625211330.jpeg",
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010753_20260625211324.jpeg",
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010140_20260625211330.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57140475,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "מרכז והשרון",
+            "id": 1
+          },
+          "city": {
+            "text": "מודיעין מכבים רעות"
+          },
+          "area": {
+            "text": "אזור מודיעין והסביבה"
+          },
+          "neighborhood": {
+            "text": "אבני חן"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.995631,
+            "lat": 31.904295
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 7500,
+        "token": "0xbeu0hk",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 4,
+          "squareMeter": 125,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010466_20260823132325.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010466_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010857_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010509_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010082_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010937_20260823132325.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010765_20260823132328.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010857_20260823132331.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010600_20260823132331.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010941_20260823132332.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010446_20260823132331.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010392_20260823132335.jpeg",
+            "https://img.yad2.co.il/Pic/202608/23/2_6/o/y2_1pa_010874_20260823132331.jpeg"
+          ],
+          "squareMeterBuild": 106
+        },
+        "tags": [],
+        "orderId": 57408179,
+        "priority": 1,
+        "packages": {}
+      }
+    ],
+    "grayMarkers": [
+      {
+        "token": "9435",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "נופים",
+          "coords": {
+            "lat": 31.89461135864258,
+            "lon": 34.98215866088867
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "9516",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "הציפורים",
+          "coords": {
+            "lat": 31.89593887329102,
+            "lon": 35.00119018554688
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "12741",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "שאר העיר",
+          "coords": {
+            "lat": 31.90481758117676,
+            "lon": 35.00597381591797
+          }
+        },
+        "property": {
+          "id": "17",
+          "text": "מלונאות"
+        }
+      },
+      {
+        "token": "8483",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "מורשת",
+          "coords": {
+            "lat": 31.90547561645508,
+            "lon": 34.98303604125977
+          }
+        },
+        "property": {
+          "id": "4",
+          "text": "קוטג' טורי"
+        }
+      },
+      {
+        "token": "12205",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "מורשת",
+          "coords": {
+            "lat": 31.90053939819336,
+            "lon": 34.97965621948242
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "15828",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "מורשת",
+          "coords": {
+            "lat": 31.90160942077637,
+            "lon": 34.98826217651367
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "15515",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "שאר העיר",
+          "coords": {
+            "lat": 31.90341186523438,
+            "lon": 35.00781631469727
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "9418",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "נופים",
+          "coords": {
+            "lat": 31.89538192749023,
+            "lon": 34.98020553588867
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "16404",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "מורשת",
+          "coords": {
+            "lat": 31.90082168579102,
+            "lon": 34.98996734619141
+          }
+        },
+        "property": {
+          "id": "2",
+          "text": "קוטג' דו משפחתי"
+        }
+      },
+      {
+        "token": "5784",
+        "address": {
+          "city": "מודיעין מכבים רעות",
+          "neighborhood": "משואה",
+          "coords": {
+            "lat": 31.89613342285156,
+            "lon": 35.00571441650391
+          }
+        },
+        "property": {
+          "id": "5",
+          "text": "דירת גג"
+        }
+      }
+    ]
+  },
+  "message": "OK"
+}
