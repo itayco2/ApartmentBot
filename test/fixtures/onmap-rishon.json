@@ -1,0 +1,1463 @@
+{
+ "data": [
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": true,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Remez",
+     "street_name": "Jabotinsky St.",
+     "house_number": "9"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "רמז",
+     "street_name": "ז'בוטינסקי",
+     "house_number": "9"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9591649,
+     "lon": 34.8014437
+    },
+    "place_id": "B1ou9wLeE",
+    "tags": [
+     "rishon-letsiyon",
+     "jabotinsky",
+     "9"
+    ],
+    "google_place_id": "ChIJK0ZqCTy0AhURu6NwGKR9y6c",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 78,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 3,
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    },
+    "bathrooms": 1,
+    "floor": {
+     "on_the": 1,
+     "out_of": 4
+    }
+   },
+   "price": 480,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "HJdo_U_Sfl",
+   "search_date": "2026-08-25T18:48:52.345Z",
+   "created_at": "2026-07-30T04:52:48.089Z",
+   "slug": "apartment-for-rent-rishon-letsiyon-remez-hjdousfl",
+   "entityType": "property",
+   "thumbnail": null
+  },
+  {
+   "search_option": "rent",
+   "property_type": "housing_unit",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632158-WhatsApp-Image-2026-07-10-at-15-27-48-8.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632158-WhatsApp-Image-2026-07-10-at-15-27-48-8.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632158-WhatsApp-Image-2026-07-10-at-15-27-48-8.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632279-WhatsApp-Image-2026-07-10-at-15-27-48-7.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632279-WhatsApp-Image-2026-07-10-at-15-27-48-7.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632279-WhatsApp-Image-2026-07-10-at-15-27-48-7.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632293-WhatsApp-Image-2026-07-10-at-15-27-48-6.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632293-WhatsApp-Image-2026-07-10-at-15-27-48-6.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632293-WhatsApp-Image-2026-07-10-at-15-27-48-6.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686631972-WhatsApp-Image-2026-07-10-at-15-27-48-5.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686631972-WhatsApp-Image-2026-07-10-at-15-27-48-5.gallery.webp",
+     "full": "https://onmap.pro/images/1783686631972-WhatsApp-Image-2026-07-10-at-15-27-48-5.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632305-WhatsApp-Image-2026-07-10-at-15-27-48-4.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632305-WhatsApp-Image-2026-07-10-at-15-27-48-4.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632305-WhatsApp-Image-2026-07-10-at-15-27-48-4.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686631885-WhatsApp-Image-2026-07-10-at-15-27-48-3.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686631885-WhatsApp-Image-2026-07-10-at-15-27-48-3.gallery.webp",
+     "full": "https://onmap.pro/images/1783686631885-WhatsApp-Image-2026-07-10-at-15-27-48-3.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632146-WhatsApp-Image-2026-07-10-at-15-27-48-2.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632146-WhatsApp-Image-2026-07-10-at-15-27-48-2.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632146-WhatsApp-Image-2026-07-10-at-15-27-48-2.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632134-WhatsApp-Image-2026-07-10-at-15-27-45-2.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632134-WhatsApp-Image-2026-07-10-at-15-27-45-2.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632134-WhatsApp-Image-2026-07-10-at-15-27-45-2.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686632037-WhatsApp-Image-2026-07-10-at-15-27-45-1.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686632037-WhatsApp-Image-2026-07-10-at-15-27-45-1.gallery.webp",
+     "full": "https://onmap.pro/images/1783686632037-WhatsApp-Image-2026-07-10-at-15-27-45-1.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783686631985-WhatsApp-Image-2026-07-05-at-16-07-17.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783686631985-WhatsApp-Image-2026-07-05-at-16-07-17.gallery.webp",
+     "full": "https://onmap.pro/images/1783686631985-WhatsApp-Image-2026-07-05-at-16-07-17.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Ramat Eliyahu",
+     "street_name": "Sderot Zalman Shne'ur",
+     "house_number": "39"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "רמת אליהו",
+     "street_name": "שדרות זלמן שניאור",
+     "house_number": "39"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9872761,
+     "lon": 34.7871585
+    },
+    "place_id": "ryKxhokmn",
+    "tags": [
+     "rishon-letsiyon",
+     "sderot-zalman-shneur",
+     "39"
+    ],
+    "google_place_id": "ChIJH4yo5GK0AhURaHFOqwWBB-E",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 30,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 1.5,
+    "bathrooms": 1,
+    "floor": {
+     "on_the": 1,
+     "out_of": 4
+    }
+   },
+   "price": 2800,
+   "currency": "ILS",
+   "videos": [
+    {
+     "id": "pjl4mmhbg6txnmrh2zfa",
+     "source": "internal",
+     "description": ""
+    }
+   ],
+   "vr_link": null,
+   "id": "SJKkawRXMe",
+   "search_date": "2026-08-25T18:48:52.341Z",
+   "created_at": "2026-07-10T13:00:17.000Z",
+   "slug": "housingunit-for-rent-rishon-letsiyon-ramat-eliyahu-sjkkawrxme",
+   "entityType": "property",
+   "thumbnail": "https://onmap.pro/images/1783686632158-WhatsApp-Image-2026-07-10-at-15-27-48-8.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769214054-1000981452.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769214054-1000981452.gallery.webp",
+     "full": "https://onmap.pro/images/1782769214054-1000981452.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769214155-1000981454.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769214155-1000981454.gallery.webp",
+     "full": "https://onmap.pro/images/1782769214155-1000981454.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769214050-1000981453.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769214050-1000981453.gallery.webp",
+     "full": "https://onmap.pro/images/1782769214050-1000981453.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769214145-1000981455.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769214145-1000981455.gallery.webp",
+     "full": "https://onmap.pro/images/1782769214145-1000981455.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769213957-1000981460.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769213957-1000981460.gallery.webp",
+     "full": "https://onmap.pro/images/1782769213957-1000981460.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769214263-1000981458.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769214263-1000981458.gallery.webp",
+     "full": "https://onmap.pro/images/1782769214263-1000981458.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769214252-1000981464.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769214252-1000981464.gallery.webp",
+     "full": "https://onmap.pro/images/1782769214252-1000981464.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782769213869-1000981451.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782769213869-1000981451.gallery.webp",
+     "full": "https://onmap.pro/images/1782769213869-1000981451.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeZion",
+     "neighborhood": "Rishon LeZion",
+     "street_name": "Ha-Kormim St.",
+     "house_number": "7"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "ראשון לציון",
+     "street_name": "הכורמים",
+     "house_number": "7"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9735466,
+     "lon": 34.7799535
+    },
+    "place_id": "SJ2iHPeXzg",
+    "tags": [
+     "rishon-letsiyon",
+     "ha-kormim",
+     "7"
+    ],
+    "google_place_id": "EiVIYS1Lb3JtaW0gU3QgNywgUmlzaG9uIExlWmlvbiwgSXNyYWVsIjASLgoUChIJscD7Y3O0AhURXhLpzYfVAzcQByoUChIJRcwNZHO0AhURfnSQOIG9K_E",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 120,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 5,
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    },
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 2,
+     "out_of": 8
+    }
+   },
+   "price": 8500,
+   "currency": "ILS",
+   "videos": [
+    {
+     "id": "egji4et6yr8jlnllwf92",
+     "source": "internal",
+     "description": ""
+    }
+   ],
+   "vr_link": null,
+   "id": "H1V1swx7fe",
+   "search_date": "2026-08-25T16:48:52.345Z",
+   "created_at": "2026-06-29T21:59:55.854Z",
+   "slug": "apartment-for-rent-rishon-lezion-rishon-lezion-h1v1swx7fe",
+   "entityType": "property",
+   "thumbnail": "https://onmap.pro/images/1782769214054-1000981452.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782122145750-IMG-20241108-WA0007.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782122145750-IMG-20241108-WA0007.gallery.webp",
+     "full": "https://onmap.pro/images/1782122145750-IMG-20241108-WA0007.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782122156386-20241027_074008.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782122156386-20241027_074008.gallery.webp",
+     "full": "https://onmap.pro/images/1782122156386-20241027_074008.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782122166715-20241015_165640.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782122166715-20241015_165640.gallery.webp",
+     "full": "https://onmap.pro/images/1782122166715-20241015_165640.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782122176430-20241015_164543.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782122176430-20241015_164543.gallery.webp",
+     "full": "https://onmap.pro/images/1782122176430-20241015_164543.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1782122183573-20241015_165321.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1782122183573-20241015_165321.gallery.webp",
+     "full": "https://onmap.pro/images/1782122183573-20241015_165321.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Katzenelson",
+     "street_name": "HaPardes HaRishon St.",
+     "house_number": "7"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "כצנלסון",
+     "street_name": "הפרדס הראשון",
+     "house_number": "7"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9662221,
+     "lon": 34.7904422
+    },
+    "place_id": "legacy",
+    "tags": [],
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 114,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 4,
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    },
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 5,
+     "out_of": 6
+    }
+   },
+   "price": 6500,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "rJZLPFLMGg",
+   "search_date": "2026-08-25T14:45:14.596Z",
+   "created_at": "2026-06-22T09:58:32.627Z",
+   "slug": "apartment-for-rent-rishon-letsiyon-katzenelson-rjzlpflmgg",
+   "entityType": "property",
+   "thumbnail": "https://onmap.pro/images/1782122145750-IMG-20241108-WA0007.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "cottage",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783421433531-WhatsApp-Image-2026-07-07-at-13-33-13.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783421433531-WhatsApp-Image-2026-07-07-at-13-33-13.gallery.webp",
+     "full": "https://onmap.pro/images/1783421433531-WhatsApp-Image-2026-07-07-at-13-33-13.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783421445892-WhatsApp-Image-2026-07-07-at-13-33-12-1.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783421445892-WhatsApp-Image-2026-07-07-at-13-33-12-1.gallery.webp",
+     "full": "https://onmap.pro/images/1783421445892-WhatsApp-Image-2026-07-07-at-13-33-12-1.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeZion",
+     "neighborhood": "Rishon LeZion",
+     "street_name": "Ahi Sufa St.",
+     "house_number": "24"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "ראשון לציון",
+     "street_name": "אח\"י סופה",
+     "house_number": "24"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9997906,
+     "lon": 34.7389204
+    },
+    "place_id": "HJTB6I9mze",
+    "tags": [
+     "rishon-letsiyon",
+     "ahi-sufa",
+     "24"
+    ],
+    "google_place_id": "EiVBaGkgU3VmYSBTdCAyNCwgUmlzaG9uIExlWmlvbiwgSXNyYWVsIjASLgoUChIJB1s8zqizAhURNg477wWMVrMQGCoUChIJB1s8zqizAhURL61cRxBrNc8",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 400,
+     "garden": null,
+     "field": 310
+    },
+    "rooms": 9.5,
+    "parking": {
+     "aboveground": "2",
+     "underground": "none"
+    },
+    "bathrooms": 4,
+    "floor": {
+     "on_the": 4,
+     "out_of": 4
+    }
+   },
+   "price": 25000,
+   "currency": "ILS",
+   "videos": [
+    {
+     "id": "jufqual9w1d0ylr3t869",
+     "source": "internal",
+     "description": ""
+    }
+   ],
+   "vr_link": null,
+   "id": "rkso6I9mMl",
+   "search_date": "2026-08-25T17:48:52.340Z",
+   "created_at": "2026-07-07T11:06:10.862Z",
+   "slug": "cottage-for-rent-rishon-lezion-rishon-lezion-rkso6i9mml",
+   "thumbnail": "https://onmap.pro/images/1783421433531-WhatsApp-Image-2026-07-07-at-13-33-13.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "duplex",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890184-15.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890184-15.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890184-15.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890115-19.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890115-19.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890115-19.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890324-LOGO-9.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890324-LOGO-9.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890324-LOGO-9.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890459-11.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890459-11.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890459-11.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890460-LOGO-12.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890460-LOGO-12.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890460-LOGO-12.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667889886-LOGO-18-1.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667889886-LOGO-18-1.gallery.webp",
+     "full": "https://onmap.pro/images/1787667889886-LOGO-18-1.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890374-1.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890374-1.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890374-1.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890100-2.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890100-2.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890100-2.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890299-3.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890299-3.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890299-3.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890372-6-1.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890372-6-1.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890372-6-1.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890278-6.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890278-6.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890278-6.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787667890283-8-2.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787667890283-8-2.gallery.webp",
+     "full": "https://onmap.pro/images/1787667890283-8-2.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeZion",
+     "neighborhood": "Rishon LeZion",
+     "street_name": "Tchernikhovski St.",
+     "house_number": null
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "ראשון לציון",
+     "street_name": "טשרניחובסקי",
+     "house_number": null
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9680015,
+     "lon": 34.797291
+    },
+    "place_id": "ByIVXQShZg",
+    "tags": [
+     "rishon-letsiyon",
+     "tchernikhovski",
+     "11"
+    ],
+    "google_place_id": "ChIJC6ZyOUC0AhURD09kN19npxw",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 120,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 5,
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    },
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 4,
+     "out_of": 4
+    }
+   },
+   "price": 6500,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "Sy_aHQswGe",
+   "search_date": "2026-08-25T14:25:04.265Z",
+   "created_at": "2026-08-25T14:25:04.280Z",
+   "slug": "duplex-for-rent-rishon-lezion-rishon-lezion-syahqswge",
+   "thumbnail": "https://onmap.pro/images/1787667890184-15.thumbnail.webp"
+  },
+  {
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "vr_link": null,
+   "additional_info": {
+    "bathrooms": 1,
+    "rooms": 2.5,
+    "floor": {
+     "on_the": 3,
+     "out_of": 3
+    },
+    "area": {
+     "garden": null,
+     "field": null,
+     "base": 45
+    },
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    }
+   },
+   "price": 3800,
+   "search_option": "rent",
+   "property_type": "apartment",
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785753751963-20200712_164723-jpg.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785753751963-20200712_164723-jpg.gallery.webp",
+     "full": "https://onmap.pro/images/1785753751963-20200712_164723-jpg.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785753762353-20200712_164652-jpg.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785753762353-20200712_164652-jpg.gallery.webp",
+     "full": "https://onmap.pro/images/1785753762353-20200712_164652-jpg.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785753772078-20200711_140816-jpg.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785753772078-20200711_140816-jpg.gallery.webp",
+     "full": "https://onmap.pro/images/1785753772078-20200711_140816-jpg.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785753779905-20200711_140641-jpg.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785753779905-20200711_140641-jpg.gallery.webp",
+     "full": "https://onmap.pro/images/1785753779905-20200711_140641-jpg.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785753786648-20200711_140014-jpg.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785753786648-20200711_140014-jpg.gallery.webp",
+     "full": "https://onmap.pro/images/1785753786648-20200711_140014-jpg.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Nahalat Yehuda",
+     "street_name": "Ha-Shnayim St.",
+     "house_number": "9"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "נחלת יהודה",
+     "street_name": "השניים",
+     "house_number": "9"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9864775,
+     "lon": 34.8076977
+    },
+    "place_id": "legacy",
+    "tags": [],
+    "country_code": "IL"
+   },
+   "videos": [],
+   "id": "HJMiiDPJD",
+   "search_date": "2026-08-25T13:52:59.300Z",
+   "created_at": "2020-07-11T16:40:58.285Z",
+   "is_rocket_promoted": false,
+   "slug": "apartment-for-rent-rishon-letsiyon-nahalat-yehuda-hjmiidpjd",
+   "currency": "ILS",
+   "thumbnail": "https://onmap.pro/images/1785753751963-20200712_164723-jpg.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061099-1000018300.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061099-1000018300.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061099-1000018300.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061037-1000084188.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061037-1000084188.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061037-1000084188.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061153-1000018302.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061153-1000018302.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061153-1000018302.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918060981-1000084189.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918060981-1000084189.gallery.webp",
+     "full": "https://onmap.pro/images/1785918060981-1000084189.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061090-1000018301.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061090-1000018301.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061090-1000018301.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061043-1000084190.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061043-1000084190.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061043-1000084190.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061066-1000018303.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061066-1000018303.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061066-1000018303.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785918061082-1000084191.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785918061082-1000084191.gallery.webp",
+     "full": "https://onmap.pro/images/1785918061082-1000084191.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Ramat Eliyahu",
+     "street_name": "David Tidhar St.",
+     "house_number": "4"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "רמת אליהו",
+     "street_name": "דוד תדהר",
+     "house_number": "4"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9864788,
+     "lon": 34.786228
+    },
+    "place_id": "B1NmHe89r",
+    "tags": [
+     "rishon-letsiyon",
+     "david-tidhar",
+     "4"
+    ],
+    "google_place_id": "EipEYXZpZCBUaWRoYXIgU3QgNCwgUmlzaG9uIExlVHNpeW9uLCBJc3JhZWwiGhIYChQKEgkXedw7Y7QCFRGLIh-8YtH_dRAE",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 60,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 2,
+    "bathrooms": 1,
+    "floor": {
+     "on_the": 2,
+     "out_of": 4
+    }
+   },
+   "price": 3800,
+   "currency": "ILS",
+   "videos": [
+    {
+     "id": "u3uikh2e2rz55lrdrf0r",
+     "source": "internal",
+     "storage": "cloudinary",
+     "description": ""
+    }
+   ],
+   "vr_link": null,
+   "id": "BJkAM_lLGe",
+   "search_date": "2026-08-25T13:18:52.356Z",
+   "created_at": "2026-08-05T08:22:31.404Z",
+   "slug": "apartment-for-rent-rishon-letsiyon-ramat-eliyahu-bjkamllge",
+   "thumbnail": "https://onmap.pro/images/1785918061099-1000018300.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783753254012-1000063416.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783753254012-1000063416.gallery.webp",
+     "full": "https://onmap.pro/images/1783753254012-1000063416.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783753253875-1000063415.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783753253875-1000063415.gallery.webp",
+     "full": "https://onmap.pro/images/1783753253875-1000063415.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783753253833-1000043622.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783753253833-1000043622.gallery.webp",
+     "full": "https://onmap.pro/images/1783753253833-1000043622.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1783753253893-1000043626.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1783753253893-1000043626.gallery.webp",
+     "full": "https://onmap.pro/images/1783753253893-1000043626.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeZion",
+     "neighborhood": "Rishon LeZion",
+     "street_name": "Zalman Shazar St.",
+     "house_number": "29"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "ראשון לציון",
+     "street_name": "זלמן שז\"ר",
+     "house_number": "29"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.996295,
+     "lon": 34.7402903
+    },
+    "place_id": "SyccOcDQfg",
+    "tags": [
+     "rishon-letsiyon",
+     "zalman-shazar",
+     "29"
+    ],
+    "google_place_id": "ChIJC97AnK-zAhURy10vhRKyj5M",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 107,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 4,
+    "parking": {
+     "aboveground": "double",
+     "underground": "double"
+    },
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 1,
+     "out_of": 5
+    }
+   },
+   "price": 7000,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "HkDBhvJNMx",
+   "search_date": "2026-08-25T13:18:52.356Z",
+   "created_at": "2026-07-11T07:09:51.218Z",
+   "slug": "apartment-for-rent-rishon-lezion-rishon-lezion-hkdbhvjnmx",
+   "thumbnail": "https://onmap.pro/images/1783753254012-1000063416.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "housing_unit",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/m6g1g0xh4lxzc3bamrxe.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/m6g1g0xh4lxzc3bamrxe.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/m6g1g0xh4lxzc3bamrxe.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/gdl6yc5wctlwgo4yjdq8.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/gdl6yc5wctlwgo4yjdq8.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/gdl6yc5wctlwgo4yjdq8.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/ulzbosixnwmz9hv21oji.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/ulzbosixnwmz9hv21oji.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/ulzbosixnwmz9hv21oji.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/uamhjbncxu7asbi28pdc.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/uamhjbncxu7asbi28pdc.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/uamhjbncxu7asbi28pdc.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/lxm0qr5dzcumfw4hu6vs.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/lxm0qr5dzcumfw4hu6vs.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/lxm0qr5dzcumfw4hu6vs.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/f7ef8khwjzhvrkdaykld.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/f7ef8khwjzhvrkdaykld.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/f7ef8khwjzhvrkdaykld.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/pexnfmh2ktyrshzonw3w.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/pexnfmh2ktyrshzonw3w.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/pexnfmh2ktyrshzonw3w.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/z5cuyfs2jjmn8lird1qf.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/z5cuyfs2jjmn8lird1qf.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/z5cuyfs2jjmn8lird1qf.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/migrated/ljlrqmi7gfbg4si2jew3.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/migrated/ljlrqmi7gfbg4si2jew3.gallery.webp",
+     "full": "https://onmap.pro/images/migrated/ljlrqmi7gfbg4si2jew3.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Neve Khof",
+     "street_name": "HaMelech St.",
+     "house_number": "9"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "נווה חוף",
+     "street_name": "המלך",
+     "house_number": "9"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9981225,
+     "lon": 34.7467422
+    },
+    "place_id": "legacy",
+    "tags": [],
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 50,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 2,
+    "bathrooms": 1,
+    "floor": {
+     "on_the": 1,
+     "out_of": 1
+    }
+   },
+   "price": 5800,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "BJq-Y0YxMe",
+   "search_date": "2026-08-25T12:48:52.393Z",
+   "created_at": "2026-05-31T15:51:30.322Z",
+   "slug": "housingunit-for-rent-rishon-letsiyon-neve-khof-bjqy0yxme",
+   "thumbnail": "https://onmap.pro/images/migrated/m6g1g0xh4lxzc3bamrxe.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785415677958-df30489b-4fc9-44ac-8610-b34f7baf7673.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785415677958-df30489b-4fc9-44ac-8610-b34f7baf7673.gallery.webp",
+     "full": "https://onmap.pro/images/1785415677958-df30489b-4fc9-44ac-8610-b34f7baf7673.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785415677950-f772970a-873e-4203-83eb-8d5b070637d3.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785415677950-f772970a-873e-4203-83eb-8d5b070637d3.gallery.webp",
+     "full": "https://onmap.pro/images/1785415677950-f772970a-873e-4203-83eb-8d5b070637d3.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785415677114-cddc389f-b760-476d-8996-328c56bfa681.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785415677114-cddc389f-b760-476d-8996-328c56bfa681.gallery.webp",
+     "full": "https://onmap.pro/images/1785415677114-cddc389f-b760-476d-8996-328c56bfa681.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785415677964-b8f951cf-d15c-4d90-a170-65b4bba21635.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785415677964-b8f951cf-d15c-4d90-a170-65b4bba21635.gallery.webp",
+     "full": "https://onmap.pro/images/1785415677964-b8f951cf-d15c-4d90-a170-65b4bba21635.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785415676950-c933a6d8-e0eb-4980-a8b9-76adf7b3ccb9.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785415676950-c933a6d8-e0eb-4980-a8b9-76adf7b3ccb9.gallery.webp",
+     "full": "https://onmap.pro/images/1785415676950-c933a6d8-e0eb-4980-a8b9-76adf7b3ccb9.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1785415678173-56052511-5de5-4699-9b1c-265867853c2a.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1785415678173-56052511-5de5-4699-9b1c-265867853c2a.gallery.webp",
+     "full": "https://onmap.pro/images/1785415678173-56052511-5de5-4699-9b1c-265867853c2a.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Revivim",
+     "street_name": "Hannah U-Michael Levin St.",
+     "house_number": null
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "רביבים",
+     "street_name": "חנה ומיכאל לוין",
+     "house_number": null
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.965099,
+     "lon": 34.8237796
+    },
+    "place_id": "SyGwmFyxE",
+    "tags": [
+     "rishon-letsiyon",
+     "hannah-u-michael-levin",
+     "8"
+    ],
+    "google_place_id": "EjRIYW5uYWggVS1NaWNoYWVsIExldmluIFN0IDgsIFJpc2hvbiBMZVRzaXlvbiwgSXNyYWVsIhoSGAoUChIJYwRA2bO1AhURBNP80S2v8_EQCA",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 100,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 4,
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 3,
+     "out_of": 8
+    }
+   },
+   "price": 5900,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "S1hfdaurGx",
+   "search_date": "2026-08-25T12:18:52.349Z",
+   "created_at": "2026-07-30T12:48:20.210Z",
+   "slug": "apartment-for-rent-rishon-letsiyon-revivim-s1hfdaurgx",
+   "thumbnail": "https://onmap.pro/images/1785415677958-df30489b-4fc9-44ac-8610-b34f7baf7673.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279543-e88c4a1c-d6af-472a-b76f-e8bb091a4986.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279543-e88c4a1c-d6af-472a-b76f-e8bb091a4986.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279543-e88c4a1c-d6af-472a-b76f-e8bb091a4986.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279706-e0cc82b9-9464-40dc-9ba5-32d27d358511.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279706-e0cc82b9-9464-40dc-9ba5-32d27d358511.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279706-e0cc82b9-9464-40dc-9ba5-32d27d358511.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279665-dd55cdaa-0595-4666-9a9d-177f4118a6e5.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279665-dd55cdaa-0595-4666-9a9d-177f4118a6e5.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279665-dd55cdaa-0595-4666-9a9d-177f4118a6e5.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279706-a5a2d5a0-b152-4bcf-b3fa-3b5779848b09.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279706-a5a2d5a0-b152-4bcf-b3fa-3b5779848b09.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279706-a5a2d5a0-b152-4bcf-b3fa-3b5779848b09.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279579-bf7ab323-3d57-4fe7-b83e-07fc1a9b4282.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279579-bf7ab323-3d57-4fe7-b83e-07fc1a9b4282.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279579-bf7ab323-3d57-4fe7-b83e-07fc1a9b4282.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279702-675a0f6c-ec07-4644-9228-c2a4d323412e.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279702-675a0f6c-ec07-4644-9228-c2a4d323412e.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279702-675a0f6c-ec07-4644-9228-c2a4d323412e.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279612-f49a0a66-8fac-4b34-9387-612d3070c2ae.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279612-f49a0a66-8fac-4b34-9387-612d3070c2ae.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279612-f49a0a66-8fac-4b34-9387-612d3070c2ae.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1784810279666-2af2d86d-d3b6-4a80-a94f-ae94acc7c8c2.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1784810279666-2af2d86d-d3b6-4a80-a94f-ae94acc7c8c2.gallery.webp",
+     "full": "https://onmap.pro/images/1784810279666-2af2d86d-d3b6-4a80-a94f-ae94acc7c8c2.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Rishonim",
+     "street_name": "Ruppin St.",
+     "house_number": "4"
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "ראשונים",
+     "street_name": "רופין",
+     "house_number": "4"
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9588606,
+     "lon": 34.80262389999999
+    },
+    "place_id": "legacy",
+    "tags": [],
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 100,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 4,
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    },
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 1,
+     "out_of": 7
+    }
+   },
+   "price": 6200,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "BkZPit1Bfl",
+   "search_date": "2026-08-25T12:18:52.349Z",
+   "created_at": "2026-07-23T12:38:49.509Z",
+   "slug": "apartment-for-rent-rishon-letsiyon-rishonim-bkzpit1bfl",
+   "thumbnail": "https://onmap.pro/images/1784810279543-e88c4a1c-d6af-472a-b76f-e8bb091a4986.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "rooftop_apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972132-IMG_5478.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972132-IMG_5478.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972132-IMG_5478.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972137-IMG_5469.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972137-IMG_5469.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972137-IMG_5469.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972200-IMG_5479.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972200-IMG_5479.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972200-IMG_5479.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972276-IMG_5465.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972276-IMG_5465.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972276-IMG_5465.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972193-IMG_5470.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972193-IMG_5470.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972193-IMG_5470.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972204-IMG_5483.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972204-IMG_5483.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972204-IMG_5483.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972286-IMG_5480.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972286-IMG_5480.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972286-IMG_5480.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972323-IMG_5481.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972323-IMG_5481.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972323-IMG_5481.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972311-IMG_5482.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972311-IMG_5482.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972311-IMG_5482.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972317-IMG_5474.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972317-IMG_5474.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972317-IMG_5474.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972328-IMG_5487.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972328-IMG_5487.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972328-IMG_5487.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972335-IMG_5472.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972335-IMG_5472.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972335-IMG_5472.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1781718972338-IMG_5475.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1781718972338-IMG_5475.gallery.webp",
+     "full": "https://onmap.pro/images/1781718972338-IMG_5475.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeTsiyon",
+     "neighborhood": "Katzenelson",
+     "street_name": "Kiryat Sefer St.",
+     "house_number": null
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "כצנלסון",
+     "street_name": "קרית ספר",
+     "house_number": null
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.9658591,
+     "lon": 34.7971642
+    },
+    "place_id": "legacy",
+    "tags": [],
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 130,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 5,
+    "parking": {
+     "aboveground": "1",
+     "underground": "none"
+    },
+    "bathrooms": 2,
+    "floor": {
+     "on_the": 4,
+     "out_of": 5
+    }
+   },
+   "price": 8000,
+   "currency": "ILS",
+   "videos": [],
+   "vr_link": null,
+   "id": "SJn2YUgfGl",
+   "search_date": "2026-08-25T12:18:52.349Z",
+   "created_at": "2026-06-17T17:30:28.152Z",
+   "slug": "rooftopapartment-for-rent-rishon-letsiyon-katzenelson-sjn2yugfgl",
+   "thumbnail": "https://onmap.pro/images/1781718972132-IMG_5478.thumbnail.webp"
+  },
+  {
+   "search_option": "rent",
+   "property_type": "apartment",
+   "is_promoted": false,
+   "is_top_promoted": false,
+   "is_rocket_promoted": false,
+   "images": [
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787659325726-131288.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787659325726-131288.gallery.webp",
+     "full": "https://onmap.pro/images/1787659325726-131288.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787659325671-131286.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787659325671-131286.gallery.webp",
+     "full": "https://onmap.pro/images/1787659325671-131286.full.webp"
+    },
+    {
+     "description": "",
+     "thumbnail": "https://onmap.pro/images/1787659325715-131284.thumbnail.webp",
+     "gallery": "https://onmap.pro/images/1787659325715-131284.gallery.webp",
+     "full": "https://onmap.pro/images/1787659325715-131284.full.webp"
+    }
+   ],
+   "address": {
+    "en": {
+     "country_name": "Israel",
+     "city_name": "Rishon LeZion",
+     "neighborhood": "Rishon LeZion",
+     "street_name": "Rothschild St.",
+     "house_number": null
+    },
+    "he": {
+     "country_name": "ישראל",
+     "city_name": "ראשון לציון",
+     "neighborhood": "ראשון לציון",
+     "street_name": "רוטשילד",
+     "house_number": null
+    },
+    "ru": null,
+    "fr": null,
+    "location": {
+     "lat": 31.963806,
+     "lon": 34.8008568
+    },
+    "place_id": "rtZexr6wE",
+    "tags": [
+     "rishon-letsiyon",
+     "rothschild",
+     "49"
+    ],
+    "google_place_id": "ChIJebn7NT-0AhURrMCI9geFH_8",
+    "country_code": "IL"
+   },
+   "additional_info": {
+    "area": {
+     "base": 50,
+     "garden": null,
+     "field": null
+    },
+    "rooms": 2,
+    "bathrooms": 1,
+    "floor": {
+     "on_the": 4,
+     "out_of": 4
+    }
+   },
+   "price": 4400,
+   "currency": "ILS",
+   "videos": [
+    {
+     "id": "videos/uploads/H1UH4WsPGg",
+     "source": "internal",
+     "storage": "r2",
+     "status": "ready",
+     "description": ""
+    }
+   ],
+   "vr_link": null,
+   "id": "r1wuVbsvMe",
+   "search_date": "2026-08-25T12:04:57.218Z",
+   "created_at": "2026-08-25T12:02:55.194Z",
+   "slug": "apartment-for-rent-rishon-lezion-rishon-lezion-r1wuvbsvme",
+   "thumbnail": "https://onmap.pro/images/1787659325726-131288.thumbnail.webp"
+  }
+ ]
+}
