@@ -3,6 +3,8 @@
 A Telegram bot that watches Israeli rental listing sites and messages you the moment a new
 apartment matching your search appears. Same idea as dorin.app, running on your own machine.
 
+- **Every city and town in Israel** - Tel Aviv to Kiryat Shmona to Eilat. Type any name in
+  `/add` and it is searchable; big cities are read in full, not sampled.
 - Reads Israel's rental boards at once - Yad2, Madlan, Realta, Homeless, OnMap, a long tail of
   smaller boards, public Telegram channels and (optionally) Facebook groups - and alerts on
   **new listings and price drops**, leading each message with the listing's photo.
@@ -79,11 +81,22 @@ free, exact and fast, and run every cycle.
 
 | Source | Endpoint | How it is read | Posting date? |
 | --- | --- | --- | --- |
-| **Yad2** | `gw.yad2.co.il/realestate-feed/rent/map` | The JSON gateway the website itself calls. One request returns a city's whole rental inventory. | ✅ recovered from photo URLs |
+| **Yad2** | `gw.yad2.co.il/realestate-feed/rent/feed` | The paged list the website itself calls, ordered by last update. Read from the top until a page holds nothing new (usually two pages), so a city of any size is covered in full. | ✅ recovered from photo URLs |
 | **Madlan** | `www.madlan.co.il/api3` | Madlan's own GraphQL API, sorted newest-first nationwide; the city is matched after the fetch. Every 15 min. | ✅ `lastUpdated` |
 | **Realta** | `realta.co.il/api/v1/search/` | Public JSON API; an aggregator of Yad2, Madlan, OnMap, Komo and Facebook Marketplace | ✅ `publishedAt` |
 | **OnMap** | `phoenix.onmap.co.il/v1/properties/mixed_search` | Public JSON API; the city filter is a geographic polygon | ✅ |
 | **Homeless** | `m.homeless.co.il/rent` | The mobile site, plain server-rendered HTML parsed with cheerio | - |
+
+### Every city in Israel
+
+Every locality Yad2 lists (1,178 at the last build) can be searched: type its name in
+`/add`, or write it in a sentence. The list lives in
+[cities.generated.ts](src/core/cities.generated.ts), built by `npm run build-cities` from the
+official locality list on data.gov.il and Yad2's own address search, which supplies the city
+and region codes its API needs. A wrong region code makes Yad2 return an empty city without
+any error, so the codes are never typed by hand. Hand-kept details (other boards' city slugs,
+everyday neighbourhood groupings) live in [cities.ts](src/core/cities.ts) and override the
+generated entry. Regenerating is only needed when Yad2 adds a locality.
 
 ### Model-read sources - any page, no per-site parser
 
@@ -118,6 +131,12 @@ afterwards, so contact details never leave the machine.
   challenge, and Madlan's pages and `/api2` are behind PerimeterX - yet the Yad2 gateway and
   Madlan's `/api3` both answer a plain request. Yad2 insists on `region` (omitting it is a 400)
   and on `Origin`/`Referer` headers, without which requests get captcha-banned.
+- **Yad2's map endpoint caps a city at 200 ads, and not the newest.** Tel Aviv returned 188
+  of its 4,769. The paged feed has them all, ordered by last update, with a bump counting as
+  one: a new ad starts at the top and sinks as others are bumped, so the bot reads until a
+  page shows nothing new. Yad2 ad numbers only grow, which is how a bumped ad from before a
+  search began is told apart from a new one. Any query parameter beyond `region`, `city` and
+  `page` gets a firewall block record instead of data, so none is ever sent.
 - **Node's default TLS fingerprint is blocked by Cloudflare.** Requests go over HTTP/2 with
   Chrome's cipher ordering ([src/util/http.ts](src/util/http.ts)); without it every request
   comes back as a "Just a moment…" challenge, even with perfect browser headers.

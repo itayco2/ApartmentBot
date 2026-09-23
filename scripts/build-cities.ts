@@ -40,11 +40,19 @@ async function loadLocalities(): Promise<GovLocality[]> {
   return parseGovLocalities(records);
 }
 
-async function autocomplete(locality: GovLocality): Promise<unknown> {
-  const cached = join(CACHE_DIR, `${locality.code}.json`);
+/**
+ * The official list hyphenates names Yad2's search only knows spaced: it finds nothing at
+ * all for "תל אביב - יפו" or "מודיעין-מכבים-רעות", but answers "תל אביב יפו".
+ */
+function spacedName(name: string): string {
+  return name.replace(/\s*[-־–—]\s*/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+async function autocomplete(text: string, cacheName: string): Promise<unknown> {
+  const cached = join(CACHE_DIR, `${cacheName}.json`);
   if (existsSync(cached)) return JSON.parse(readFileSync(cached, 'utf8'));
 
-  const body = await fetchText(`${AUTOCOMPLETE}?text=${encodeURIComponent(locality.name)}`, {
+  const body = await fetchText(`${AUTOCOMPLETE}?text=${encodeURIComponent(text)}`, {
     source: 'build-cities',
     profile: 'desktop',
     delayRange: [900, 1_400],
@@ -70,7 +78,11 @@ async function main(): Promise<void> {
 
   for (const [index, locality] of localities.entries()) {
     try {
-      const match = pickYad2City(locality, await autocomplete(locality));
+      let match = pickYad2City(locality, await autocomplete(locality.name, String(locality.code)));
+      const spaced = spacedName(locality.name);
+      if (!match && spaced !== locality.name) {
+        match = pickYad2City(locality, await autocomplete(spaced, `${locality.code}-spaced`));
+      }
       if (match) matches.push({ locality, match });
       else notCities.push(locality.name);
     } catch (error) {
