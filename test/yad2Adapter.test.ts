@@ -124,6 +124,38 @@ describe('yad2 page walking', () => {
     expect(listings.map((l) => l.sourceId)).toEqual(['x1a', 'x1b']);
   });
 
+  it('reads deep again after a walk that was cut short', async () => {
+    // The pages below the failure were never read. Counting the ones above as read would
+    // make the next walk stop at page 2 and lose the catch-up for good.
+    let failing = true;
+    const { calls, fetchPage } = recording((n) => {
+      if (failing && n === 4) throw new Error('socket hang up');
+      return page(tokensFor('x', n));
+    });
+    const adapter = createYad2Adapter(fetchPage);
+    await adapter.fetchListings(search, telAviv);
+    failing = false;
+    calls.length = 0;
+
+    await adapter.fetchListings(search, telAviv);
+    expect(calls).toEqual(pages(MAX_PAGES));
+  });
+
+  it('reads deep again after a block', async () => {
+    let blocked = true;
+    const { calls, fetchPage } = recording((n) => {
+      if (blocked && n === 3) throw new BlockedError('yad2', 'Radware firewall event');
+      return page(tokensFor('x', n));
+    });
+    const adapter = createYad2Adapter(fetchPage);
+    await expect(adapter.fetchListings(search, telAviv)).rejects.toBeInstanceOf(BlockedError);
+    blocked = false;
+    calls.length = 0;
+
+    await adapter.fetchListings(search, telAviv);
+    expect(calls).toEqual(pages(MAX_PAGES));
+  });
+
   it('throws when the first page fails, so the city never just looks empty', async () => {
     const { fetchPage } = recording(() => {
       throw new Error('HTTP 500');

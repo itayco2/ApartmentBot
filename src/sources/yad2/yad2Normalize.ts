@@ -65,7 +65,12 @@ const feedSchema = z.object({
 export interface Yad2FeedPage {
   /** Residential listings on the page, every section pooled. */
   listings: Listing[];
-  /** Every ad token on the page, homes or not: what page walking compares. */
+  /**
+   * Tokens of the page's organic ads (`private`, `agency`), homes or not: what page walking
+   * compares. The promoted `platinum`/`booster` slots rotate on every request, so counting
+   * them made every page look new and every walk run to MAX_PAGES (measured on Tel Aviv:
+   * the same 40 organic ads twice in a row, four different promoted ones each time).
+   */
   tokens: string[];
   totalPages: number;
 }
@@ -167,7 +172,7 @@ export function parseYad2Feed(payload: unknown, fallbackCity: string): Yad2FeedP
       // A promoted block can repeat an ad already listed in its own section.
       if (seen.has(parsed.data.token)) continue;
       seen.add(parsed.data.token);
-      tokens.push(parsed.data.token);
+      if (section === 'private' || section === 'agency') tokens.push(parsed.data.token);
 
       const listing = toListing(parsed.data, fallbackCity, brokerFor(section, parsed.data.adType));
       if (listing) listings.push(listing);

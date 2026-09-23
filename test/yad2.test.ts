@@ -36,8 +36,16 @@ describe('yad2 feed parser', () => {
   it('reads every real ad on the page and nothing from the promoted blocks', () => {
     // 20 private + 20 agency + 3 platinum + 1 booster. trio, leadingBroker and kingOfTheHar
     // are paid placements with no token and photos as old as 2010; yad1 is new projects for sale.
-    expect(feed.tokens).toHaveLength(44);
     expect(feed.listings).toHaveLength(44);
+  });
+
+  it('walks by the organic ads only, because the promoted slots rotate on every request', () => {
+    // Counting platinum/booster made every page look new, so every walk ran to MAX_PAGES.
+    expect(feed.tokens).toHaveLength(40);
+    const promoted = [...feedPayload.data.platinum, ...feedPayload.data.booster].map(
+      (ad: { token: string }) => ad.token,
+    );
+    expect(feed.tokens.some((token) => promoted.includes(token))).toBe(false);
   });
 
   it('produces listings that satisfy the shared Listing schema', () => {

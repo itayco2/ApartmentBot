@@ -134,3 +134,54 @@ describe('sequence baseline in the poll cycle', () => {
     expect(kv.get(`seq_baseline:${search.id}:yad2:modiin`)).toBe('100');
   });
 });
+
+describe('a city with no baseline yet', () => {
+  let byCity: Record<string, Listing[]>;
+  let listings: ListingsRepo;
+  let cycle: PollCycle;
+
+  const adapter: SourceAdapter = {
+    name: 'yad2',
+    cadenceMinutes: 0,
+    supports: () => true,
+    fetchListings: async (_search, city) => byCity[city.key] ?? [],
+  };
+  const pendingIds = () => listings.pending().map((p) => p.listing.sourceId).sort();
+
+  beforeEach(() => {
+    const db = openDatabase(':memory:');
+    const searches = new SearchesRepo(db);
+    listings = new ListingsRepo(db);
+    cycle = new PollCycle([adapter], searches, listings, new KvRepo(db), silentNotifier, new HealthTracker());
+    searches.create({
+      chatId: CHAT,
+      name: 't',
+      cityKeys: ['modiin', 'rishon'],
+      cityName: 'מודיעין מכבים רעות',
+      minRooms: null,
+      maxRooms: null,
+      minPrice: null,
+      maxPrice: null,
+    });
+  });
+
+  it('alerts on the first ad in a town that had none', async () => {
+    // Yad2's ad numbers are one nationwide counter, so the newest seen anywhere stands in for
+    // the missing baseline. Without it the town's first ad was filed as back catalogue.
+    byCity = { modiin: [ad('a', 100)], rishon: [] };
+    await cycle.run();
+    byCity = { modiin: [ad('a', 100)], rishon: [ad('first', 150)] };
+    await cycle.run();
+
+    expect(pendingIds()).toEqual(['first']);
+  });
+
+  it('still records an older ad silently in a town read for the first time', async () => {
+    byCity = { modiin: [ad('a', 100)], rishon: [] };
+    await cycle.run();
+    byCity = { modiin: [ad('a', 100)], rishon: [ad('old', 90)] };
+    await cycle.run();
+
+    expect(pendingIds()).toEqual([]);
+  });
+});

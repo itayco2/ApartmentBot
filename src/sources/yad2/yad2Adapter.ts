@@ -65,8 +65,8 @@ export const fetchFeedPage: FeedFetcher = (city, page) =>
  */
 export function createYad2Adapter(fetchPage: FeedFetcher = fetchFeedPage): SourceAdapter {
   // Tokens read so far, per city. Memory is enough: it only decides how deep to read, and
-  // losing it on restart is exactly what makes the first walk a catch-up. Only poll cycles
-  // write it; previews walk on a copy.
+  // losing it on restart is exactly what makes the first walk a catch-up. Only a poll walk
+  // that finishes cleanly writes it.
   const seenByCity = new Map<string, Set<string>>();
 
   return {
@@ -80,14 +80,14 @@ export function createYad2Adapter(fetchPage: FeedFetcher = fetchFeedPage): Sourc
     async fetchListings(search: SavedSearch, city: CityEntry, options?: FetchOptions): Promise<Listing[]> {
       if (!city.yad2CityCode || !city.yad2RegionCode) return [];
 
-      const remembered = seenByCity.get(city.key) ?? new Set<string>();
-      if (!options?.preview) seenByCity.set(city.key, remembered);
-      // A preview walks on a copy: it may use what poll cycles have read, but what it reads
-      // itself never reaches the alert path, so counting it would make the next cycle stop
-      // early. A /latest sent after a restart would otherwise swallow the whole catch-up.
-      const seen = options?.preview ? new Set(remembered) : remembered;
+      // Every walk works on a copy, and only a poll walk that ends on its own stop condition
+      // saves it back. A preview's listings never reach the alert path, and a walk cut short
+      // by an error or a block never read the pages below: counting either as read would
+      // make the next cycle stop at page 2, and a restart's catch-up would be lost for good.
+      const seen = new Set(seenByCity.get(city.key));
       const collected = new Map<string, Listing>();
       let pagesRead = 0;
+      let finished = true;
 
       for (let page = 1; page <= MAX_PAGES; page++) {
         let feed: Yad2FeedPage;
@@ -98,6 +98,7 @@ export function createYad2Adapter(fetchPage: FeedFetcher = fetchFeedPage): Sourc
           // page, or the city would just look empty. A later page is worth losing instead.
           if (page === 1 || error instanceof BlockedError) throw error;
           logger.warn({ err: error, city: city.key, page }, 'yad2 page failed, keeping earlier pages');
+          finished = false;
           break;
         }
         pagesRead = page;
@@ -111,6 +112,8 @@ export function createYad2Adapter(fetchPage: FeedFetcher = fetchFeedPage): Sourc
         if (page >= feed.totalPages) break;
         if (page >= MIN_PAGES && !sawNew) break;
       }
+
+      if (finished && !options?.preview) seenByCity.set(city.key, seen);
 
       logger.debug(
         { search: search.id, city: city.key, pages: pagesRead, found: collected.size },

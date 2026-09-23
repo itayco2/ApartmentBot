@@ -26,6 +26,15 @@ const SOURCE_LAST_RUN = 'source_last_run:';
 const SEQUENCE_BASELINE = 'seq_baseline:';
 
 /**
+ * Prefix for each source's newest sequence seen by any poll cycle, in any city. Yad2's ad
+ * numbers are one nationwide counter, so this stands in where a search has no baseline for
+ * a city yet: a small town with no ads when the search began would otherwise file its first
+ * ad as back catalogue and never alert on it. Written only at the end of a poll cycle, so a
+ * preview never moves it and a city read later in the same cycle is judged fairly.
+ */
+const SEQUENCE_HIGH = 'seq_high:';
+
+/**
  * How long a whole preview may spend fetching before it answers with what it
  * has. Only /latest and /add seeding are bounded this way; the poll cycle runs
  * unattended and can afford to wait.
@@ -285,6 +294,9 @@ export class PollCycle {
       }
     }
 
+    // Only now, once every search was judged against the previous cycle's mark.
+    this.raiseSequenceHigh([...cityCache.values()].flat());
+
     result.notificationsSent = await this.notifier.flushPending();
     this.kv.set(KV_KEYS.lastCycleAt, new Date().toISOString());
 
@@ -367,13 +379,23 @@ export class PollCycle {
    */
   private backCatalogueFor(search: SavedSearch, cityKey: string, listings: Listing[]): Listing[] {
     const keyOf = (source: string) => `${SEQUENCE_BASELINE}${search.id}:${source}:${cityKey}`;
-    const { backCatalogue, highest } = splitBySequence(listings, (source) =>
-      this.readBaseline(keyOf(source)),
+    const { backCatalogue, highest } = splitBySequence(
+      listings,
+      (source) => this.readBaseline(keyOf(source)) ?? this.readBaseline(`${SEQUENCE_HIGH}${source}`),
     );
     for (const [source, top] of highest) {
       if (this.readBaseline(keyOf(source)) === undefined) this.kv.set(keyOf(source), String(top));
     }
     return backCatalogue;
+  }
+
+  /** Raises each source's nationwide newest-sequence mark from this cycle's fetches. */
+  private raiseSequenceHigh(listings: Listing[]): void {
+    const { highest } = splitBySequence(listings, () => undefined);
+    for (const [source, top] of highest) {
+      const key = `${SEQUENCE_HIGH}${source}`;
+      if (top > (this.readBaseline(key) ?? 0)) this.kv.set(key, String(top));
+    }
   }
 
   /** A stored baseline. An unreadable one counts as absent, so it is re-established rather than trusted. */
