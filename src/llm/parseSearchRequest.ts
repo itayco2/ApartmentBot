@@ -1,5 +1,12 @@
 import { z } from 'zod';
-import { CITIES, REGION_ALIASES, findCityByKey, normalizePlace, searchCities } from '../core/cities.js';
+import {
+  CURATED_CITIES,
+  REGION_ALIASES,
+  findCityByKey,
+  mentionsCity,
+  normalizePlace,
+  searchCities,
+} from '../core/cities.js';
 import type { SavedSearch, SearchRequirements } from '../core/types.js';
 import { logger } from '../logger.js';
 import { nullableBoolean, nullableString, positiveIntOrNull, positiveOrNull, stringList } from './fields.js';
@@ -72,7 +79,9 @@ const responseSchema = {
 };
 
 function buildPrompt(text: string): string {
-  const known = CITIES.map((c) => c.name).join(', ');
+  // Examples, not the whole list: every city would add thousands of tokens to each call,
+  // and whatever the model writes is resolved by searchCities anyway.
+  const known = CURATED_CITIES.map((c) => c.name).join(', ');
   // Everyday region names the filter understands, so "north of the city" in
   // Rishon comes back as the alias that expands to real neighbourhoods.
   const regions = Object.entries(REGION_ALIASES)
@@ -183,8 +192,7 @@ export function applyDraftToExisting(draft: SearchDraft, existing: SavedSearch |
 export function looksLikeSearchRequest(text: string): boolean {
   const trimmed = text.trim();
   if (!trimmed) return false;
-  if (searchCities(trimmed, 1).length > 0) return true;
-  if (CITIES.some((city) => [city.name, ...city.aliases].some((name) => trimmed.includes(name)))) return true;
+  if (mentionsCity(trimmed)) return true;
   return /\d/.test(trimmed) && /חד|₪|שקל|ש"ח|ש״ח|\bעד\s*\d/.test(trimmed);
 }
 

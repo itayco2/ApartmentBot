@@ -180,21 +180,27 @@ export function findCityByKey(key: string): CityEntry | undefined {
 }
 
 /**
- * Matches free text typed in the wizard against the city list. Exact
- * normalized matches win outright; otherwise falls back to prefix matches so
- * "רמת" offers "רמת גן".
+ * Matches free text typed in the wizard against the city list. An exact name wins
+ * outright; otherwise prefix matches come before matches inside a name, so "רמת" offers
+ * רמת גן before a town that merely contains the word. Within each tier the list's own
+ * order holds, and it lists curated cities first.
  */
 export function searchCities(query: string, limit = 5): CityEntry[] {
   const q = normalizeCityName(query);
   if (!q) return [];
 
-  const exact = CITIES.filter((c) => cityNameVariants(c).includes(q));
-  if (exact.length > 0) return exact.slice(0, limit);
+  const exact: CityEntry[] = [];
+  const prefix: CityEntry[] = [];
+  const inside: CityEntry[] = [];
+  for (const city of CITIES) {
+    const variants = cityNameVariants(city);
+    if (variants.includes(q)) exact.push(city);
+    else if (variants.some((v) => v.startsWith(q))) prefix.push(city);
+    else if (variants.some((v) => v.includes(q))) inside.push(city);
+  }
 
-  return CITIES.filter((c) => cityNameVariants(c).some((v) => v.startsWith(q) || v.includes(q))).slice(
-    0,
-    limit,
-  );
+  if (exact.length > 0) return exact.slice(0, limit);
+  return [...prefix, ...inside].slice(0, limit);
 }
 
 /**
@@ -208,6 +214,47 @@ export function listingCityMatches(city: CityEntry, listingCity: string): boolea
 
 function cityNameVariants(city: CityEntry): string[] {
   return [city.name, ...city.aliases].map(normalizeCityName);
+}
+
+/** What a word may carry in front of a place name: "במודיעין", "לרעננה", "ומחולון". */
+const PLACE_PREFIX = /^ו?[בלמהשכ]?$/u;
+
+/**
+ * Names shorter than this are too likely to be ordinary words to count as a mention.
+ * Letters only; spaces are not counted.
+ */
+const MIN_MENTION_LETTERS = 3;
+
+/** City names as word lists, built on first use. */
+let mentionIndex: string[][] | undefined;
+
+/**
+ * Whether a sentence names a city: its words must appear in order as whole words, the
+ * first optionally carrying one prefix letter.
+ *
+ * Substring matching was fine against 17 cities and wrong against 1,300: "לא" sits inside
+ * "כפר מלאל", and every false match wakes the model for nothing.
+ */
+export function mentionsCity(text: string): boolean {
+  const words = normalizeCityName(text.replace(/[.,!?;:()]/g, ' '))
+    .split(' ')
+    .filter(Boolean);
+  if (words.length === 0) return false;
+
+  mentionIndex ??= CITIES.flatMap(cityNameVariants)
+    .filter((name) => name.replace(/ /g, '').length >= MIN_MENTION_LETTERS)
+    .map((name) => name.split(' '));
+
+  return mentionIndex.some((name) => words.some((_, start) => nameAt(words, start, name)));
+}
+
+function nameAt(words: string[], start: number, name: string[]): boolean {
+  if (start + name.length > words.length) return false;
+  return name.every((part, i) => {
+    const word = words[start + i]!;
+    if (word === part) return true;
+    return i === 0 && word.endsWith(part) && PLACE_PREFIX.test(word.slice(0, word.length - part.length));
+  });
 }
 
 /**

@@ -52,6 +52,12 @@ describe('deciding whether a message is a search request', () => {
     expect(looksLikeSearchRequest('מחפש 4 חד׳ עד 7000 שקל')).toBe(true);
   });
 
+  it('does not wake the model for a plain yes or no', () => {
+    // With every town in the list, substring matching made "לא" look like one ("כפר מלאל").
+    expect(looksLikeSearchRequest('לא')).toBe(false);
+    expect(looksLikeSearchRequest('כן')).toBe(false);
+  });
+
   it('does not send chit-chat to the model', () => {
     expect(looksLikeSearchRequest('היי מה קורה')).toBe(false);
     expect(looksLikeSearchRequest('תודה!')).toBe(false);
