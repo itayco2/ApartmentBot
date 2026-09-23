@@ -1,11 +1,11 @@
 import { InlineKeyboard } from 'grammy';
 import type { Context } from 'grammy';
 import {
-  CITIES,
   REGION_ALIASES,
   findCityByKey,
   isKnownAreaName,
   normalizePlace,
+  searchCities,
 } from '../core/cities.js';
 import { lookupPlaces } from '../core/places.js';
 import { AMENITY_VOCABULARY, describeSearch, nearMissReason } from '../core/filter.js';
@@ -32,6 +32,12 @@ interface WizardState {
   step: Step;
   /** Cities chosen so far; the picker toggles entries in and out. */
   cityKeys: string[];
+  /**
+   * The city buttons on screen. The picker cannot list ~1,300 cities, so it shows the
+   * chosen ones, whatever was typed last, and a few familiar ones, and it must keep showing
+   * the same set while cities are toggled.
+   */
+  offeredCityKeys: string[];
   minRooms: number | null;
   maxRooms: number | null;
   minPrice: number | null;
@@ -64,6 +70,35 @@ const MAX_KEYWORDS = 5;
 /** Cities per keyboard row - three fits Hebrew names without truncating. */
 const CITIES_PER_ROW = 3;
 
+/** City buttons shown before anything is typed. */
+const MAX_CITY_BUTTONS = 9;
+
+/** Matches offered for a typed city name. */
+const TYPED_CITY_MATCHES = 6;
+
+/** Offered before anything is typed: the largest rental markets. */
+export const POPULAR_CITY_KEYS = [
+  'tel-aviv',
+  'jerusalem',
+  'haifa',
+  'rishon',
+  'petah-tikva',
+  'beer-sheva',
+  'netanya',
+  'modiin',
+  'ramat-gan',
+];
+
+/**
+ * The cities the picker shows. Chosen and just-typed cities always appear; the chat's own
+ * and the popular ones fill the rest, up to MAX_CITY_BUTTONS.
+ */
+export function offeredCityKeys(selected: string[], typed: string[], recent: string[]): string[] {
+  const must = [...new Set([...selected, ...typed])];
+  const extra = [...new Set([...recent, ...POPULAR_CITY_KEYS])].filter((key) => !must.includes(key));
+  return [...must, ...extra.slice(0, Math.max(0, MAX_CITY_BUTTONS - must.length))];
+}
+
 /**
  * The /add flow, as an explicit state machine.
  *
@@ -94,11 +129,16 @@ export class AddWizard {
     // Opens on what is already saved rather than a blank slate: /add is far
     // more often "and Rishon too" than "forget everything I told you". The
     // cities come back ticked, so adding accumulates and unticking removes.
-    const existing = this.searches.list(chatId).at(-1);
+    const all = this.searches.list(chatId);
+    const existing = all.at(-1);
+    const selected = existing ? [...existing.cityKeys] : [];
+    // Cities from every search the chat has, so "and Rishon too" is one tap away.
+    const recent = [...new Set(all.flatMap((search) => search.cityKeys))];
 
-    this.states.set(chatId, {
+    const state: WizardState = {
       step: 'city',
-      cityKeys: existing ? [...existing.cityKeys] : [],
+      cityKeys: selected,
+      offeredCityKeys: offeredCityKeys(selected, [], recent),
       minRooms: existing?.minRooms ?? null,
       maxRooms: existing?.maxRooms ?? null,
       minPrice: existing?.minPrice ?? null,
@@ -108,12 +148,13 @@ export class AddWizard {
       areaOptions: [],
       requirements: existing?.requirements ? structuredClone(existing.requirements) : {},
       originId: existing?.id ?? null,
-    });
+    };
+    this.states.set(chatId, state);
 
-    // A picker rather than free text: city names are easy to mistype in
-    // Hebrew, and picking several at once is the common case.
-    await ctx.reply('באילו ערים לחפש? אפשר לבחור כמה שתרצה:', {
-      reply_markup: cityKeyboard([]),
+    // The chosen cities are drawn ticked. They used to be drawn blank while already in
+    // state, so tapping one to add it silently removed it.
+    await ctx.reply('באילו ערים לחפש? אפשר לבחור כמה שתרצה, או לכתוב שם של עיר:', {
+      reply_markup: cityKeyboard(state.offeredCityKeys, state.cityKeys),
     });
   }
 
@@ -147,6 +188,7 @@ export class AddWizard {
     const state: WizardState = {
       step: 'price',
       cityKeys: [...draft.cityKeys],
+      offeredCityKeys: [...draft.cityKeys],
       minRooms: draft.minRooms,
       maxRooms: draft.maxRooms,
       minPrice: draft.minPrice,
@@ -176,13 +218,31 @@ export class AddWizard {
     const state = this.states.get(chatId);
     if (!state) return;
 
-    // Cities are chosen from the picker, so free text is only for the custom
-    // rooms and price steps.
+    // On the city step, text searches the whole city list; on the custom steps, it is the
+    // value itself.
+    if (state.step === 'city') return this.handleCityText(ctx, state, text);
     if (state.step === 'custom-rooms') return this.handleCustomRooms(ctx, state, text);
     if (state.step === 'custom-price') return this.handleCustomPrice(ctx, state, text);
     if (state.step === 'custom-area') return this.handleCustomArea(ctx, state, text);
     if (state.step === 'custom-sqm') return this.handleCustomSqm(ctx, state, text);
     if (state.step === 'custom-keyword') return this.handleCustomKeyword(ctx, state, text);
+  }
+
+  /** A typed city name: offer its matches, and tick it outright when only one fits. */
+  private async handleCityText(ctx: Context, state: WizardState, text: string): Promise<void> {
+    const typed = searchCities(text, TYPED_CITY_MATCHES).map((city) => city.key);
+    if (typed.length === 0) {
+      await ctx.reply('לא מצאתי עיר בשם הזה. נסה שוב, למשל "כפר יונה".');
+      return;
+    }
+
+    const only = typed.length === 1 ? typed[0] : undefined;
+    if (only && !state.cityKeys.includes(only)) state.cityKeys = [...state.cityKeys, only];
+    state.offeredCityKeys = offeredCityKeys(state.cityKeys, typed, state.offeredCityKeys);
+
+    await ctx.reply(only ? `נוספה: ${cityNames([only])}` : 'בחר מהרשימה:', {
+      reply_markup: cityKeyboard(state.offeredCityKeys, state.cityKeys),
+    });
   }
 
   /** Handles every add:* button press. */
@@ -213,7 +273,9 @@ export class AddWizard {
           ? state.cityKeys.filter((k) => k !== value)
           : [...state.cityKeys, value];
 
-        await ctx.editMessageReplyMarkup({ reply_markup: cityKeyboard(state.cityKeys) });
+        await ctx.editMessageReplyMarkup({
+          reply_markup: cityKeyboard(state.offeredCityKeys, state.cityKeys),
+        });
         return;
       }
 
@@ -799,11 +861,12 @@ function hasRequirements(requirements: SearchRequirements): boolean {
   );
 }
 
-/** Every known city as a toggle, with a tick on the chosen ones. */
-function cityKeyboard(selected: string[]): InlineKeyboard {
+/** The offered cities as toggles, with a tick on the chosen ones. */
+export function cityKeyboard(offered: string[], selected: string[]): InlineKeyboard {
   const keyboard = new InlineKeyboard();
+  const cities = offered.map(findCityByKey).filter((city) => city !== undefined);
 
-  CITIES.forEach((city, index) => {
+  cities.forEach((city, index) => {
     const chosen = selected.includes(city.key);
     keyboard.text(`${chosen ? '✅ ' : ''}${city.name}`, `add:city:${city.key}`);
     if ((index + 1) % CITIES_PER_ROW === 0) keyboard.row();
