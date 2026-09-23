@@ -20,6 +20,12 @@ import { KV_KEYS, type KvRepo } from '../db/kv.repo.js';
 const SOURCE_LAST_RUN = 'source_last_run:';
 
 /**
+ * Prefix for per-search sequence baselines, keyed `<searchId>:<source>:<cityKey>`: the
+ * highest creation sequence a source showed the first time the search read that city.
+ */
+const SEQUENCE_BASELINE = 'seq_baseline:';
+
+/**
  * How long a whole preview may spend fetching before it answers with what it
  * has. Only /latest and /add seeding are bounded this way; the poll cycle runs
  * unattended and can afford to wait.
@@ -76,6 +82,39 @@ export function isCadenceDue(
   // A minute of slack, so jitter in the schedule cannot push a source that is
   // a second short of due into waiting a whole extra cycle.
   return elapsed >= cadenceMinutes * 60_000 - 60_000;
+}
+
+/**
+ * Picks out the listings a search should record silently, because the source created them
+ * before the search started watching the city. Judged by the source's creation sequence
+ * (Yad2's ad number).
+ *
+ * First sight used to be enough: a source returned its whole back catalogue once, and that
+ * was seeded. Yad2's feed cannot do that (Tel Aviv's catalogue is 173 pages), and owners
+ * bump old ads back to the top, where they would look new. A listing at or below the
+ * baseline is old news however recently it was bumped; with no baseline yet, every
+ * sequenced listing is. Listings without a sequence are left to the ordinary rules.
+ */
+export function splitBySequence(
+  listings: Listing[],
+  baselineOf: (source: string) => number | undefined,
+): { backCatalogue: Listing[]; highest: Map<string, number> } {
+  const backCatalogue: Listing[] = [];
+  const highest = new Map<string, number>();
+
+  for (const listing of listings) {
+    if (listing.sequence === undefined) continue;
+    highest.set(listing.source, Math.max(highest.get(listing.source) ?? 0, listing.sequence));
+    const baseline = baselineOf(listing.source);
+    if (baseline === undefined || listing.sequence <= baseline) backCatalogue.push(listing);
+  }
+
+  return { backCatalogue, highest };
+}
+
+/** Identifies a listing within one cycle; a source's ids are only unique within that source. */
+function listingKey(listing: Listing): string {
+  return `${listing.source}\u0000${listing.sourceId}`;
 }
 import type { ListingsRepo } from '../db/listings.repo.js';
 import type { SearchesRepo } from '../db/searches.repo.js';
@@ -171,6 +210,7 @@ export class PollCycle {
       // shared between searches - two people watching Modi'in, or one person
       // with two price bands, should not cost two sweeps of every source.
       const fetched: Listing[] = [];
+      const backCatalogue = new Set<string>();
       for (const city of cities) {
         let listings = cityCache.get(city.key);
         if (!listings) {
@@ -178,6 +218,10 @@ export class PollCycle {
           cityCache.set(city.key, listings);
         }
         fetched.push(...listings);
+        // Per city, before pooling: a baseline belongs to one search reading one city.
+        for (const old of this.backCatalogueFor(search, city.key, listings)) {
+          backCatalogue.add(listingKey(old));
+        }
       }
       // Comparisons use everything on the market, not just what matched the
       // owner's price band - otherwise every listing looks average.
@@ -194,8 +238,21 @@ export class PollCycle {
       // sighting of a source is recorded silently, exactly as a new search is
       // seeded, and only what appears afterwards is treated as new.
       const known = this.listings.knownSources(search.chatId);
-      const firstSighting = unseen.filter((l) => !known.has(l.source));
-      const genuinelyNew = unseen.filter((l) => known.has(l.source));
+
+      // Created before this search started watching the city: bumped back into view, or
+      // simply never reached before. Recorded, never alerted.
+      const oldNews = unseen.filter((l) => backCatalogue.has(listingKey(l)));
+      if (oldNews.length > 0) {
+        this.listings.seedAsSeen(oldNews, search.id, search.chatId, kindOf);
+        logger.info(
+          { search: search.id, count: oldNews.length },
+          'recorded older listings without alerting',
+        );
+      }
+      const current = unseen.filter((l) => !backCatalogue.has(listingKey(l)));
+
+      const firstSighting = current.filter((l) => !known.has(l.source));
+      const genuinelyNew = current.filter((l) => known.has(l.source));
 
       if (firstSighting.length > 0) {
         this.listings.seedAsSeen(firstSighting, search.id, search.chatId, kindOf);
@@ -303,11 +360,39 @@ export class PollCycle {
   }
 
   /**
+   * The listings from one city fetch that are back catalogue for this search. The first
+   * time the search reads the city, this also sets its baseline for each sequenced source.
+   * A baseline never moves afterwards: an ad created after it that does not match today and
+   * gets cheaper next week must still alert then.
+   */
+  private backCatalogueFor(search: SavedSearch, cityKey: string, listings: Listing[]): Listing[] {
+    const keyOf = (source: string) => `${SEQUENCE_BASELINE}${search.id}:${source}:${cityKey}`;
+    const { backCatalogue, highest } = splitBySequence(listings, (source) =>
+      this.readBaseline(keyOf(source)),
+    );
+    for (const [source, top] of highest) {
+      if (this.readBaseline(keyOf(source)) === undefined) this.kv.set(keyOf(source), String(top));
+    }
+    return backCatalogue;
+  }
+
+  /** A stored baseline. An unreadable one counts as absent, so it is re-established rather than trusted. */
+  private readBaseline(key: string): number | undefined {
+    const stored = this.kv.get(key);
+    if (stored === undefined) return undefined;
+    const value = Number(stored);
+    return Number.isFinite(value) ? value : undefined;
+  }
+
+  /**
    * First run for a new search: record everything currently listed as already
    * seen, so the owner only hears about what appears from now on.
    */
   async seedSearch(search: SavedSearch): Promise<{ seeded: number; snapshot: MarketSnapshot }> {
-    const snapshot = await this.collect(search);
+    const cityCache = new Map<string, Listing[]>();
+    const snapshot = await this.collect(search, cityCache);
+    // Baselines are set now, so the very first cycle can already alert on anything newer.
+    for (const [cityKey, listings] of cityCache) this.backCatalogueFor(search, cityKey, listings);
     const seeded = this.listings.seedAsSeen(
       [...snapshot.matching, ...snapshot.near],
       search.id,
