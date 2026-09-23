@@ -19,6 +19,15 @@ describe('block page detection', () => {
     expect(detectBlockPage('<p>סליחה על ההפרעה, משהו בדפדפן גרם לנו לחשוב שאתה רובוט</p>')).not.toBeNull();
   });
 
+  it('recognises the JSON firewall record Yad2 answers a rejected query with', () => {
+    // Any unexpected query parameter gets this instead of data. It is valid JSON, so without
+    // a marker it would parse as an empty city. The real record carries the caller's public
+    // IP; this one uses a documentation address.
+    const record =
+      '{\n\t"_event_transid" : 2946802998,\n\t"_event_clientip" : "203.0.113.7",\n\t"_event_clientport" : 13750\n}';
+    expect(detectBlockPage(record)).toBe('Radware firewall event');
+  });
+
   it('does not flag a Yad2 JSON body', () => {
     expect(detectBlockPage('{"data":{"markers":[{"token":"abc","price":6000}]}}')).toBeNull();
   });

@@ -250,6 +250,10 @@ export function detectBlockPage(html: string): string | null {
     // Page" before that; the title is the only stable marker across versions.
     [/<title>[^<]*Radware[^<]*<\/title>/i, 'Radware challenge'],
     [/validate\.perfdrive\.com/i, 'ShieldSquare redirect'],
+    // The same gateway's firewall, when a query carries a parameter it does not expect:
+    // a tiny JSON record, not a page, so no <title> marker can catch it. It also echoes the
+    // caller's IP, which is one more reason BlockedError carries a label, never the body.
+    [/"_event_transid"\s*:/, 'Radware firewall event'],
     [/Just a moment\.\.\./i, 'Cloudflare interstitial'],
     [/<title>[^<]*Attention Required[^<]*<\/title>/i, 'Cloudflare block'],
     [/Verifying your browser before proceeding/i, 'browser verification'],
