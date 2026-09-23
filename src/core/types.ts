@@ -37,6 +37,12 @@ export const listingSchema = z.object({
   originalSource: z.string().optional(),
   /** true when posted by an agency. Undefined when the source does not say. */
   isBroker: z.boolean().optional(),
+  /**
+   * A number the source assigns in creation order, higher is newer (Yad2's ad number). It
+   * tells an ad created before a search began from one created after, however recently
+   * either was bumped to the top of a feed. Undefined when the source has no such number.
+   */
+  sequence: z.number().int().positive().optional(),
 });
 
 export type Listing = z.infer<typeof listingSchema>;

@@ -31,6 +31,17 @@ const markerSchema = z.object({
   tags: z.array(z.object({ name: z.string().nullish() }).passthrough()).nullish(),
 });
 
+/**
+ * A feed ad: exactly a map marker plus Yad2's ad number. `orderId` is assigned in creation
+ * order, so it tells an ad created before a search began from one created after, however
+ * recently either was bumped.
+ */
+const itemSchema = markerSchema.extend({
+  orderId: z.number().int().positive().nullish(),
+});
+
+type Yad2Item = z.infer<typeof itemSchema>;
+
 export const yad2MapSchema = z.object({
   data: z
     .object({
@@ -40,6 +51,34 @@ export const yad2MapSchema = z.object({
     .nullish(),
   markers: z.array(z.unknown()).nullish(),
 });
+
+/**
+ * Feed sections that hold rental ads. The rest are paid placements: `yad1` is new projects
+ * for sale, and `trio`, `leadingBroker` and `kingOfTheHar` carry no ad token and photos from
+ * as far back as 2010.
+ */
+const FEED_SECTIONS = ['private', 'agency', 'platinum', 'booster'] as const;
+
+type FeedSection = (typeof FEED_SECTIONS)[number];
+
+const feedSchema = z.object({
+  data: z.object({
+    private: z.array(z.unknown()),
+    agency: z.array(z.unknown()),
+    platinum: z.array(z.unknown()).nullish(),
+    booster: z.array(z.unknown()).nullish(),
+    pagination: z.object({ totalPages: z.number().int().nonnegative().nullish() }).nullish(),
+  }),
+});
+
+/** One page of a city's rental feed. */
+export interface Yad2FeedPage {
+  /** Residential listings on the page, every section pooled. */
+  listings: Listing[];
+  /** Every ad token on the page, homes or not: what page walking compares. */
+  tokens: string[];
+  totalPages: number;
+}
 
 /**
  * Yad2's rental feed also carries storage units, parking spaces and business
@@ -102,18 +141,24 @@ function earliestImageDate(urls: string[]): Date | undefined {
 }
 
 /**
+ * Parses a raw response body. A non-JSON body is a challenge page served with HTTP 200 -
+ * a failure the health tracker must hear about, not an empty city.
+ */
+function parseJsonBody(body: string): unknown {
+  try {
+    return JSON.parse(body);
+  } catch {
+    throw new Error('yad2 returned a non-JSON body');
+  }
+}
+
+/**
  * Parses the raw response body. A non-JSON body is a challenge page served
  * with HTTP 200 - that is a failure the health tracker must hear about, not an
  * empty city.
  */
 export function parseYad2Body(body: string, fallbackCity: string): Listing[] {
-  let payload: unknown;
-  try {
-    payload = JSON.parse(body);
-  } catch {
-    throw new Error('yad2 returned a non-JSON body');
-  }
-  return parseYad2Markers(payload, fallbackCity);
+  return parseYad2Markers(parseJsonBody(body), fallbackCity);
 }
 
 export function parseYad2Markers(payload: unknown, fallbackCity: string): Listing[] {
@@ -127,47 +172,99 @@ export function parseYad2Markers(payload: unknown, fallbackCity: string): Listin
     const parsed = markerSchema.safeParse(raw);
     // One odd marker must not discard the rest of the city.
     if (!parsed.success) continue;
-
-    const m = parsed.data;
-    const propertyType = m.additionalDetails?.property?.text ?? undefined;
-    if (propertyType && NON_RESIDENTIAL.test(propertyType)) continue;
-
-    const images = [m.metaData?.coverImage, ...(m.metaData?.images ?? [])].filter(
-      (u): u is string => typeof u === 'string' && u.startsWith('https://'),
-    );
-    const postedAt = earliestImageDate(images);
-
-    const street = m.address?.street?.text ?? null;
-    const houseNumber = m.address?.house?.number ?? null;
-    const address = street ? `${street}${houseNumber ? ` ${houseNumber}` : ''}` : undefined;
-    const floor = m.address?.house?.floor;
-
-    listings.push({
-      source: 'yad2',
-      sourceId: m.token,
-      url: `${ITEM_BASE}/${m.token}`,
-      price: typeof m.price === 'number' && m.price > 0 ? Math.round(m.price) : null,
-      rooms: m.additionalDetails?.roomsCount ?? null,
-      city: m.address?.city?.text ?? fallbackCity,
-      ...(m.address?.neighborhood?.text ? { neighborhood: m.address.neighborhood.text } : {}),
-      ...(address ? { address } : {}),
-      ...(propertyType ? { propertyType } : {}),
-      ...(m.additionalDetails?.squareMeter ? { sqm: m.additionalDetails.squareMeter } : {}),
-      ...(typeof floor === 'number'
-        ? { floor: floor === 0 ? 'קומת קרקע' : `קומה ${floor}` }
-        : {}),
-      amenities: (m.tags ?? [])
-        .map((t) => t.name)
-        .filter((n): n is string => Boolean(n))
-        .slice(0, 6),
-      // coverImage is the photo Yad2 itself leads with; images[] is the gallery.
-      imageUrls: images.slice(0, 1),
-      ...(postedAt ? { postedAt } : {}),
-      originalSource: 'יד2',
-      // Yad2 labels by-owner ads "private" and agency ads "commercial".
-      ...(m.adType ? { isBroker: m.adType !== 'private' } : {}),
-    });
+    const listing = toListing(parsed.data, fallbackCity, brokerFromAdType(parsed.data.adType));
+    if (listing) listings.push(listing);
   }
 
   return listings;
+}
+
+/**
+ * Parses one feed page's raw body. A non-JSON body is a challenge page served with HTTP
+ * 200, which the health tracker must hear about rather than see as an empty city.
+ */
+export function parseYad2FeedBody(body: string, fallbackCity: string): Yad2FeedPage {
+  return parseYad2Feed(parseJsonBody(body), fallbackCity);
+}
+
+export function parseYad2Feed(payload: unknown, fallbackCity: string): Yad2FeedPage {
+  const feed = feedSchema.safeParse(payload);
+  if (!feed.success) {
+    // An empty city still has both arrays. Their absence means the shape changed, or the
+    // body is something else entirely, and "no listings" must not be how that looks.
+    throw new Error('yad2 feed has no listing sections - the response shape changed');
+  }
+
+  const listings: Listing[] = [];
+  const tokens: string[] = [];
+  const seen = new Set<string>();
+
+  for (const section of FEED_SECTIONS) {
+    for (const raw of feed.data.data[section] ?? []) {
+      const parsed = itemSchema.safeParse(raw);
+      // One odd ad must not discard the rest of the page.
+      if (!parsed.success) continue;
+      // A promoted block can repeat an ad already listed in its own section.
+      if (seen.has(parsed.data.token)) continue;
+      seen.add(parsed.data.token);
+      tokens.push(parsed.data.token);
+
+      const listing = toListing(parsed.data, fallbackCity, brokerFor(section, parsed.data.adType));
+      if (listing) listings.push(listing);
+    }
+  }
+
+  return { listings, tokens, totalPages: feed.data.data.pagination?.totalPages ?? 1 };
+}
+
+/** The section says who posted the ad; the promoted sections fall back to the ad's own type. */
+function brokerFor(section: FeedSection, adType: string | null | undefined): boolean | undefined {
+  if (section === 'private') return false;
+  if (section === 'agency') return true;
+  return brokerFromAdType(adType);
+}
+
+/** Yad2 labels by-owner ads "private" and agency ads "commercial". */
+function brokerFromAdType(adType: string | null | undefined): boolean | undefined {
+  return adType ? adType !== 'private' : undefined;
+}
+
+/** One ad as a Listing; null for storage units, parking and other non-homes. */
+function toListing(m: Yad2Item, fallbackCity: string, isBroker: boolean | undefined): Listing | null {
+  const propertyType = m.additionalDetails?.property?.text ?? undefined;
+  if (propertyType && NON_RESIDENTIAL.test(propertyType)) return null;
+
+  const images = [m.metaData?.coverImage, ...(m.metaData?.images ?? [])].filter(
+    (u): u is string => typeof u === 'string' && u.startsWith('https://'),
+  );
+  const postedAt = earliestImageDate(images);
+
+  const street = m.address?.street?.text ?? null;
+  const houseNumber = m.address?.house?.number ?? null;
+  const address = street ? `${street}${houseNumber ? ` ${houseNumber}` : ''}` : undefined;
+  const floor = m.address?.house?.floor;
+
+  return {
+    source: 'yad2',
+    sourceId: m.token,
+    url: `${ITEM_BASE}/${m.token}`,
+    price: typeof m.price === 'number' && m.price > 0 ? Math.round(m.price) : null,
+    rooms: m.additionalDetails?.roomsCount ?? null,
+    city: m.address?.city?.text ?? fallbackCity,
+    ...(m.address?.neighborhood?.text ? { neighborhood: m.address.neighborhood.text } : {}),
+    ...(address ? { address } : {}),
+    ...(propertyType ? { propertyType } : {}),
+    ...(m.additionalDetails?.squareMeter ? { sqm: m.additionalDetails.squareMeter } : {}),
+    ...(typeof floor === 'number' ? { floor: floor === 0 ? 'קומת קרקע' : `קומה ${floor}` } : {}),
+    amenities: (m.tags ?? [])
+      .map((t) => t.name)
+      .filter((n): n is string => Boolean(n))
+      .slice(0, 6),
+    // coverImage is the photo Yad2 itself leads with; images[] is the gallery.
+    imageUrls: images.slice(0, 1),
+    ...(postedAt ? { postedAt } : {}),
+    originalSource: 'יד2',
+    ...(isBroker !== undefined ? { isBroker } : {}),
+    ...(typeof m.orderId === 'number' ? { sequence: m.orderId } : {}),
+  };
 }

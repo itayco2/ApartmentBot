@@ -8,6 +8,8 @@ import { SearchesRepo } from '../src/db/searches.repo.js';
 import {
   dateFromImageUrl,
   parseYad2Body,
+  parseYad2Feed,
+  parseYad2FeedBody,
   parseYad2Markers,
 } from '../src/sources/yad2/yad2Normalize.js';
 
@@ -16,6 +18,12 @@ const payload = JSON.parse(
 );
 
 const listings = parseYad2Markers(payload, 'מודיעין מכבים רעות');
+
+const feedPayload = JSON.parse(
+  readFileSync(join(import.meta.dirname, 'fixtures', 'yad2-feed-tel-aviv.json'), 'utf8'),
+);
+
+const feed = parseYad2Feed(feedPayload, 'תל אביב יפו');
 
 describe('yad2 normalizer', () => {
   it('reads the map feed, which returns the whole city in one call', () => {
@@ -93,6 +101,94 @@ describe('yad2 normalizer', () => {
   it('returns nothing for an unexpected payload rather than throwing', () => {
     expect(parseYad2Markers({ nope: true }, 'x')).toEqual([]);
     expect(parseYad2Markers(null, 'x')).toEqual([]);
+  });
+});
+
+describe('yad2 feed parser', () => {
+  it('reads every real ad on the page and nothing from the promoted blocks', () => {
+    // 20 private + 20 agency + 3 platinum + 1 booster. trio, leadingBroker and kingOfTheHar
+    // are paid placements with no token and photos as old as 2010; yad1 is new projects for sale.
+    expect(feed.tokens).toHaveLength(44);
+    expect(feed.listings).toHaveLength(44);
+  });
+
+  it('produces listings that satisfy the shared Listing schema', () => {
+    for (const listing of feed.listings) {
+      expect(() => listingSchema.parse(listing)).not.toThrow();
+    }
+  });
+
+  it('takes broker status from the section the ad sits in', () => {
+    expect(feed.listings.filter((l) => l.isBroker === false)).toHaveLength(20);
+    expect(feed.listings.filter((l) => l.isBroker === true)).toHaveLength(24);
+  });
+
+  it('carries the ad number as the creation sequence', () => {
+    expect(feed.listings.find((l) => l.sourceId === 'blvd1s31')?.sequence).toBe(57217275);
+    expect(feed.listings.every((l) => typeof l.sequence === 'number')).toBe(true);
+  });
+
+  it('reports how many pages the city has', () => {
+    expect(feed.totalPages).toBe(173);
+  });
+
+  it('builds a working item url from the listing token', () => {
+    for (const listing of feed.listings) {
+      expect(listing.url).toMatch(/^https:\/\/www\.yad2\.co\.il\/realestate\/item\/\w+$/);
+    }
+  });
+
+  it('renders ground floor in words rather than "קומה 0"', () => {
+    for (const listing of feed.listings) {
+      expect(listing.floor).not.toBe('קומה 0');
+    }
+  });
+
+  it('dates most of the feed from photo urls, which is what makes the 30-day rule work', () => {
+    const dated = feed.listings.filter((l) => l.postedAt instanceof Date);
+    expect(dated.length).toBeGreaterThan(feed.listings.length / 2);
+  });
+
+  it('drops storage units and other non-homes but still counts their tokens', () => {
+    // Page walking compares tokens, so a page of storage units is still a page read.
+    const storage = {
+      ...feedPayload.data.private[0],
+      token: 'storage1',
+      additionalDetails: { property: { text: 'מחסן' }, roomsCount: null },
+    };
+    const page = parseYad2Feed({ data: { private: [storage], agency: [] } }, 'x');
+    expect(page.listings).toEqual([]);
+    expect(page.tokens).toEqual(['storage1']);
+  });
+
+  it('skips a malformed ad without losing the rest of the page', () => {
+    const page = parseYad2Feed(
+      { data: { private: [{ price: 5 }, feedPayload.data.private[0]], agency: [] } },
+      'x',
+    );
+    expect(page.tokens).toEqual(['blvd1s31']);
+  });
+
+  it('counts an ad once when a promoted block repeats it', () => {
+    const ad = feedPayload.data.private[0];
+    const page = parseYad2Feed({ data: { private: [ad], agency: [], platinum: [ad] } }, 'x');
+    expect(page.listings).toHaveLength(1);
+    expect(page.listings[0]?.isBroker).toBe(false);
+  });
+
+  it('assumes a single page when the feed gives no pagination', () => {
+    expect(parseYad2Feed({ data: { private: [], agency: [] } }, 'x').totalPages).toBe(1);
+  });
+
+  it('throws on a body that is not JSON', () => {
+    expect(() => parseYad2FeedBody('<html><title>x</title></html>', 'x')).toThrow(/non-JSON/);
+  });
+
+  it('throws when the listing sections are missing, rather than reporting an empty city', () => {
+    // An empty city still has both arrays. Their absence means the shape changed or the body
+    // is something else, and "no listings" must not be how that looks.
+    expect(() => parseYad2Feed({ message: 'OK' }, 'x')).toThrow(/no listing sections/);
+    expect(() => parseYad2Feed(null, 'x')).toThrow(/no listing sections/);
   });
 });
 
