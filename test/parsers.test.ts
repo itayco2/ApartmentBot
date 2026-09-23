@@ -5,7 +5,9 @@ import { CITIES, listingCityMatches, normalizeCityName, searchCities } from '../
 import { listingSchema, type CityEntry } from '../src/core/types.js';
 import { parseHomelessListings } from '../src/sources/homeless/homelessParse.js';
 import { normalizeMadlanBulletins, type MadlanBulletin } from '../src/sources/madlan/madlanNormalize.js';
-import { yad2Adapter } from '../src/sources/yad2/yad2Adapter.js';
+import { createYad2Adapter } from '../src/sources/yad2/yad2Adapter.js';
+
+const yad2Adapter = createYad2Adapter();
 
 const fixture = (name: string) => readFileSync(join(import.meta.dirname, 'fixtures', name), 'utf8');
 

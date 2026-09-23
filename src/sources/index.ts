@@ -8,7 +8,7 @@ import { madlanAdapter } from './madlan/madlanAdapter.js';
 import { onmapAdapter } from './onmap/onmapAdapter.js';
 import { realtaAdapter } from './realta/realtaAdapter.js';
 import { createTelegramAdapter } from './telegram/telegramAdapter.js';
-import { yad2Adapter } from './yad2/yad2Adapter.js';
+import { createYad2Adapter } from './yad2/yad2Adapter.js';
 
 /**
  * Sources come in three kinds.
@@ -16,8 +16,9 @@ import { yad2Adapter } from './yad2/yad2Adapter.js';
  * **Native parsers** read data that is already structured, so they are cheap,
  * exact and run every cycle:
  *  - yad2     - the largest board. Its website is unreachable behind Radware,
- *               but the gateway JSON API it calls is open, and posting dates
- *               can be recovered from the photo URLs.
+ *               but the gateway's paged feed is open; it is read from the top
+ *               until a page holds nothing new, and posting dates are
+ *               recovered from the photo URLs.
  *  - realta   - aggregates Yad2, Madlan, OnMap, Komo and Facebook Marketplace,
  *               and is the only source publishing a real date on every listing.
  *  - homeless - mobile site, plain server-rendered HTML.
@@ -51,7 +52,7 @@ export function buildAdapters(
   );
 
   const all = [
-    yad2Adapter,
+    createYad2Adapter(),
     realtaAdapter,
     homelessAdapter,
     onmapAdapter,

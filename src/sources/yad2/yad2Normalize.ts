@@ -42,16 +42,6 @@ const itemSchema = markerSchema.extend({
 
 type Yad2Item = z.infer<typeof itemSchema>;
 
-export const yad2MapSchema = z.object({
-  data: z
-    .object({
-      // Everything else in the payload is paid placement or map furniture.
-      markers: z.array(z.unknown()).default([]),
-    })
-    .nullish(),
-  markers: z.array(z.unknown()).nullish(),
-});
-
 /**
  * Feed sections that hold rental ads. The rest are paid placements: `yad1` is new projects
  * for sale, and `trio`, `leadingBroker` and `kingOfTheHar` carry no ad token and photos from
@@ -152,37 +142,7 @@ function parseJsonBody(body: string): unknown {
   }
 }
 
-/**
- * Parses the raw response body. A non-JSON body is a challenge page served
- * with HTTP 200 - that is a failure the health tracker must hear about, not an
- * empty city.
- */
-export function parseYad2Body(body: string, fallbackCity: string): Listing[] {
-  return parseYad2Markers(parseJsonBody(body), fallbackCity);
-}
-
-export function parseYad2Markers(payload: unknown, fallbackCity: string): Listing[] {
-  const outer = yad2MapSchema.safeParse(payload);
-  if (!outer.success) return [];
-
-  const markers = outer.data.data?.markers ?? outer.data.markers ?? [];
-  const listings: Listing[] = [];
-
-  for (const raw of markers) {
-    const parsed = markerSchema.safeParse(raw);
-    // One odd marker must not discard the rest of the city.
-    if (!parsed.success) continue;
-    const listing = toListing(parsed.data, fallbackCity, brokerFromAdType(parsed.data.adType));
-    if (listing) listings.push(listing);
-  }
-
-  return listings;
-}
-
-/**
- * Parses one feed page's raw body. A non-JSON body is a challenge page served with HTTP
- * 200, which the health tracker must hear about rather than see as an empty city.
- */
+/** Parses one feed page's raw body; see parseJsonBody for the non-JSON case. */
 export function parseYad2FeedBody(body: string, fallbackCity: string): Yad2FeedPage {
   return parseYad2Feed(parseJsonBody(body), fallbackCity);
 }

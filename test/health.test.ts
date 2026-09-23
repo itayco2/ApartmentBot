@@ -4,7 +4,9 @@ import { BlockedError } from '../src/core/types.js';
 import { detectBlockPage } from '../src/util/http.js';
 import { madlanAdapter } from '../src/sources/madlan/madlanAdapter.js';
 import { realtaAdapter } from '../src/sources/realta/realtaAdapter.js';
-import { yad2Adapter } from '../src/sources/yad2/yad2Adapter.js';
+import { createYad2Adapter } from '../src/sources/yad2/yad2Adapter.js';
+
+const yad2Adapter = createYad2Adapter();
 
 describe('block page detection', () => {
   it('recognises the Cloudflare interstitial that Node fetch used to receive', () => {

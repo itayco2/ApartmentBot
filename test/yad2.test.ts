@@ -5,19 +5,7 @@ import { listingSchema, type Listing } from '../src/core/types.js';
 import { openDatabase, type Db } from '../src/db/database.js';
 import { ListingsRepo } from '../src/db/listings.repo.js';
 import { SearchesRepo } from '../src/db/searches.repo.js';
-import {
-  dateFromImageUrl,
-  parseYad2Body,
-  parseYad2Feed,
-  parseYad2FeedBody,
-  parseYad2Markers,
-} from '../src/sources/yad2/yad2Normalize.js';
-
-const payload = JSON.parse(
-  readFileSync(join(import.meta.dirname, 'fixtures', 'yad2-modiin.json'), 'utf8'),
-);
-
-const listings = parseYad2Markers(payload, 'מודיעין מכבים רעות');
+import { dateFromImageUrl, parseYad2Feed, parseYad2FeedBody } from '../src/sources/yad2/yad2Normalize.js';
 
 const feedPayload = JSON.parse(
   readFileSync(join(import.meta.dirname, 'fixtures', 'yad2-feed-tel-aviv.json'), 'utf8'),
@@ -25,54 +13,7 @@ const feedPayload = JSON.parse(
 
 const feed = parseYad2Feed(feedPayload, 'תל אביב יפו');
 
-describe('yad2 normalizer', () => {
-  it('reads the map feed, which returns the whole city in one call', () => {
-    expect(listings.length).toBeGreaterThan(50);
-  });
-
-  it('produces listings that satisfy the shared Listing schema', () => {
-    for (const listing of listings) {
-      expect(() => listingSchema.parse(listing)).not.toThrow();
-    }
-  });
-
-  it('drops storage units, parking and business premises', () => {
-    // The rental feed mixes these in; a מחסן at 1,100 ₪ is not somewhere to live.
-    for (const listing of listings) {
-      expect(listing.propertyType ?? '').not.toMatch(/מחסן|חניה|משרד|חנות/);
-    }
-  });
-
-  it('builds a working item url from the listing token', () => {
-    for (const listing of listings) {
-      expect(listing.url).toMatch(/^https:\/\/www\.yad2\.co\.il\/realestate\/item\/\w+$/);
-    }
-  });
-
-  it('marks agency listings as broker and by-owner ones as private', () => {
-    const flagged = listings.filter((l) => l.isBroker !== undefined);
-    expect(flagged.length).toBeGreaterThan(0);
-    expect(flagged.some((l) => l.isBroker === false)).toBe(true);
-  });
-
-  it('renders ground floor in words rather than "קומה 0"', () => {
-    for (const listing of listings) {
-      expect(listing.floor).not.toBe('קומה 0');
-    }
-  });
-
-  it('only returns listings in the requested city', () => {
-    for (const listing of listings) {
-      expect(listing.city).toBe('מודיעין מכבים רעות');
-    }
-  });
-
-  it('ignores sponsored blocks that sit alongside the real markers', () => {
-    // yad1Markers / grayMarkers / agencyPromotions are paid placements.
-    const ids = new Set(listings.map((l) => l.sourceId));
-    expect(ids.size).toBe(listings.length);
-  });
-
+describe('photo dates', () => {
   it('recovers a posting date from the photo url, since the API has no date field', () => {
     // Yad2 stores images under a path ending in an upload timestamp:
     // .../y2_1pa_010595_20260816161412.jpeg -> 2026-08-16 16:14:12
@@ -88,19 +29,6 @@ describe('yad2 normalizer', () => {
     expect(dateFromImageUrl('https://img.yad2.co.il/Pic/nopic.jpg')).toBeUndefined();
     expect(dateFromImageUrl(null)).toBeUndefined();
     expect(dateFromImageUrl('https://x/_19990101000000.jpg')).toBeUndefined();
-  });
-
-  it('dates most of the real feed, which is what makes the 30-day rule work here', () => {
-    const dated = listings.filter((l) => l.postedAt instanceof Date);
-    expect(dated.length).toBeGreaterThan(listings.length / 2);
-    for (const l of dated) {
-      expect(l.postedAt!.getTime()).toBeLessThanOrEqual(Date.now() + 86_400_000);
-    }
-  });
-
-  it('returns nothing for an unexpected payload rather than throwing', () => {
-    expect(parseYad2Markers({ nope: true }, 'x')).toEqual([]);
-    expect(parseYad2Markers(null, 'x')).toEqual([]);
   });
 });
 
@@ -262,19 +190,5 @@ describe('price drops', () => {
     const second = repo.findPriceDrops([listing(6_000)], 1);
     expect(second).toHaveLength(1);
     expect(second[0]?.previousPrice).toBe(6_500);
-  });
-});
-
-describe('yad2 body parsing', () => {
-  it('throws on a non-JSON body so the failure reaches health tracking', () => {
-    // A challenge page is HTTP 200 with an HTML body. Returning [] here made
-    // the largest source go dark with nothing but a warning in the log.
-    expect(() => parseYad2Body('<head><title>Radware Bot Manager Captcha</title>', 'x')).toThrow(
-      /non-JSON/,
-    );
-  });
-
-  it('parses a JSON body into the same listings as the marker parser', () => {
-    expect(parseYad2Body(JSON.stringify(payload), 'מודיעין מכבים רעות')).toHaveLength(listings.length);
   });
 });
