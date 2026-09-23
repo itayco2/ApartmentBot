@@ -92,6 +92,30 @@ describe('building registry entries', () => {
     expect(entries).toHaveLength(1);
   });
 
+  it('keeps the key a city was published with, even if its English name changed', () => {
+    // Saved searches store the key: a renamed key would leave them pointing at nothing.
+    const entries = buildGeneratedEntries(
+      [{ locality: locality(168, 'כפר יונה', 'KFAR YONA'), match: { cityId: 168, regionId: 1, title: 'כפר יונה' } }],
+      new Map([[168, 'kefar-yona']]),
+    );
+    expect(entries[0]?.key).toBe('kefar-yona');
+  });
+
+  it('never gives a new place a key another city already has', () => {
+    // Otherwise existing searches would quietly start watching a different town.
+    const entries = buildGeneratedEntries(
+      [
+        { locality: locality(5, 'חדש', 'KEFAR YONA'), match: { cityId: 5, regionId: 1, title: 'חדש' } },
+        { locality: locality(168, 'כפר יונה', 'KEFAR YONA'), match: { cityId: 168, regionId: 1, title: 'כפר יונה' } },
+      ],
+      new Map([[168, 'kefar-yona']]),
+    );
+    expect(entries.map((e) => [e.yad2CityCode, e.key])).toEqual([
+      [5, 'kefar-yona-5'],
+      [168, 'kefar-yona'],
+    ]);
+  });
+
   it('keeps one entry when two Yad2 cities carry the same name', () => {
     const entries = buildGeneratedEntries([
       { locality: locality(10, 'שם', 'ONE'), match: { cityId: 10, regionId: 1, title: 'שם' } },

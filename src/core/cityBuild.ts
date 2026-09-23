@@ -89,14 +89,21 @@ export function cityKeyFor(locality: GovLocality): string {
  * its listings say and `listingCityMatches` compares against. The official spelling is kept
  * as an alias when it differs.
  *
- * A key two places would share gets the later one's code appended. A second row resolving
- * to a Yad2 city already taken, or a second city with a name already taken, is dropped: one
- * spelling must lead to one city.
+ * Saved searches store the key, so a city keeps the key it was published with
+ * (`existingKeys`, by Yad2 code) even if its official English name changes, and no new
+ * place may take a key another city already has. Otherwise a regeneration could leave a
+ * search pointing at nothing, or quietly at a different town.
+ *
+ * A key two new places would share gets the later one's code appended. A second row
+ * resolving to a Yad2 city already taken, or a second city with a name already taken, is
+ * dropped: one spelling must lead to one city.
  */
 export function buildGeneratedEntries(
   matches: Array<{ locality: GovLocality; match: Yad2CityMatch }>,
+  existingKeys: ReadonlyMap<number, string> = new Map(),
 ): CityEntry[] {
   const sorted = [...matches].sort((a, b) => a.match.cityId - b.match.cityId);
+  const reserved = new Set(existingKeys.values());
   const usedKeys = new Set<string>();
   const usedCodes = new Set<number>();
   const usedNames = new Set<string>();
@@ -108,8 +115,11 @@ export function buildGeneratedEntries(
     usedCodes.add(match.cityId);
     usedNames.add(name);
 
-    let key = cityKeyFor(locality);
-    if (usedKeys.has(key)) key = `${key}-${locality.code}`;
+    let key = existingKeys.get(match.cityId);
+    if (key === undefined) {
+      key = cityKeyFor(locality);
+      if (usedKeys.has(key) || reserved.has(key)) key = `${key}-${locality.code}`;
+    }
     usedKeys.add(key);
 
     const aliases = normalizeCityName(locality.name) === name ? [] : [locality.name];

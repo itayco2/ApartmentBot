@@ -14,6 +14,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { CURATED_CITIES } from '../src/core/cities.js';
+import { GENERATED_CITIES } from '../src/core/cities.generated.js';
 import {
   buildGeneratedEntries,
   parseGovLocalities,
@@ -97,7 +98,12 @@ async function main(): Promise<void> {
     if ((index + 1) % 50 === 0) console.log(`${index + 1}/${localities.length}`);
   }
 
-  const entries = buildGeneratedEntries(matches);
+  // Keys already published stay with their city: saved searches store them.
+  const existingKeys = new Map<number, string>();
+  for (const city of GENERATED_CITIES) {
+    if (city.yad2CityCode !== undefined) existingKeys.set(city.yad2CityCode, city.key);
+  }
+  const entries = buildGeneratedEntries(matches, existingKeys);
   const codes = new Set(entries.map((e) => e.yad2CityCode));
   const missing = CURATED_CITIES.filter((c) => c.yad2CityCode !== undefined && !codes.has(c.yad2CityCode));
   if (missing.length > 0) {
