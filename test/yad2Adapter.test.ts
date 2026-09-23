@@ -92,6 +92,29 @@ describe('yad2 page walking', () => {
     expect(calls).toEqual(pages(MAX_PAGES));
   });
 
+  it('lets a preview read deep without counting what it read', async () => {
+    // /latest and new-search seeding never alert. If their reads counted, the next poll
+    // cycle would stop early and never hand those ads to the alert path.
+    const { calls, fetchPage } = recording((n) => page(tokensFor('x', n)));
+    const adapter = createYad2Adapter(fetchPage);
+    await adapter.fetchListings(search, telAviv, { preview: true });
+    expect(calls).toEqual(pages(MAX_PAGES));
+    calls.length = 0;
+
+    await adapter.fetchListings(search, telAviv);
+    expect(calls).toEqual(pages(MAX_PAGES));
+  });
+
+  it('lets a preview use what poll cycles have read', async () => {
+    const { calls, fetchPage } = recording((n) => page(tokensFor('x', n)));
+    const adapter = createYad2Adapter(fetchPage);
+    await adapter.fetchListings(search, telAviv);
+    calls.length = 0;
+
+    await adapter.fetchListings(search, telAviv, { preview: true });
+    expect(calls).toEqual(pages(MIN_PAGES));
+  });
+
   it('keeps earlier pages when a later one fails', async () => {
     const { fetchPage } = recording((n) => {
       if (n === 2) throw new Error('socket hang up');

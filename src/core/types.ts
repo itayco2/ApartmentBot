@@ -118,6 +118,16 @@ export interface CityEntry {
   yad2RegionCode?: number;
 }
 
+/** How a fetch will be used. */
+export interface FetchOptions {
+  /**
+   * True for /latest previews and new-search seeding. A source that remembers what it has
+   * read (Yad2's page walk) may use that memory but must not add to it: only a poll cycle
+   * hands listings to the alert path, so only a poll cycle may mark them as read.
+   */
+  preview?: boolean;
+}
+
 export interface SourceAdapter {
   readonly name: string;
   /**
@@ -138,7 +148,7 @@ export interface SourceAdapter {
   readonly bestEffort?: boolean;
   /** False when this source has no location mapping for the search's city. */
   supports(search: SavedSearch, city: CityEntry): boolean;
-  fetchListings(search: SavedSearch, city: CityEntry): Promise<Listing[]>;
+  fetchListings(search: SavedSearch, city: CityEntry, options?: FetchOptions): Promise<Listing[]>;
 }
 
 /**

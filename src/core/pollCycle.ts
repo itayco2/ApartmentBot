@@ -387,7 +387,9 @@ export class PollCycle {
       (adapter) => adapter.supports(search, city) && !this.health.shouldSkip(adapter.name),
     );
     const settled = await Promise.allSettled(
-      active.map((adapter) => withDeadline(adapter.fetchListings(search, city), deadline, adapter.name)),
+      active.map((adapter) =>
+        withDeadline(adapter.fetchListings(search, city, { preview: true }), deadline, adapter.name),
+      ),
     );
 
     const listings: Listing[] = [];

@@ -2,6 +2,7 @@ import { listingCityMatches } from '../../core/cities.js';
 import {
   BlockedError,
   type CityEntry,
+  type FetchOptions,
   type Listing,
   type SavedSearch,
   type SourceAdapter,
@@ -64,7 +65,8 @@ export const fetchFeedPage: FeedFetcher = (city, page) =>
  */
 export function createYad2Adapter(fetchPage: FeedFetcher = fetchFeedPage): SourceAdapter {
   // Tokens read so far, per city. Memory is enough: it only decides how deep to read, and
-  // losing it on restart is exactly what makes the first walk a catch-up.
+  // losing it on restart is exactly what makes the first walk a catch-up. Only poll cycles
+  // write it; previews walk on a copy.
   const seenByCity = new Map<string, Set<string>>();
 
   return {
@@ -75,11 +77,15 @@ export function createYad2Adapter(fetchPage: FeedFetcher = fetchFeedPage): Sourc
       return Boolean(city.yad2CityCode && city.yad2RegionCode);
     },
 
-    async fetchListings(search: SavedSearch, city: CityEntry): Promise<Listing[]> {
+    async fetchListings(search: SavedSearch, city: CityEntry, options?: FetchOptions): Promise<Listing[]> {
       if (!city.yad2CityCode || !city.yad2RegionCode) return [];
 
-      const seen = seenByCity.get(city.key) ?? new Set<string>();
-      seenByCity.set(city.key, seen);
+      const remembered = seenByCity.get(city.key) ?? new Set<string>();
+      if (!options?.preview) seenByCity.set(city.key, remembered);
+      // A preview walks on a copy: it may use what poll cycles have read, but what it reads
+      // itself never reaches the alert path, so counting it would make the next cycle stop
+      // early. A /latest sent after a restart would otherwise swallow the whole catch-up.
+      const seen = options?.preview ? new Set(remembered) : remembered;
       const collected = new Map<string, Listing>();
       let pagesRead = 0;
 
