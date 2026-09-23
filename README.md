@@ -1,248 +1,182 @@
-# Apartment Bot
+<div dir="rtl">
 
-A Telegram bot that watches Israeli rental listing sites and messages you the moment a new
-apartment matching your search appears. Same idea as dorin.app, running on your own machine.
+# בוט דירות להשכרה 🏠
 
-- **Every city and town in Israel** - Tel Aviv to Kiryat Shmona to Eilat. Type any name in
-  `/add` and it is searchable; big cities are read in full, not sampled.
-- Reads Israel's rental boards at once - Yad2, Madlan, Realta, Homeless, OnMap, a long tail of
-  smaller boards, public Telegram channels and (optionally) Facebook groups - and alerts on
-  **new listings and price drops**, leading each message with the listing's photo.
-- Everything is controlled from Telegram: `/add` walks you through city, rooms and budget, or
-  just write what you want in a sentence. Every alert has the move-in date, a map button and
-  WhatsApp when the ad gave a number.
-- Remembers every listing it has ever seen, so you are never told about the same flat twice,
-  and never flooded on day one.
+בוט טלגרם שעוקב אחרי אתרי הדירות בישראל ושולח לך הודעה ברגע שעולה דירה שמתאימה לחיפוש שלך. רץ על המחשב שלך, בחינם.
 
-## Setup
+- **כל הערים והיישובים בישראל** (1,178), מתל אביב ועד קריית שמונה ואילת. כותבים שם של עיר ב-`/add` וזה עובד. ערים גדולות נקראות במלואן, לא מדגם.
+- **הרבה מקורות במקביל**: יד2, מדלן, ריאלטה, הומלס, OnMap, אתרים קטנים נוספים, ערוצי טלגרם ציבוריים ואם רוצים גם קבוצות פייסבוק. מתריע על **דירות חדשות וירידות מחיר**, עם תמונה בראש כל הודעה.
+- **הכל מתוך טלגרם**: `/add` מוביל אותך בין עיר, חדרים ותקציב, או שפשוט כותבים משפט כמו "3 חדרים ברחובות עד 6000". בכל התראה יש תאריך כניסה, כפתור מפה, וכפתור WhatsApp כשבמודעה יש מספר.
+- **אף פעם לא אותה דירה פעמיים**, גם כשהיא מתפרסמת בשלושה אתרים או מוקפצת לראש הרשימה אחרי שבוע. וגם בלי הצפה ביום הראשון.
 
-**1. Install dependencies** (Node 20+)
+## התקנה
+
+**1. התקנת תלויות** (Node 20 ומעלה)
 
 ```bash
 npm install
 ```
 
-**2. Create your `.env`**
+**2. יצירת קובץ `.env`**
 
-Copy `.env.example` to `.env` and fill in your bot token from [@BotFather](https://t.me/BotFather):
+מעתיקים את `.env.example` ל-`.env` וממלאים את הטוקן של הבוט מ-[@BotFather](https://t.me/BotFather):
 
 ```
 TELEGRAM_BOT_TOKEN=123456:ABC-DEF...
 ```
 
-Leave `OWNER_CHAT_ID` empty for now. The first chat that messages the bot claims ownership and
-the id is saved; everyone else is ignored without a reply. Send `/start` yourself straight
-after first launch - the log line "registered bot owner" carries your `chatId` - and put it in
-`.env` to lock it permanently. The owner can let friends in with `/invite`, which creates a
-one-time link.
+את `OWNER_CHAT_ID` משאירים ריק בינתיים. הצ'אט הראשון שכותב לבוט הופך לבעלים, וכל השאר פשוט לא מקבלים תשובה. שלחו `/start` מיד אחרי ההפעלה הראשונה: בלוג תופיע השורה "registered bot owner" עם ה-`chatId` שלכם, ואותו מכניסים ל-`.env` כדי לנעול. הבעלים יכול להכניס חברים עם `/invite`, שיוצר קישור חד-פעמי.
 
-`GEMINI_API_KEY` is optional. Without it the structured sources (Yad2, Madlan, Realta,
-Homeless, OnMap) work as normal and the model-read sources simply stay off. A free key from
-[Google AI Studio](https://aistudio.google.com/apikey) is enough.
+`GEMINI_API_KEY` לא חובה. בלעדיו המקורות המובנים (יד2, מדלן, ריאלטה, הומלס, OnMap) עובדים כרגיל, ורק המקורות שנקראים בעזרת מודל שפה כבויים. מפתח חינמי מ-[Google AI Studio](https://aistudio.google.com/apikey) מספיק.
 
-`SOURCES` picks which boards to read, e.g. `SOURCES=yad2,madlan`. Unset means all of them.
+`SOURCES` קובע מאילו אתרים לקרוא, למשל `SOURCES=yad2,madlan`. אם לא מוגדר, קוראים מכולם.
 
-**3. Run it**
+**3. הפעלה**
 
 ```bash
 npm run dev
 ```
 
-Message your bot `/start` in Telegram, then `/add` to create your first search.
+שולחים לבוט `/start` בטלגרם, ואז `/add` כדי ליצור חיפוש ראשון.
 
-## Commands
+## פקודות
 
-| Command | What it does |
+| פקודה | מה היא עושה |
 | --- | --- |
-| `/add` | Create a search: city → rooms → budget, then optionally streets and must-haves (חניה, מעלית, ללא תיווך, minimum m², keywords) |
-| *free text* | `3 חדרים במודיעין עד 6500 בלי תיווך` - read by Gemini into a filled-in search you confirm with one tap |
-| `/list` | Show saved searches |
-| `/latest` | The market right now as a paged digest - exact matches, near misses, what was already sent - with a button for photo cards |
-| `/remove` | Delete a search |
-| `/pause` · `/resume` | Stop and restart all alerts |
-| `/status` | Uptime, last cycle, per-source health |
-| `/now` | Run a scan immediately |
-| `/quiet 23:00-07:30` | Hold alerts overnight (`/quiet off` to disable) |
-| `/invite` · `/users` | Owner only: hand out a one-time access link, see who has access |
+| `/add` | חיפוש חדש: עיר, חדרים, תקציב, ואפשר גם רחובות ודרישות (חניה, מעלית, ללא תיווך, מינימום מ"ר, מילות מפתח) |
+| *טקסט חופשי* | `3 חדרים במודיעין עד 6500 בלי תיווך`: המודל ממלא את החיפוש ואתם מאשרים בלחיצה |
+| `/list` | החיפושים השמורים |
+| `/latest` | מה יש בשוק עכשיו: התאמות, כמעט-התאמות ומה שכבר נשלח, עם כרטיסים עם תמונות |
+| `/remove` | מחיקת חיפוש |
+| `/pause` · `/resume` | עצירה והפעלה מחדש של כל ההתראות |
+| `/status` | זמן פעילות, הסבב האחרון ומצב כל מקור |
+| `/now` | סריקה עכשיו |
+| `/quiet 23:00-07:30` | שעות שקט בלילה (`/quiet off` לביטול) |
+| `/invite` · `/users` | לבעלים בלבד: קישור הזמנה חד-פעמי, ורשימת מי שיש לו גישה |
 
-Nothing is lost during quiet hours - listings are queued and sent when the window ends.
+שום דבר לא הולך לאיבוד בשעות השקט: הדירות נשמרות בתור ונשלחות כשהחלון נגמר.
 
-## Where the data comes from
+## מאיפה מגיע המידע
 
-No source needs an account except Facebook, and none needs a paid API. Every source sits
-behind one `SourceAdapter` interface ([src/sources/](src/sources/)), so one that breaks or
-blocks is isolated: you get a single "source failing" message, it backs off, and everything
-else keeps running.
+אף מקור לא דורש חשבון חוץ מפייסבוק, ואף אחד לא דורש API בתשלום. כל מקור יושב מאחורי ממשק אחד (`SourceAdapter`, בתיקייה [src/sources/](src/sources/)), כך שמקור שנשבר או נחסם מבודד: מקבלים הודעה אחת שהמקור נכשל, הוא נסוג לזמן מה, וכל השאר ממשיך לרוץ.
 
-### Structured sources - read directly, no model
+### מקורות מובנים: נקראים ישירות, בלי מודל
 
-These sites already publish structured data, so each has a small hand-written parser. They are
-free, exact and fast, and run every cycle.
+לאתרים האלה יש כבר מידע מובנה, אז לכל אחד יש פרסר קטן שנכתב ידנית. הם חינמיים, מדויקים ומהירים, ורצים בכל סבב.
 
-| Source | Endpoint | How it is read | Posting date? |
+| מקור | כתובת | איך נקרא | תאריך פרסום? |
 | --- | --- | --- | --- |
-| **Yad2** | `gw.yad2.co.il/realestate-feed/rent/feed` | The paged list the website itself calls, ordered by last update. Read from the top until a page holds nothing new (usually two pages), so a city of any size is covered in full. | ✅ recovered from photo URLs |
-| **Madlan** | `www.madlan.co.il/api3` | Madlan's own GraphQL API, sorted newest-first nationwide; the city is matched after the fetch. Every 15 min. | ✅ `lastUpdated` |
-| **Realta** | `realta.co.il/api/v1/search/` | Public JSON API; an aggregator of Yad2, Madlan, OnMap, Komo and Facebook Marketplace | ✅ `publishedAt` |
-| **OnMap** | `phoenix.onmap.co.il/v1/properties/mixed_search` | Public JSON API; the city filter is a geographic polygon | ✅ |
-| **Homeless** | `m.homeless.co.il/rent` | The mobile site, plain server-rendered HTML parsed with cheerio | - |
+| **יד2** | `gw.yad2.co.il/realestate-feed/rent/feed` | הרשימה בעמודים שהאתר עצמו קורא, לפי עדכון אחרון. קוראים מלמעלה עד עמוד שאין בו שום דבר חדש (בדרך כלל שני עמודים), כך שגם עיר גדולה מכוסה במלואה. | ✅ מתוך כתובות התמונות |
+| **מדלן** | `www.madlan.co.il/api3` | ה-GraphQL של מדלן, מהחדש לישן בכל הארץ; העיר מסוננת אחרי השליפה. כל 15 דקות. | ✅ `lastUpdated` |
+| **ריאלטה** | `realta.co.il/api/v1/search/` | API ציבורי שמאגד את יד2, מדלן, OnMap, קומו ו-Facebook Marketplace | ✅ `publishedAt` |
+| **OnMap** | `phoenix.onmap.co.il/v1/properties/mixed_search` | API ציבורי; הסינון לפי עיר הוא פוליגון גאוגרפי | ✅ |
+| **הומלס** | `m.homeless.co.il/rent` | האתר למובייל, HTML רגיל שמפוענח עם cheerio | - |
 
-### Every city in Israel
+### כל הערים בישראל
 
-Every locality Yad2 lists (1,178 at the last build) can be searched: type its name in
-`/add`, or write it in a sentence. The list lives in
-[cities.generated.ts](src/core/cities.generated.ts), built by `npm run build-cities` from the
-official locality list on data.gov.il and Yad2's own address search, which supplies the city
-and region codes its API needs. A wrong region code makes Yad2 return an empty city without
-any error, so the codes are never typed by hand. Hand-kept details (other boards' city slugs,
-everyday neighbourhood groupings) live in [cities.ts](src/core/cities.ts) and override the
-generated entry. Regenerating is only needed when Yad2 adds a locality.
+כל יישוב שיד2 מכירה (1,178 בבנייה האחרונה) זמין לחיפוש: כותבים את השם ב-`/add` או בתוך משפט. הרשימה נמצאת ב-[cities.generated.ts](src/core/cities.generated.ts) ונבנית עם `npm run build-cities` מרשימת היישובים הרשמית ב-data.gov.il ומהחיפוש של יד2 עצמה, שנותן את קודי העיר והאזור שה-API שלה צריך. קוד אזור שגוי גורם ליד2 להחזיר עיר ריקה בלי שום שגיאה, ולכן הקודים אף פעם לא מוקלדים ידנית. פרטים שמתוחזקים ביד (שמות הערים באתרים אחרים, אזורים כמו "צפון ראשון") נמצאים ב-[cities.ts](src/core/cities.ts) וגוברים על הרשומה שנוצרה.
 
-### Model-read sources - any page, no per-site parser
+### אתרים שנקראים עם מודל: בלי פרסר לכל אתר
 
-The long tail of Israeli boards has no API, and hand-writing a scraper for each would break on
-every redesign. Instead the page is fetched, reduced to visible text plus candidate links and
-images, and handed to Gemini, which returns structured listings validated with Zod. Adding a
-board is a URL and a display name in [sites.ts](src/sources/generic/sites.ts); a redesign
-degrades quality instead of silently returning nothing. These run hourly - about 120 model
-calls a day, an eighth of the free quota.
+לרוב האתרים הקטנים אין API, וסקרייפר לכל אחד היה נשבר בכל עיצוב מחדש. במקום זה העמוד מצטמצם לטקסט, קישורים ותמונות, ו-Gemini מחזיר מודעות מובנות שעוברות אימות עם Zod. הוספת אתר היא כתובת ושם ב-[sites.ts](src/sources/generic/sites.ts), ועיצוב מחדש של האתר פוגע באיכות במקום להחזיר שקט. הם רצים פעם בשעה: בערך 120 קריאות למודל ביום, שמינית מהמכסה החינמית.
 
-Currently configured: **Komo**, **JAnglo**, **Anglo-Saxon**, **Homely MLS** and **Ktovet
-Modi'in**.
+מוגדרים כרגע: **קומו**, **JAnglo**, **אנגלו סכסון**, **Homely MLS** ו**כתובת מודיעין**.
 
-### Free-text posts - Telegram channels and Facebook groups
+### פוסטים חופשיים: ערוצי טלגרם וקבוצות פייסבוק
 
-Private, broker-free flats often appear here hours before any board, but as free-form Hebrew
-posts. They are batched **ten posts per Gemini call**, and only posts that have never been
-seen are sent, which keeps ten groups under ~100 calls a day instead of ~2,900.
+דירות פרטיות בלי תיווך מופיעות כאן לפעמים שעות לפני כל אתר, אבל כפוסטים חופשיים בעברית. הם נשלחים למודל **עשרה פוסטים בקריאה**, ורק פוסטים שלא נראו קודם, מה שמחזיק עשר קבוצות מתחת ל-100 קריאות ביום במקום 2,900.
 
-- **Telegram** - public channels read through the `t.me/s/<channel>` web preview, which needs
-  no account. Channels are listed per city in [channels.ts](src/sources/telegram/channels.ts);
-  vet a candidate first with `npm run telegram-probe -- <channel>`. Every 20 min.
-- **Facebook groups** - a real, logged-in Chrome profile driven by Playwright. Off by default;
-  see [Enabling Facebook groups](#enabling-facebook-groups). Every 30 min.
+- **טלגרם**: ערוצים ציבוריים דרך התצוגה המקדימה `t.me/s/<channel>`, בלי חשבון. הערוצים מוגדרים לפי עיר ב-[channels.ts](src/sources/telegram/channels.ts); בודקים ערוץ חדש עם `npm run telegram-probe -- <channel>`. כל 20 דקות.
+- **קבוצות פייסבוק**: פרופיל כרום אמיתי ומחובר שמופעל עם Playwright. כבוי כברירת מחדל, ראו [הפעלת קבוצות פייסבוק](#הפעלת-קבוצות-פייסבוק). כל 30 דקות.
 
-Phone numbers are stripped locally before any post text reaches Google and re-attached
-afterwards, so contact details never leave the machine.
+מספרי טלפון נמחקים מקומית לפני שטקסט כלשהו מגיע לגוגל ומוחזרים אחר כך, כך שפרטי קשר לא יוצאים מהמחשב.
 
-### Things discovered the hard way
+### דברים שלמדתי בדרך הקשה
 
-- **The websites are blocked; their APIs are not.** `www.yad2.co.il` answers a Radware
-  challenge, and Madlan's pages and `/api2` are behind PerimeterX - yet the Yad2 gateway and
-  Madlan's `/api3` both answer a plain request. Yad2 insists on `region` (omitting it is a 400)
-  and on `Origin`/`Referer` headers, without which requests get captcha-banned.
-- **Yad2's map endpoint caps a city at 200 ads, and not the newest.** Tel Aviv returned 188
-  of its 4,769. The paged feed has them all, ordered by last update, with a bump counting as
-  one: a new ad starts at the top and sinks as others are bumped, so the bot reads until a
-  page shows nothing new. Yad2 ad numbers only grow, which is how a bumped ad from before a
-  search began is told apart from a new one. Any query parameter beyond `region`, `city` and
-  `page` gets a firewall block record instead of data, so none is ever sent.
-- **Node's default TLS fingerprint is blocked by Cloudflare.** Requests go over HTTP/2 with
-  Chrome's cipher ordering ([src/util/http.ts](src/util/http.ts)); without it every request
-  comes back as a "Just a moment…" challenge, even with perfect browser headers.
-- **Bot-challenge pages are served with HTTP 200.** The body is inspected before the status is
-  trusted, and a detected block is never retried - retrying is what deepens a block. The source
-  backs off exponentially instead and folds itself back in when the site lets it.
-- **Homeless renders its desktop results into a JavaScript iframe**, so the adapter reads the
-  mobile site, which is plain server-rendered HTML.
-- **Sites only serve Israeli IPs properly** - Madlan returns nothing to datacenter IPs. Running
-  on a home connection is a requirement, not a limitation.
+- **האתרים חסומים, ה-API לא.** `www.yad2.co.il` עונה באתגר של Radware, והדפים של מדלן וה-`/api2` שלה מאחורי PerimeterX, אבל ה-gateway של יד2 וה-`/api3` של מדלן עונים לבקשה רגילה. יד2 מתעקשת על `region` (בלעדיו מקבלים 400) ועל כותרות `Origin`/`Referer`, שבלעדיהן מקבלים חסימת captcha.
+- **ה-API של המפה ביד2 מחזיר עד 200 מודעות לעיר, ולא את החדשות.** מתל אביב חזרו 188 מתוך 4,769. הרשימה בעמודים מכילה את כולן, ממוינת לפי עדכון אחרון, כשגם הקפצה נחשבת עדכון: מודעה חדשה מתחילה למעלה ושוקעת כשאחרים מקפיצים. לכן הבוט קורא עד עמוד שאין בו שום דבר חדש. מספרי המודעות ביד2 רק עולים, וכך מבדילים בין מודעה ישנה שהוקפצה למודעה חדשה באמת. כל פרמטר מעבר ל-`region`, `city` ו-`page` מקבל רשומת חסימה של חומת האש במקום מידע, אז לא שולחים אף אחד.
+- **קוד העיר ביד2 הוא ארבע ספרות עם אפסים מובילים.** כפר יונה היא `0168`; שליחה של `168` מחזירה עיר ריקה, עם תשובה תקינה לכל דבר.
+- **טביעת ה-TLS הרגילה של Node חסומה ב-Cloudflare.** הבקשות יוצאות ב-HTTP/2 עם סדר ההצפנות של כרום ([src/util/http.ts](src/util/http.ts)); בלי זה כל בקשה חוזרת כמסך "Just a moment...", גם עם כותרות דפדפן מושלמות.
+- **דפי הגנה מבוטים חוזרים עם 200 OK.** "אין מודעות חדשות" ו"נחסמת" נראים אותו דבר אם לא בודקים את התוכן, ולכן גוף התשובה נבדק לפני הסטטוס, ובקשה שנחסמה אף פעם לא נשלחת שוב.
+- **הומלס מציג את התוצאות במחשב בתוך iframe של JavaScript**, אז הבוט קורא את האתר למובייל, שהוא HTML רגיל.
+- **האתרים עובדים כמו שצריך רק מכתובות IP ישראליות.** מדלן לא מחזירה כלום לכתובות של חוות שרתים, ולכן מריצים מהבית.
 
-Rejected sources, and why:
+מקורות שנפסלו, ולמה:
 
-- **ad.co.il** orders its rental index by "popularity" with no working sort override, so its
-  top results were ads created in **2023**. A board that cannot be asked for its newest
-  listings is useless for alerting.
-- **LuxuryEstate** was reachable and parsed cleanly, but every Modi'in listing it carried was
-  an agency ad at the top of the market.
-- **Immo Israel, data.gov.il, century21, lagur, sublet, homes.co.il** and a dozen others were
-  probed and found dead, empty, or listing-free.
+- **ad.co.il** ממיין לפי "פופולריות" בלי אפשרות למיין לפי תאריך, אז התוצאות הראשונות היו מודעות מ-**2023**. אתר שאי אפשר לבקש ממנו את החדש ביותר לא שווה כלום להתראות.
+- **LuxuryEstate** נקרא טוב, אבל כל המודעות שם היו של משרדי תיווך בקצה היקר של השוק.
+- **Immo Israel, data.gov.il, century21, lagur, sublet, homes.co.il** ועוד עשרות נבדקו ונמצאו מתים, ריקים או בלי מודעות.
 
-## How it works
+## איך זה עובד
+
+</div>
 
 ```
 Scheduler ──▶ PollCycle ──▶ SourceAdapter[] ──▶ filter ──▶ dedupe ──▶ Notifier ──▶ Telegram
-(chained timer, (per search  (concurrent,       (price,    (seen_listings  (queued, quiet-hour
- ±20% jitter)    × city)      isolated)          rooms,     per chat)       aware)
-                                                 areas, age)
 ```
 
-A listing just outside your bounds - up to 10% off the price band, or half a room short or
-over - is sent too, headed **🤏 כמעט מתאים** with the bound it missed. Bounds are guesses about
-the market; a flagged near miss lets you correct the guess instead of never knowing.
+<div dir="rtl">
 
-Guards that apply to every source, each added after a live run got it wrong:
+דירה שנמצאת קצת מחוץ לגבולות, עד 10% מחוץ לטווח המחיר או חצי חדר פחות או יותר, נשלחת גם היא, עם הכותרת **🤏 כמעט מתאים** ומה בדיוק חסר. הגבולות הם ניחוש על השוק, וכמעט-התאמה מסמנת מתי כדאי לעדכן אותם.
 
-- **Posted in the last 30 days.** Where a source publishes a date it is applied directly. Most
-  boards publish no date at all, so a source's whole back catalogue is seeded **silently on
-  first sight** - only what appears afterwards can alert. That is what actually stopped the
-  2023 listings, and it is why adding a source never floods you.
-- **Residential only** - storage units, parking spaces, offices and shops are filtered out.
-- **One alert per apartment.** The same flat appears on several boards, so listings are also
-  fingerprinted across sources by price, rooms and size or address. The fingerprint refuses to
-  merge when those fields are incomplete: a duplicate is better than a silently dropped flat.
-- **No price, no alert.** "מחיר לא צוין" is almost always a broker withholding the figure.
+ההגנות שחלות על כל מקור, כל אחת נוספה אחרי שריצה אמיתית נכשלה בלעדיה:
 
-State lives in SQLite (`better-sqlite3`, WAL mode) with append-only migrations. Per-source
-cadence is stored against the clock, not counted in memory, so restarts never make a slow
-source run early.
+- **פורסם ב-30 הימים האחרונים**, איפה שהמקור מפרסם תאריך. רוב האתרים לא מפרסמים, ולכן המלאי הקיים של מקור נרשם **בשקט בפעם הראשונה**, ורק מה שמופיע אחר כך מתריע.
+- **רק למגורים**: מחסנים, חניות, משרדים וחנויות מסוננים.
+- **התראה אחת לכל דירה**: אותה דירה מופיעה בכמה אתרים, אז מודעות מזוהות גם לפי מחיר, חדרים וגודל או רחוב. כשחסר מידע לא ממזגים: עדיף כפילות מאשר דירה אמיתית שנעלמה.
+- **בלי מחיר, בלי התראה.** "מחיר לא צוין" הוא כמעט תמיד מתווך שמסתיר.
+- **מודעה ישנה שהוקפצה לא מתריעה**: הבוט זוכר את מספר המודעה הגבוה ביותר מהרגע שהחיפוש התחיל, וכל מה שמתחתיו נרשם בשקט.
 
-## Running it 24/7
+לפרטים על המבנה ועל הכללים בקוד: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-See [ops/install-service.md](ops/install-service.md) to install it as a Windows service that
-starts at boot and restarts itself if it crashes.
+## הרצה 24/7
 
-## Checking the sources still work
+ב-[ops/install-service.md](ops/install-service.md) יש הוראות להתקנה כשירות Windows שעולה עם המחשב ומתאושש לבד מקריסות.
+
+## בדיקה שהמקורות עובדים
+
+</div>
 
 ```bash
 npm run probe              # every source, live, for Modi'in
 npm run probe -- rishon    # another city
 ```
 
-Fetches every source live and prints what came back, without touching the database or Telegram.
-Run this first whenever alerts go quiet - it tells you immediately whether a site changed its
-markup or started blocking you. Don't run it in a loop: repeated probing is exactly what trips
-a site's rate limit.
+<div dir="rtl">
 
-## Tests
+שולף מכל מקור ומדפיס מה חזר, בלי לגעת במסד הנתונים או בטלגרם. זה הדבר הראשון לבדוק כשההתראות משתתקות. לא להריץ בלולאה: בדיקות חוזרות הן בדיוק מה שמפעיל הגבלות קצב.
+
+## בדיקות
+
+</div>
 
 ```bash
 npm test
 npm run typecheck
 ```
 
-Parsers are tested against real captured responses in `test/fixtures/`, so a site changing its
-markup shows up as a failing test rather than a silent empty result. Personal contact details
-in the fixtures have been replaced with placeholders.
+<div dir="rtl">
 
-## Enabling Facebook groups
+הפרסרים נבדקים מול תשובות אמיתיות שנשמרו ב-`test/fixtures/` (אחרי שנוקו מפרטים אישיים), כך ששינוי באתר מופיע כבדיקה שנכשלה ולא כשקט.
 
-Groups are where private, broker-free flats appear first. Reading them needs your own logged-in
-session, so it is off until you switch it on:
+## הפעלת קבוצות פייסבוק
 
-**1. Add your Gemini key** to `.env` (`GEMINI_API_KEY=…`). It turns free-text Hebrew posts
-into structured listings.
+בקבוצות מופיעות קודם הדירות הפרטיות בלי תיווך. קריאה שלהן דורשת את החשבון שלכם, אז זה כבוי עד שמפעילים:
 
-**2. Log in once:**
+**1. מוסיפים מפתח Gemini** ל-`.env` (`GEMINI_API_KEY=...`). הוא הופך פוסטים חופשיים בעברית למודעות מובנות.
 
-```bash
-npm run fb-login
-```
+**2. מתחברים פעם אחת:** מריצים `npm run fb-login`. נפתח חלון כרום עם הפרופיל של הבוט בתיקייה `.fb-profile/` (שלא נכנסת ל-git). מתחברים ידנית, הבוט לא רואה את הסיסמה, וסוגרים את החלון. הסקריפט בודק את החיבור ומדפיס **PASS** או **FAIL**.
 
-A Chrome window opens against the bot's own profile in `.fb-profile/` (gitignored). Sign in by
-hand - the bot never sees your password - then close the window. The script then checks the
-saved session headlessly and prints **PASS** or **FAIL**, so you know before the bot does.
+**3. מפעילים:** `FACEBOOK_ENABLED=1` ב-`.env`, ומפעילים את הבוט מחדש.
 
-**3. Switch it on:** set `FACEBOOK_ENABLED=1` in `.env` and restart the bot. A profile directory
-alone is not proof of a live session, so nothing runs until you say so.
+**4. בודקים את רשימת הקבוצות** ב-[src/sources/facebook/fbGroups.ts](src/sources/facebook/fbGroups.ts). הבוט יכול לקרוא רק קבוצות שהחשבון שלכם חבר בהן.
 
-**4. Check the group list** in [src/sources/facebook/fbGroups.ts](src/sources/facebook/fbGroups.ts).
-The bot can only read groups your account is a member of.
+הקבוצות נקראות מהחדש לישן, בגלילה בקצב אנושי. פוסטים של "מחפש דירה" מזוהים ולא נשלחים. אם החיבור פג, הבוט שולח הודעה אחת עם הפקודה להרצה ונסוג עד שהחיבור חוזר.
 
-Groups are read newest-first with human-paced scrolling. "Looking for a flat" posts are
-recognised and dropped rather than sent as listings. If the session expires the bot sends you
-one message with the command to run, backs the source off, and announces when it is back.
+**כדאי לדעת:** קריאה אוטומטית היא נגד תנאי השימוש של פייסבוק, והסיכון הוא על החשבון שהתחברתם איתו. הקצב האיטי והפרופיל האמיתי מקטינים אותו, אבל לא מאפסים.
 
-**Worth knowing:** automated reading is against Facebook's terms, and the risk lands on the
-account you logged in with. The slow cadence and real-Chrome profile keep that risk low but
-not zero.
+## רישיון
+
+MIT, ראו [LICENSE](LICENSE).
+
+</div>
