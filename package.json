@@ -15,7 +15,8 @@
     "fb-login": "tsx scripts/fb-login.ts",
     "extract-test": "tsx scripts/extract-test.ts",
     "setup-bot": "tsx scripts/setup-bot.ts",
-    "telegram-probe": "tsx scripts/telegram-probe.ts"
+    "telegram-probe": "tsx scripts/telegram-probe.ts",
+    "build-cities": "tsx scripts/build-cities.ts"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",

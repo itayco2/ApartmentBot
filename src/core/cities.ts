@@ -1,4 +1,5 @@
 import type { CityEntry } from './types.js';
+import { GENERATED_CITIES } from './cities.generated.js';
 
 /**
  * Hebrew city names are written inconsistently across sites
@@ -50,11 +51,11 @@ export function normalizePlace(raw: string): string {
 }
 
 /**
- * Cities the /add wizard offers. Homeless and Madlan work for any Israeli
- * city because their URLs derive from the name, so adding one here is just a
- * convenience - plus the place to record source-specific codes when known.
+ * Cities kept by hand. Their keys are stored on saved searches and must never change, and
+ * they carry what no generator can produce: other boards' slugs, Homeless regions, the
+ * everyday short names. They are listed first wherever cities are offered.
  */
-export const CITIES: CityEntry[] = [
+export const CURATED_CITIES: CityEntry[] = [
   {
     key: 'modiin',
     name: 'מודיעין מכבים רעות',
@@ -112,6 +113,67 @@ export const CITIES: CityEntry[] = [
   { key: 'raanana', name: 'רעננה', aliases: [], yad2CityCode: 8700, yad2RegionCode: 1 },
   { key: 'shoham', name: 'שוהם', aliases: [], yad2CityCode: 1304, yad2RegionCode: 1 },
 ];
+
+/**
+ * Every city the bot can watch: every locality Yad2 lists, from the generated registry,
+ * with the curated entries laid over their own cities. Never hand-type a Yad2 code: a wrong
+ * region makes Yad2 return an empty city with HTTP 200, so the codes come from Yad2 itself
+ * (`npm run build-cities`).
+ */
+export const CITIES: CityEntry[] = mergeCities(GENERATED_CITIES, CURATED_CITIES);
+
+/**
+ * Lays curated entries over the generated ones by Yad2 city code. The curated key, name
+ * and slugs win, and the generated spellings join the aliases. Curated cities come first
+ * and the rest follow alphabetically, which is the order searchCities keeps within a tier.
+ */
+export function mergeCities(generated: CityEntry[], curated: CityEntry[]): CityEntry[] {
+  const generatedByCode = new Map<number, CityEntry>();
+  for (const city of generated) {
+    if (city.yad2CityCode !== undefined) generatedByCode.set(city.yad2CityCode, city);
+  }
+
+  const merged = curated.map((city) => {
+    const twin = city.yad2CityCode === undefined ? undefined : generatedByCode.get(city.yad2CityCode);
+    if (!twin) return city;
+    return { ...twin, ...city, aliases: [...new Set([...city.aliases, twin.name, ...twin.aliases])] };
+  });
+
+  const curatedCodes = new Set(curated.map((c) => c.yad2CityCode));
+  const curatedKeys = new Set(curated.map((c) => c.key));
+  const rest = generated
+    .filter((city) => !curatedCodes.has(city.yad2CityCode))
+    .map((city) => (curatedKeys.has(city.key) ? { ...city, key: `${city.key}-${city.yad2CityCode}` } : city))
+    .sort((a, b) => a.name.localeCompare(b.name, 'he'));
+
+  return withOneCityPerSpelling([...merged, ...rest]);
+}
+
+/**
+ * Drops any alias that another city's name, or an earlier city's alias, already claims.
+ * Two cities answering to one spelling would make both searchCities and
+ * listingCityMatches ambiguous.
+ */
+function withOneCityPerSpelling(cities: CityEntry[]): CityEntry[] {
+  const owner = new Map<string, string>();
+  for (const city of cities) {
+    const name = normalizeCityName(city.name);
+    if (!owner.has(name)) owner.set(name, city.key);
+  }
+
+  return cities.map((city) => {
+    const ownName = normalizeCityName(city.name);
+    const aliases = city.aliases.filter((alias) => {
+      const spelling = normalizeCityName(alias);
+      if (spelling === ownName) return false;
+      const claimant = owner.get(spelling);
+      if (claimant !== undefined && claimant !== city.key) return false;
+      owner.set(spelling, city.key);
+      return true;
+    });
+    return aliases.length === city.aliases.length ? city : { ...city, aliases };
+  });
+}
 
 export function findCityByKey(key: string): CityEntry | undefined {
   return CITIES.find((c) => c.key === key);
