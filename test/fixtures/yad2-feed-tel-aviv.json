@@ -1,0 +1,5035 @@
+{
+  "data": {
+    "private": [
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון החדש - החלק הדרומי"
+          },
+          "street": {
+            "text": "פישמן מיימון"
+          },
+          "house": {
+            "number": 18,
+            "floor": 1
+          },
+          "coords": {
+            "lat": 32.082358,
+            "lon": 34.787412
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9000,
+        "token": "blvd1s31",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 90,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010082_20260712151412.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010082_20260712151412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010330_20260712151447.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010210_20260712151447.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010136_20260712151447.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010628_20260712151448.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010814_20260712151448.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010547_20260712151447.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_1pa_010170_20260712151448.jpeg"
+          ],
+          "squareMeterBuild": 90
+        },
+        "tags": [
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1012,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "orderId": 57217275,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "רמת אביב ג'"
+          },
+          "street": {
+            "text": "מאיר פיינשטיין"
+          },
+          "house": {
+            "number": 7,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.799001,
+            "lat": 32.128213
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 23500,
+        "token": "0tcq75jt",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 6.5,
+          "squareMeter": 350,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/08/2_2/o/y2_1_03714_20260808104229.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/08/2_2/o/y2_1_03714_20260808104229.jpeg",
+            "https://img.yad2.co.il/Pic/202607/13/2_2/o/y2_1pa_010392_20260713235253.jpeg",
+            "https://img.yad2.co.il/Pic/202608/08/2_2/o/y2_3_09936_20260808104232.jpeg",
+            "https://img.yad2.co.il/Pic/202607/13/2_2/o/y2_1pa_010677_20260713235603.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_5_03215_20260812142848.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_6_07788_20260812142851.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_7_09780_20260812142854.jpeg",
+            "https://img.yad2.co.il/Pic/202608/12/2_2/o/y2_8_02559_20260812142856.jpeg"
+          ],
+          "squareMeterBuild": 250
+        },
+        "tags": [
+          {
+            "name": "נכס עורפי",
+            "id": 1002,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "4 חדרי מקלחת",
+            "id": 1011,
+            "priority": 1
+          }
+        ],
+        "orderId": 57225970,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הדרומי"
+          },
+          "street": {
+            "text": "מצפה"
+          },
+          "house": {
+            "number": 4,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 34.778594,
+            "lat": 32.079944
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 10800,
+        "token": "exz0k1xx",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 100,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1_04912_20260711165134.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_1_04912_20260711165134.jpeg",
+            "https://img.yad2.co.il/Pic/202607/11/2_2/o/y2_2_02044_20260711171458.jpeg",
+            "https://img.yad2.co.il/Pic/202607/13/2_2/o/y2_3_09528_20260713093643.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_4_06173_20260712133447.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_5_05066_20260712133450.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_6_05584_20260712133453.jpeg",
+            "https://img.yad2.co.il/Pic/202607/12/2_2/o/y2_7_01580_20260712133456.jpeg",
+            "https://img.yad2.co.il/Pic/202607/13/2_2/o/y2_8_06962_20260713093647.jpeg",
+            "https://img.yad2.co.il/Pic/202607/13/2_2/o/y2_9_03130_20260713093651.jpeg",
+            "https://img.yad2.co.il/Pic/202607/13/2_2/o/y2_10_05673_20260713093654.jpeg"
+          ],
+          "squareMeterBuild": 100
+        },
+        "tags": [
+          {
+            "name": "3 כיווני אוויר",
+            "id": 1007,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1012,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          }
+        ],
+        "priceBeforeTag": 11100,
+        "orderId": 57162860,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון החדש -החלק הצפוני"
+          },
+          "street": {
+            "text": "אבן גבירול"
+          },
+          "house": {
+            "number": 186,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.783762,
+            "lat": 32.09446
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 6700,
+        "token": "0vrt5lcx",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2,
+          "squareMeter": 45,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_1_03825_20260902115308.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_1_03825_20260902115308.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_2_05993_20260902115312.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_3_07725_20260902115317.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_4_05573_20260902115321.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_5_07624_20260902115325.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_6_07803_20260902115330.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_7_02454_20260902115335.jpeg",
+            "https://img.yad2.co.il/Pic/202609/02/2_2/o/y2_8_04484_20260902115340.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "3 כיווני אוויר",
+            "id": 1007,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "orderId": 57420107,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "תל ברוך"
+          },
+          "street": {
+            "text": "יגאל מוסינזון"
+          },
+          "house": {
+            "number": 36,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.818351,
+            "lat": 32.120913
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 26000,
+        "token": "lo92mp08",
+        "additionalDetails": {
+          "property": {
+            "text": "בית פרטי/ קוטג'"
+          },
+          "roomsCount": 7,
+          "squareMeter": 350,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010381_20260630192635.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010381_20260630192635.jpeg",
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010167_20260630192636.jpeg",
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010528_20260630192636.jpeg",
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010149_20260630192637.jpeg",
+            "https://img.yad2.co.il/Pic/202606/30/2_2/o/y2_1pa_010243_20260630192638.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "4 חדרי מקלחת",
+            "id": 1011,
+            "priority": 1
+          },
+          {
+            "name": "3 מרפסות",
+            "id": 1013,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          }
+        ],
+        "orderId": 57162736,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "אבן גבירול"
+          },
+          "house": {
+            "number": 109,
+            "floor": 3
+          },
+          "coords": {
+            "lat": 32.087063,
+            "lon": 34.781837
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9000,
+        "token": "clx88w90",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 67,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_1_03488_20260831093857.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_1_03488_20260831093857.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_2_06286_20260831093901.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_3_06794_20260831093904.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_4_01678_20260831093907.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_5_04853_20260831093911.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_6_02455_20260831093914.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_7_09083_20260831093918.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_8_03693_20260831093921.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_9_08162_20260831093924.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_2/o/y2_10_06055_20260831093928.jpeg"
+          ],
+          "squareMeterBuild": 67
+        },
+        "tags": [
+          {
+            "name": "נכס עורפי",
+            "id": 1002,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "priceBeforeTag": 9300,
+        "orderId": 57312653,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "עזרא, הארגזים"
+          },
+          "street": {
+            "text": "אב"
+          },
+          "house": {
+            "number": 11,
+            "floor": 1
+          },
+          "coords": {
+            "lat": 32.043169,
+            "lon": 34.791148
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 3200,
+        "token": "z3i1jz6f",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 2,
+          "squareMeter": 30,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010342_20260525082634.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010342_20260525082634.jpeg",
+            "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010000_20260525082634.jpeg",
+            "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010331_20260525082634.jpeg",
+            "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010692_20260525082636.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "חבל לפספס",
+            "id": 1092,
+            "priority": 10
+          },
+          {
+            "name": "ייחודי",
+            "id": 1093,
+            "priority": 10
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "orderId": 56986272,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "בבלי"
+          },
+          "street": {
+            "text": "הרב קוסובסקי"
+          },
+          "house": {
+            "number": 48,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.799687,
+            "lat": 32.098576
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 10500,
+        "token": "x0qik284",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 2,
+          "squareMeter": 68,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/08/2_2/o/y2_1pa_010890_20260708074035.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/08/2_2/o/y2_1pa_010890_20260708074035.jpeg",
+            "https://img.yad2.co.il/Pic/202607/08/2_2/o/y2_1pa_010990_20260708074043.jpeg",
+            "https://img.yad2.co.il/Pic/202607/08/2_2/o/y2_1pa_010183_20260708074043.jpeg",
+            "https://img.yad2.co.il/Pic/202607/08/2_2/o/y2_1pa_010887_20260708074043.jpeg"
+          ],
+          "squareMeterBuild": 63
+        },
+        "tags": [
+          {
+            "name": "חדש מקבלן",
+            "id": 1000,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          }
+        ],
+        "priceBeforeTag": 11000,
+        "orderId": 57198581,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "כפיר, נווה כפיר"
+          },
+          "street": {
+            "text": "מח\"ל"
+          },
+          "house": {
+            "number": 38,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.805623,
+            "lat": 32.048923
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 0,
+        "token": "ym0mr567",
+        "additionalDetails": {
+          "property": {
+            "text": "יחידת דיור"
+          },
+          "roomsCount": 1,
+          "squareMeter": 30,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/21/2_2/o/y2_2_06582_20260921213558.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/21/2_2/o/y2_2_06582_20260921213558.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_tamqgvel/format/url/protocol/http",
+          "squareMeterBuild": 40
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1092,
+            "priority": 10
+          }
+        ],
+        "orderId": 57090419,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הדרומי"
+          },
+          "street": {
+            "text": "גורדון"
+          },
+          "house": {
+            "number": 31,
+            "floor": 1
+          },
+          "coords": {
+            "lat": 32.082048,
+            "lon": 34.77295
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 12500,
+        "token": "601963fk",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 104,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_1_07583_20260809212653.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_1_07583_20260809212653.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_2_03042_20260809212850.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_3_05101_20260809212853.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_4_03369_20260809212856.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_5_01795_20260809212858.jpeg",
+            "https://img.yad2.co.il/Pic/202608/09/2_2/o/y2_7_04785_20260809212904.jpeg"
+          ],
+          "squareMeterBuild": 94
+        },
+        "tags": [
+          {
+            "name": "נכס עורפי",
+            "id": 1002,
+            "priority": 1
+          },
+          {
+            "name": "3 כיווני אוויר",
+            "id": 1007,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1012,
+            "priority": 1
+          }
+        ],
+        "orderId": 57320158,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון החדש -החלק הצפוני"
+          },
+          "street": {
+            "text": "דה האז"
+          },
+          "house": {
+            "number": 4,
+            "floor": 4
+          },
+          "coords": {
+            "lat": 32.093636,
+            "lon": 34.784381
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 15000,
+        "token": "va979s2f",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 100,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1_09448_20260922095222.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1_09448_20260922095222.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_2_03128_20260922095230.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_3_08450_20260922095234.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_4_07166_20260922095238.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_5_09951_20260922095242.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_6_02678_20260922095249.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_7_05965_20260922095253.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_8_07827_20260922095257.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_9_07207_20260922095324.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_10_09718_20260922095337.jpeg"
+          ],
+          "squareMeterBuild": 100
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לפארק",
+            "id": 1005,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          }
+        ],
+        "orderId": 57523637,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "שער ציון"
+          },
+          "house": {
+            "number": 7,
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.773719,
+            "lat": 32.095794
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 60000,
+        "token": "n069yzlu",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3.5,
+          "squareMeter": 160,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010748_20260922133753.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010748_20260922133753.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010957_20260922133805.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010998_20260922133814.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010551_20260922133824.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010825_20260922133842.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010313_20260922133853.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010025_20260922133906.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010292_20260922133922.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010859_20260922133933.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_2/o/y2_1pa_010548_20260922133947.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202609/22/2_2/o/y2_1_010538_20260922134212.mp4",
+          "squareMeterBuild": 160
+        },
+        "tags": [
+          {
+            "name": "חדש מקבלן",
+            "id": 1000,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          }
+        ],
+        "orderId": 57525522,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "מכללת תל אביב יפו, דקר"
+          },
+          "street": {
+            "text": "נחל שורק"
+          },
+          "house": {
+            "number": 18,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.76063,
+            "lat": 32.039202
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 0,
+        "token": "p3h0ns28",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 2.5,
+          "squareMeter": 140,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010219_20260914190522.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010219_20260914190522.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010629_20260914190531.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010929_20260914190537.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010912_20260914190547.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010669_20260914190554.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010885_20260914190606.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010752_20260914190615.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010585_20260914190627.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010157_20260914190633.jpeg"
+          ],
+          "squareMeterBuild": 60
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "4 כיווני אוויר",
+            "id": 1008,
+            "priority": 1
+          }
+        ],
+        "orderId": 57500752,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "נווה עופר, תל כביר"
+          },
+          "street": {
+            "text": "אירוס"
+          },
+          "house": {
+            "number": 11,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.768167,
+            "lat": 32.038122
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 5200,
+        "token": "v2ugvl0z",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010328_20260910111015.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010328_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010330_20260910111016.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010110_20260910111014.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010449_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010628_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010094_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010320_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010789_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010599_20260910111015.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_2/o/y2_1pa_010767_20260910111015.jpeg"
+          ],
+          "squareMeterBuild": 70
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לפארק",
+            "id": 1005,
+            "priority": 1
+          },
+          {
+            "name": "3 כיווני אוויר",
+            "id": 1007,
+            "priority": 1
+          }
+        ],
+        "orderId": 57489194,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "זלטופולסקי"
+          },
+          "house": {
+            "number": 24,
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.772959,
+            "lat": 32.089277
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 14000,
+        "token": "j48youh4",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 120,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010879_20260916181453.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010879_20260916181453.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010342_20260916181455.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010691_20260916181513.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010271_20260916181513.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010709_20260916181513.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010680_20260916181546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010056_20260916181546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010356_20260916181606.jpeg",
+            "https://img.yad2.co.il/Pic/202609/16/2_2/o/y2_1pa_010037_20260916181615.jpeg"
+          ],
+          "squareMeterBuild": 120
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1092,
+            "priority": 10
+          }
+        ],
+        "orderId": 57511024,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "צפון יפו, המושבה האמריקאית-גרמנית"
+          },
+          "street": {
+            "text": "הדואר"
+          },
+          "house": {
+            "number": 12,
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.759266,
+            "lat": 32.055398
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 8900,
+        "token": "h9ahibix",
+        "additionalDetails": {
+          "property": {
+            "text": "מרתף/ פרטר"
+          },
+          "roomsCount": 4,
+          "squareMeter": 150,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1_09007_20260816142424.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_1_09007_20260816142424.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_2_04346_20260816142425.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_3_07463_20260816145120.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_4_08220_20260816135814.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_5_05857_20260816135801.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_6_06252_20260816135801.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_7_07257_20260816135814.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_8_07900_20260816135801.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_9_07807_20260816135804.jpeg",
+            "https://img.yad2.co.il/Pic/202608/16/2_2/o/y2_10_07099_20260816135811.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "נכס עורפי",
+            "id": 1002,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1092,
+            "priority": 10
+          }
+        ],
+        "orderId": 57374872,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "התקוה, בית יעקב, נווה צה\"ל"
+          },
+          "street": {
+            "text": "דורון"
+          },
+          "house": {
+            "number": 16,
+            "floor": 1
+          },
+          "coords": {
+            "lat": 32.052719,
+            "lon": 34.788756
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 9500,
+        "token": "dy4xo3p5",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 120,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_1_07977_20260918084318.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_1_07977_20260918084318.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_2_07814_20260918084340.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_3_07463_20260918084357.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_4_01105_20260918084411.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_5_08178_20260918084422.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_6_04634_20260918084529.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_7_02519_20260918084542.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_8_02117_20260918084608.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_9_04023_20260918084624.jpeg",
+            "https://img.yad2.co.il/Pic/202609/18/2_2/o/y2_10_02859_20260918084448.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_nc5kqbg5/format/url/protocol/http"
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1001,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לעיר",
+            "id": 1006,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1009,
+            "priority": 1
+          }
+        ],
+        "orderId": 57514939,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "קרית שלום"
+          },
+          "street": {
+            "text": "חנה מרון "
+          },
+          "house": {
+            "number": 19,
+            "floor": 2
+          },
+          "coords": {
+            "lon": 34.775314,
+            "lat": 32.048201
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 11500,
+        "token": "0ewn0f0z",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 121,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010690_20260914144607.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010690_20260914144607.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010819_20260914144647.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010384_20260914144648.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010032_20260914144648.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010705_20260914144648.jpeg",
+            "https://img.yad2.co.il/Pic/202609/14/2_2/o/y2_1pa_010611_20260914144648.jpeg"
+          ],
+          "squareMeterBuild": 121
+        },
+        "tags": [
+          {
+            "name": "חדש מקבלן",
+            "id": 1000,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1012,
+            "priority": 1
+          }
+        ],
+        "orderId": 57499110,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "צפון יפו, המושבה האמריקאית-גרמנית"
+          },
+          "street": {
+            "text": "אפ\"ק"
+          },
+          "house": {
+            "number": 2,
+            "floor": 5
+          },
+          "coords": {
+            "lon": 34.760096,
+            "lat": 32.05657
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 5500,
+        "token": "9zqw2pb4",
+        "additionalDetails": {
+          "property": {
+            "text": "סטודיו/ לופט"
+          },
+          "roomsCount": 1,
+          "squareMeter": 30,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_1_09442_20260727141259.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_1_09442_20260727141259.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_2_08990_20260727160725.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_3_05228_20260727160728.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_4_09871_20260727160732.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_5_08796_20260727160735.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_6_05985_20260727160739.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_7_07078_20260727160747.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_2/o/y2_9_03713_20260727160753.jpeg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_tzwsbkjt/format/url/protocol/http",
+          "squareMeterBuild": 30
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1003,
+            "priority": 1
+          },
+          {
+            "name": "נוף פתוח לים",
+            "id": 1004,
+            "priority": 1
+          },
+          {
+            "name": "2 מרפסות",
+            "id": 1012,
+            "priority": 1
+          }
+        ],
+        "orderId": 57285879,
+        "priority": 3
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "רבי משה בן עזרא"
+          },
+          "house": {
+            "number": 3,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.779834,
+            "lat": 32.083682
+          }
+        },
+        "subcategoryId": 2,
+        "categoryId": 2,
+        "adType": "private",
+        "price": 7900,
+        "token": "b1x13r79",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2.5,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010505_20260913163023.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010505_20260913163023.jpeg",
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010071_20260913163023.jpeg",
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010564_20260913163011.jpeg",
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010439_20260913163011.jpeg",
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010702_20260913163011.jpeg",
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010025_20260913163011.jpeg",
+            "https://img.yad2.co.il/Pic/202609/13/2_2/o/y2_1pa_010577_20260913163023.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "נכס עורפי",
+            "id": 1002,
+            "priority": 1
+          },
+          {
+            "name": "3 כיווני אוויר",
+            "id": 1007,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1091,
+            "priority": 10
+          }
+        ],
+        "orderId": 57495342,
+        "priority": 3
+      }
+    ],
+    "agency": [
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "פלורנטין"
+          },
+          "street": {
+            "text": "הרב יצחק ידידיה פרנקל"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lat": 32.0569990843374,
+            "lon": 34.7709777108434
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 4800,
+        "token": "dhv6v440",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2,
+          "squareMeter": 60,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/22/2_6/o/y2_1pa_010949_20260922181238.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/22/2_6/o/y2_1pa_010949_20260922181238.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_6/o/y2_1pa_010899_20260922181310.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_6/o/y2_1pa_010821_20260922181313.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_6/o/y2_1pa_010987_20260922181319.jpeg",
+            "https://img.yad2.co.il/Pic/202609/22/2_6/o/y2_1pa_010914_20260922181323.jpeg"
+          ],
+          "squareMeterBuild": 60
+        },
+        "tags": [
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          },
+          {
+            "name": "ייחודי",
+            "id": 1293,
+            "priority": 10
+          }
+        ],
+        "orderId": 57527208,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "אזורי חן, גימל החדשה"
+          },
+          "street": {
+            "text": "אליהו ברלין"
+          },
+          "house": {
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.7930149230769,
+            "lat": 32.1239713076923
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 12200,
+        "token": "faoiw21h",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 102,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010373_20260828153614.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010373_20260828153614.jpeg",
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010128_20260828154258.jpeg",
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010648_20260828153614.jpeg",
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010103_20260828153214.jpeg",
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010980_20260828153301.jpeg",
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010470_20260828153506.jpeg",
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_1pa_010951_20260828154231.jpeg"
+          ],
+          "squareMeterBuild": 95
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          }
+        ],
+        "orderId": 57433781,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "צמרות איילון, פארק צמרת"
+          },
+          "street": {
+            "text": "ניסים אלוני"
+          },
+          "house": {
+            "floor": 16
+          },
+          "coords": {
+            "lon": 34.7968812105263,
+            "lat": 32.0891571578947
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 12800,
+        "token": "ozagn1ra",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 124,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_010631_20260810144046.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_010631_20260810144046.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_010514_20260810144053.jpeg",
+            "https://img.yad2.co.il/Pic/202608/10/2_6/o/y2_1pa_010004_20260810144059.jpeg"
+          ],
+          "squareMeterBuild": 116
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57351728,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.797374,
+            "lat": 32.087667
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 3650000,
+        "token": "wxhvuuq6",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 68,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "inProperty": {
+          "isAssetExclusive": true
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010030_20260827142519.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010030_20260827142519.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010800_20260827142518.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010008_20260827142518.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010633_20260827142518.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010663_20260827142523.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010771_20260827142518.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010864_20260827142518.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010006_20260827142524.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010710_20260827142523.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010285_20260827142524.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010141_20260827142523.jpeg",
+            "https://img.yad2.co.il/Pic/202608/27/2_6/o/y2_1pa_010232_20260827142525.jpeg"
+          ],
+          "squareMeterBuild": 68
+        },
+        "tags": [
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          },
+          {
+            "name": "ייחודי",
+            "id": 1293,
+            "priority": 10
+          }
+        ],
+        "orderId": 57429581,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "פלורנטין"
+          },
+          "street": {
+            "text": "רענן"
+          },
+          "house": {
+            "number": 33,
+            "floor": 0
+          },
+          "coords": {
+            "lat": 32.058136,
+            "lon": 34.76924
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 3800,
+        "token": "igwhsm77",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2,
+          "squareMeter": 45,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1_nNwBE1604L_20260906.jpg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1_nNwBE1604L_20260906.jpg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_2_gJ4OLES2WU_20260906.jpg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_3_0VvLYyoSjA_20260906.jpg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_4_XluYbk_6zY_20260906.jpg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_5_mfwrGM6q0D_20260906.jpg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_6_nSRoMCQzte_20260906.jpg"
+          ],
+          "video": "//yad2.cdnwiz.com/p/102/sp/10200/playManifest/entryId/0_i90czosl/format/url/protocol/http",
+          "squareMeterBuild": 45
+        },
+        "tags": [
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "orderId": 55235767,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "שלמה המלך"
+          },
+          "house": {
+            "floor": 2
+          },
+          "coords": {
+            "lon": 34.7776111130435,
+            "lat": 32.0810372608696
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 10500,
+        "token": "2vomrecm",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010255_20260910160032.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010255_20260910160032.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010712_20260910160035.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010709_20260910160033.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010316_20260910160034.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010073_20260910160031.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010210_20260910160034.jpeg"
+          ],
+          "squareMeterBuild": 70
+        },
+        "tags": [
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          },
+          {
+            "name": "ייחודי",
+            "id": 1293,
+            "priority": 10
+          }
+        ],
+        "orderId": 57490482,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הדרומי"
+          },
+          "house": {
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.774099,
+            "lat": 32.078333
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 16800,
+        "token": "yqj7qt2i",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 118,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010927_20260915234428.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010927_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010580_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010718_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010649_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010391_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010818_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010881_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010474_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010459_20260915234428.jpeg",
+            "https://img.yad2.co.il/Pic/202609/15/2_6/o/y2_1pa_010856_20260915234518.jpeg"
+          ]
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57507230,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "נווה אביבים"
+          },
+          "house": {
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.797324,
+            "lat": 32.117652
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 12900,
+        "token": "ahibait1",
+        "additionalDetails": {
+          "property": {
+            "text": "גג/ פנטהאוז"
+          },
+          "roomsCount": 4,
+          "squareMeter": 140,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010729_20260901160733.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010729_20260901160733.jpeg",
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010849_20260901160738.jpeg",
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010773_20260901160742.jpeg",
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010545_20260901160747.jpeg",
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010024_20260901160752.jpeg",
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010139_20260901160800.jpeg",
+            "https://img.yad2.co.il/Pic/202609/01/2_6/o/y2_1pa_010054_20260901160810.jpeg"
+          ],
+          "squareMeterBuild": 100
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "orderId": 57450721,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "ירמיהו"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.7763636226415,
+            "lat": 32.0949293773585
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 8750,
+        "token": "2j7cixvq",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2.5,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010789_20260910154755.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010789_20260910154755.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010322_20260910154709.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010974_20260910154827.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010587_20260910154906.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010415_20260910154906.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010004_20260910154916.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010875_20260910154948.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010378_20260910154948.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010549_20260910154948.jpeg",
+            "https://img.yad2.co.il/Pic/202609/10/2_6/o/y2_1pa_010413_20260910154948.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202609/10/2_6/o/y2_1_010445_20260910154533.mp4",
+          "squareMeterBuild": 70
+        },
+        "tags": [
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          },
+          {
+            "name": "ייחודי",
+            "id": 1293,
+            "priority": 10
+          }
+        ],
+        "orderId": 57490439,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "בבלי"
+          },
+          "street": {
+            "text": "הרב ניסים"
+          },
+          "house": {
+            "number": 7,
+            "floor": 20
+          },
+          "coords": {
+            "lon": 34.79925,
+            "lat": 32.092211
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 29000,
+        "token": "8xseo701",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 6,
+          "squareMeter": 194,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010984_20260315145453.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010984_20260315145453.jpeg",
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010971_20260315145453.jpeg",
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010514_20260315145453.jpeg",
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010767_20260315145453.jpeg",
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010913_20260315145453.jpeg",
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010742_20260315145453.jpeg",
+            "https://img.yad2.co.il/Pic/202603/15/2_6/o/y2_1pa_010390_20260315145453.jpeg"
+          ],
+          "squareMeterBuild": 180
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 56699593,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "צמרות איילון, פארק צמרת"
+          },
+          "street": {
+            "text": "ניסים אלוני"
+          },
+          "house": {
+            "number": 2,
+            "floor": 45
+          },
+          "coords": {
+            "lat": 32.087053,
+            "lon": 34.796804
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 26000,
+        "token": "mergirbb",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 165,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_9_jLhcsyzyaP_20260828.png",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/28/2_6/o/y2_9_jLhcsyzyaP_20260828.png",
+            "https://img.yad2.co.il/Pic/202608/30/2_6/o/y2_10_YbDlwvOsuL_20260830.png",
+            "https://img.yad2.co.il/Pic/202608/30/2_6/o/y2_9_lDKAKawmPz_20260830.png",
+            "https://img.yad2.co.il/Pic/202608/30/2_6/o/y2_10_N1XPnsSGRJ_20260830.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_6/o/y2_9_u3jwgbxXss_20260831.png",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_1pa_010747_20260825172430.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_6/o/y2_7_t9E_oqqg0b_20260831.png",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_1pa_010951_20260825172557.jpeg",
+            "https://img.yad2.co.il/Pic/202608/31/2_6/o/y2_10_aF9IBeM8Du_20260831.jpg",
+            "https://img.yad2.co.il/Pic/202608/25/2_6/o/y2_1pa_010392_20260825172651.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202608/25/2_6/o/y2_1_010061_20260825172709.mp4",
+          "squareMeterBuild": 150
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57420970,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "תכנית ל', למד"
+          },
+          "street": {
+            "text": "אייזק שטרן"
+          },
+          "house": {
+            "floor": 4
+          },
+          "coords": {
+            "lon": 34.7864405714286,
+            "lat": 32.110494047619
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 16000,
+        "token": "54hxqjvt",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 133,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_2_m_wIKudC7H_20260824.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_2_m_wIKudC7H_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_3_Q7NZX7xDeo_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_4__PA7hKZON8_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_5_PCiWc_v8IB_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_6__ZXiSd6EbK_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_7_DvqrfmVRHT_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_8_qYNRMdhj3S_20260824.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_9_J7lU8h3w6r_20260824.jpeg"
+          ],
+          "squareMeterBuild": 120
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57382580,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "גני שרונה, קרית הממשלה"
+          },
+          "street": {
+            "text": "החשמונאים"
+          },
+          "house": {
+            "number": 96,
+            "floor": 8
+          },
+          "coords": {
+            "lon": 34.785935,
+            "lat": 32.069249
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9500,
+        "token": "0awkdcbn",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 100,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_992367_20260824183958.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_992367_20260824183958.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_993501_20260824184003.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_998997_20260824184015.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_998717_20260824184021.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_992080_20260824184026.jpeg",
+            "https://img.yad2.co.il/Pic/202608/24/2_6/o/y2_1pa_996577_20260824183953.jpeg"
+          ],
+          "squareMeterBuild": 89
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "priceBeforeTag": 10500,
+        "orderId": 57507789,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "גני שרונה, קרית הממשלה"
+          },
+          "street": {
+            "text": "ליאונרדו דה וינצ'י"
+          },
+          "house": {
+            "floor": 12
+          },
+          "coords": {
+            "lon": 34.7844830769231,
+            "lat": 32.0746577948718
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 17200,
+        "token": "9gft1u07",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5,
+          "squareMeter": 131,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/17/2_6/o/y2_1_993897_20260917.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/17/2_6/o/y2_1_993897_20260917.jpeg",
+            "https://img.yad2.co.il/Pic/202609/17/2_6/o/y2_2_993945_20260917.jpeg",
+            "https://img.yad2.co.il/Pic/202609/17/2_6/o/y2_3_997522_20260917.jpeg"
+          ],
+          "squareMeterBuild": 131
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57513536,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "לב תל אביב, לב העיר צפון"
+          },
+          "street": {
+            "text": "נחמני"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lat": 32.0653716438356,
+            "lon": 34.7770310821918
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 12900,
+        "token": "uno9pnjz",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 3.5,
+          "squareMeter": 155,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010071_20260727094415.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010071_20260727094415.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010712_20260727094424.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010455_20260727094410.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010248_20260727094412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010974_20260727094412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010634_20260727094412.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010865_20260727094431.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010937_20260727094433.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010495_20260727094436.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010780_20260727094435.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010704_20260727094437.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010764_20260727094438.jpeg",
+            "https://img.yad2.co.il/Pic/202607/27/2_6/o/y2_1pa_010037_20260727094440.jpeg"
+          ],
+          "squareMeterBuild": 105
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "priceBeforeTag": 15000,
+        "orderId": 57284901,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון החדש - כיכר המדינה"
+          },
+          "street": {
+            "text": "ליפסקי"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lat": 32.0893890740741,
+            "lon": 34.7879135185185
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 15000,
+        "token": "ainonoar",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 129,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_2_t5LfvxPJFo_20260811.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_2_t5LfvxPJFo_20260811.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_3_4u_vJCGRaA_20260811.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_4_SOWyKTSM6Y_20260811.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_5_7bRPxQ2NUN_20260811.jpeg",
+            "https://img.yad2.co.il/Pic/202608/11/2_6/o/y2_1pa_010117_20260811173104.jpeg"
+          ],
+          "squareMeterBuild": 107
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57358253,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "נווה צדק"
+          },
+          "street": {
+            "text": "פינס"
+          },
+          "house": {
+            "number": 39,
+            "floor": 15
+          },
+          "coords": {
+            "lon": 34.767994,
+            "lat": 32.060364
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 29500,
+        "token": "2aqgbvs2",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 5.5,
+          "squareMeter": 158,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010017_20260625151918.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202606/25/2_6/o/y2_1pa_010017_20260625151918.jpeg"
+          ],
+          "squareMeterBuild": 144
+        },
+        "tags": [
+          {
+            "name": "נכס חדש",
+            "id": 1201,
+            "priority": 1
+          },
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "ממ\"ד",
+            "id": 1209,
+            "priority": 1
+          }
+        ],
+        "orderId": 57138909,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "לב תל אביב, לב העיר צפון"
+          },
+          "street": {
+            "text": "החשמונאים"
+          },
+          "house": {
+            "floor": 1
+          },
+          "coords": {
+            "lon": 34.7797975511811,
+            "lat": 32.0704386614173
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9700,
+        "token": "ssn9ggb6",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 105,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010092_20260802153023.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010092_20260802153023.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010426_20260802153026.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010896_20260802153033.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010271_20260802153042.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010809_20260802153058.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010344_20260802153041.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010146_20260802153059.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010129_20260802153054.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010750_20260802153057.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010870_20260802153100.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010202_20260802153105.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010800_20260802153108.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010829_20260802153112.jpeg",
+            "https://img.yad2.co.il/Pic/202608/02/2_6/o/y2_1pa_010379_20260802153111.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202608/02/2_6/o/y2_1_010102_20260802152851.mov",
+          "squareMeterBuild": 95
+        },
+        "tags": [
+          {
+            "name": "2 מרפסות",
+            "id": 1212,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "orderId": 57312891,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "גרץ"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.7738115555556,
+            "lat": 32.0855417222222
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 6820,
+        "token": "iganfbvq",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 2,
+          "squareMeter": 83,
+          "propertyCondition": {
+            "id": 3
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010115_20260728141804.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010115_20260728141804.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010394_20260728141815.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010232_20260728141823.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010837_20260728141823.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010549_20260728141821.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010392_20260728141825.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010227_20260728141826.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010492_20260728141827.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010994_20260728141906.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010556_20260728141912.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010978_20260728141900.jpeg",
+            "https://img.yad2.co.il/Pic/202607/28/2_6/o/y2_1pa_010567_20260728141852.jpeg"
+          ],
+          "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202607/28/2_6/o/y2_1_010637_20260728140923.mov",
+          "squareMeterBuild": 65
+        },
+        "tags": [
+          {
+            "name": "2 מרפסות",
+            "id": 1212,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "orderId": 57292227,
+        "priority": 3,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "לב תל אביב, לב העיר צפון"
+          },
+          "street": {
+            "text": "עין ורד"
+          },
+          "house": {
+            "number": 4,
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.774687,
+            "lat": 32.06712
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 12500,
+        "token": "nknwchkj",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 3,
+          "squareMeter": 104,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_1pa_010943_20260722094711.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_1pa_010943_20260722094711.jpeg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_2_qGhbmTtNFV_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_3_uZ7ZABQoUp_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_4_yljtr8O07H_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_5_pdXStrHpqK_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_6_TG04lKdX8V_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_7_OpULAqpIHR_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_8_SyZPaVK0fM_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_9_fdd03p7H_c_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_10_qoOsNb6bhc_20260722.jpg",
+            "https://img.yad2.co.il/Pic/202607/22/2_6/o/y2_11_85uLsSqTgt_20260722.jpg"
+          ],
+          "squareMeterBuild": 98
+        },
+        "tags": [
+          {
+            "name": "חניה",
+            "id": 1203,
+            "priority": 1
+          },
+          {
+            "name": "בהזדמנות",
+            "id": 1291,
+            "priority": 10
+          },
+          {
+            "name": "חבל לפספס",
+            "id": 1292,
+            "priority": 10
+          }
+        ],
+        "orderId": 57264571,
+        "priority": 3,
+        "packages": {}
+      }
+    ],
+    "yad1": {
+      "topGallery": [
+        {
+          "token": "14810",
+          "treedisId": "1000216",
+          "orderId": 22392,
+          "adNumber": 1000216,
+          "adType": "yad1",
+          "categoryId": 2,
+          "slug": "28706f6e",
+          "subcategoryId": 99,
+          "statusId": 1,
+          "price": 0,
+          "projectId": 1000216,
+          "projectYzerId": 14810,
+          "additionalDetails": {
+            "projectCategories": [
+              2
+            ],
+            "minPrice": 11480,
+            "maxPrice": 29000,
+            "companyIds": [
+              "1531"
+            ],
+            "roomsCount": 5,
+            "minRooms": 3,
+            "maxRooms": 5,
+            "maxFloor": 50,
+            "minFloor": 7,
+            "floors": 47,
+            "maxSquaremeter": 240,
+            "timelineStatus": "4"
+          },
+          "packages": {
+            "displayInAreaPageYad1": true,
+            "displayInCityPageYad1": true,
+            "displayInCompanyPageYad1": true,
+            "displayInMapListing": true,
+            "displayInMapLogos": true,
+            "displayInNeighborhoodPageYad1": true,
+            "displayInTopGallery": true,
+            "isImageGalleryPromotion": true,
+            "isProListing": true,
+            "isSameEntrepreneurPromotion": true,
+            "isYad1ListingPromo": true,
+            "isYad1ListingSoloAd": true,
+            "lidInImageGallery": true,
+            "hasMiniSite": true
+          },
+          "metaData": {
+            "flag": "פרויקט חדש",
+            "info": "הכירו את עזריאלי TOWN תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי.\nדמי שכירות ידועים מראש ללא הפתעות\nחנייה מקורה ומחסן לכל דירה\nחדר כושר יוקרתי ומאובזר\nמועדון דיירים מעוצב בקומה ה‏-‏51\nחללי עבודה משותפים\nלובי כניסה מפואר הכולל לוביסט 7\\24\nסביבה אורבנית חדשנית\nקרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה\nאפשרות יציאה בתום כל שנה\n \nשכירות – 11,480 ₪\nכולל מחסן\nחנייה אופציונלית – 820 ₪\nדמי ניהול החל מ1500 ₪ (תלוי גודל דירה)\nסך הכל כולל חנייה: החל מ 13,800 ₪\n*בכפוף לתקנון\n",
+            "infoStyled": "<span>הכירו את עזריאלי </span><span>TOWN</span><span> תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי</span><span>.</span><br /><span>דמי שכירות ידועים מראש ללא הפתעות</span><br /><span>חנייה מקורה ומחסן לכל דירה</span><br /><span>חדר כושר יוקרתי ומאובזר</span><br /><span>מועדון דיירים מעוצב בקומה ה‏-‏51</span><br /><span>חללי עבודה משותפים</span><br />לובי כניסה מפואר הכולל לוביסט 7\\24<br /><span>סביבה אורבנית חדשנית</span><br /><span>קרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה</span><br /><span>אפשרות יציאה בתום כל שנה</span><br /> <br />שכירות – 11,480 ₪<br />כולל מחסן<br />חנייה אופציונלית – 820 ₪<br />דמי ניהול החל מ1500 ₪ (תלוי גודל דירה)<br />סך הכל כולל חנייה: החל מ 13,800 ₪<br /><strong><span>*</span><span>בכפוף לתקנון</span></strong><br />",
+            "infoHeader": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן\n",
+            "infoHeaderStyled": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן<br />",
+            "promotionText": "שכירות לטווח ארוך!",
+            "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/logo/de9f7a7e-16eb-4ce6-be19-dfae2d62bebd.webp",
+            "coverImage": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+            "images": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp"
+            ],
+            "tmunotInformation": [
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp",
+                "hasAiRedesign": false
+              }
+            ],
+            "videos": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bee93f7f-1009-4ea4-9502-f34564bad154.mp4"
+            ],
+            "previewType": "2d",
+            "immediateOccupancy": false,
+            "specs": [
+              {
+                "category": "מטבח",
+                "labels": [
+                  "מטבחים איכותיים בעיצוב קלאסי / מודרני הכוללים אי",
+                  "משטח אבן קיסר"
+                ]
+              },
+              {
+                "category": "דירה",
+                "labels": [
+                  "מוצרי חשמל יוקרתיים: מקרר, כיריים,  מיקרוגל, תנור, מדיח, מכונת כביסה ומייבש כביסה וארונות בכל החדרים",
+                  "דלתות פנים איכותיות \"פנדור\"",
+                  "דלת לממ\"ד בנוסף לדלת הבטחון",
+                  "דלת בטחון מעוצבת בכניסה לדירה",
+                  "ריצוף גרניט פורצלן 80X80 ",
+                  "זיגוג כפול בכל החלונות",
+                  "ארונות נגרות בחדרים",
+                  "אינטרקום מסך צבעוני בכניסה לדירה",
+                  "מיזוג אוויר דירתי מלא",
+                  "חלונות אלומיניום ברמה גבוהה",
+                  "גופי תאורה",
+                  "מרפסת שמש"
+                ]
+              },
+              {
+                "category": "חדרי רחצה / כלים סניטריים",
+                "labels": [
+                  "ארון נגרות מעוצב עם משטח אבן קיסר, כיור ומראה",
+                  "אסלות תלויות עם מיכל הדחה סמוי",
+                  "אינטרפוץ 4 דרך וברזים יוקרתיים"
+                ]
+              }
+            ],
+            "buildings": 1,
+            "apartments": 210,
+            "isOnSale": false,
+            "bank": "",
+            "hasAiDesign": false,
+            "hideDealsHistory": false
+          },
+          "address": {
+            "region": {
+              "id": "3",
+              "text": "תל אביב והסביבה"
+            },
+            "topArea": {
+              "id": "2",
+              "text": "מרכז"
+            },
+            "area": {
+              "id": "1",
+              "text": "אזור תל אביב יפו"
+            },
+            "city": {
+              "id": "5000",
+              "text": "תל אביב יפו"
+            },
+            "neighborhood": {
+              "id": "485",
+              "text": "מונטיפיורי, הרכבת"
+            },
+            "street": {
+              "id": "1555",
+              "text": "דרך מנחם בגין"
+            },
+            "coords": {
+              "lat": 32.07793,
+              "lon": 34.794659
+            },
+            "house": {
+              "number": 146
+            },
+            "addressMasterId": "9647040",
+            "display": "דרך מנחם בגין 146, תל אביב יפו"
+          },
+          "dates": {
+            "updatedAt": "2026-06-30T15:26:13",
+            "createdAt": "2025-01-12T11:01:21"
+          },
+          "abovePrice": "0",
+          "packageId": 104
+        }
+      ],
+      "bottomGallery": [],
+      "middleGallery": [],
+      "listing": {
+        "premium": [],
+        "pro": [
+          {
+            "token": "1000918",
+            "treedisId": "1000216",
+            "listingId": "1000918",
+            "listingOrder": 3,
+            "orderId": 7362,
+            "adNumber": 1000216,
+            "adType": "yad1",
+            "categoryId": 2,
+            "slug": "28706f6e",
+            "subcategoryId": 98,
+            "statusId": 1,
+            "price": 29000,
+            "projectId": 1000216,
+            "projectYzerId": 14810,
+            "additionalDetails": {
+              "propertyTypes": [
+                "penthouse"
+              ],
+              "property": {
+                "id": "penthouse",
+                "text": "גג/פנטהאוז",
+                "textEng": "penthouse"
+              },
+              "projectCategories": [
+                2
+              ],
+              "companyIds": [
+                "1531"
+              ],
+              "roomsCount": 4,
+              "minSquaremeter": 147,
+              "timelineStatus": "4",
+              "includeParking": true,
+              "includeWarehouse": true,
+              "includeElevator": true,
+              "includeSecurityRoom": true,
+              "includeFloorShelter": false,
+              "includeAirCondition": false,
+              "includeBalcony": true,
+              "includeBars": false,
+              "isHandicapped": false,
+              "includeFurniture": false,
+              "isAssetExclusive": false,
+              "hasHighCeiling": false,
+              "includeAlarm": false,
+              "includeKitchenette": false,
+              "includeCameras": false,
+              "includeMeetingRoom": false,
+              "includeCoolingRoom": false,
+              "includeLoadingRamp": false,
+              "includeCommunicationRoom": false
+            },
+            "packages": {
+              "displayInAreaPageYad1": true,
+              "displayInCityPageYad1": true,
+              "displayInCompanyPageYad1": true,
+              "displayInMapListing": true,
+              "displayInMapLogos": true,
+              "displayInNeighborhoodPageYad1": true,
+              "displayInTopGallery": true,
+              "isImageGalleryPromotion": true,
+              "isProListing": true,
+              "isSameEntrepreneurPromotion": true,
+              "isYad1ListingPromo": true,
+              "isYad1ListingSoloAd": true,
+              "lidInImageGallery": true,
+              "hasMiniSite": true
+            },
+            "metaData": {
+              "flag": "פרויקט חדש",
+              "info": "הכירו את עזריאלי TOWN תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי.\nדמי שכירות ידועים מראש ללא הפתעות\nחנייה מקורה ומחסן לכל דירה\nחדר כושר יוקרתי ומאובזר\nמועדון דיירים מעוצב בקומה ה‏-‏51\nחללי עבודה משותפים\nלובי כניסה מפואר הכולל לוביסט 7\\24\nסביבה אורבנית חדשנית\nקרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה\nאפשרות יציאה בתום כל שנה\n \nשכירות – 11,480 ₪\nכולל מחסן\nחנייה אופציונלית – 820 ₪\nדמי ניהול החל מ1500 ₪ (תלוי גודל דירה)\nסך הכל כולל חנייה: החל מ 13,800 ₪\n*בכפוף לתקנון\n",
+              "infoStyled": "<span>הכירו את עזריאלי </span><span>TOWN</span><span> תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי</span><span>.</span><br /><span>דמי שכירות ידועים מראש ללא הפתעות</span><br /><span>חנייה מקורה ומחסן לכל דירה</span><br /><span>חדר כושר יוקרתי ומאובזר</span><br /><span>מועדון דיירים מעוצב בקומה ה‏-‏51</span><br /><span>חללי עבודה משותפים</span><br />לובי כניסה מפואר הכולל לוביסט 7\\24<br /><span>סביבה אורבנית חדשנית</span><br /><span>קרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה</span><br /><span>אפשרות יציאה בתום כל שנה</span><br /> <br />שכירות – 11,480 ₪<br />כולל מחסן<br />חנייה אופציונלית – 820 ₪<br />דמי ניהול החל מ1500 ₪ (תלוי גודל דירה)<br />סך הכל כולל חנייה: החל מ 13,800 ₪<br /><strong><span>*</span><span>בכפוף לתקנון</span></strong><br />",
+              "infoHeader": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן\n",
+              "infoHeaderStyled": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן<br />",
+              "promotionText": "שכירות לטווח ארוך!",
+              "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/logo/de9f7a7e-16eb-4ce6-be19-dfae2d62bebd.webp",
+              "coverImage": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+              "images": [
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp"
+              ],
+              "tmunotInformation": [
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp",
+                  "hasAiRedesign": false
+                }
+              ],
+              "videos": [
+                "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bee93f7f-1009-4ea4-9502-f34564bad154.mp4"
+              ],
+              "previewType": "2d",
+              "immediateOccupancy": false,
+              "specs": [
+                {
+                  "category": "מטבח",
+                  "labels": [
+                    "מטבחים איכותיים בעיצוב קלאסי / מודרני הכוללים אי",
+                    "משטח אבן קיסר"
+                  ]
+                },
+                {
+                  "category": "דירה",
+                  "labels": [
+                    "מוצרי חשמל יוקרתיים: מקרר, כיריים,  מיקרוגל, תנור, מדיח, מכונת כביסה ומייבש כביסה וארונות בכל החדרים",
+                    "דלתות פנים איכותיות \"פנדור\"",
+                    "דלת לממ\"ד בנוסף לדלת הבטחון",
+                    "דלת בטחון מעוצבת בכניסה לדירה",
+                    "ריצוף גרניט פורצלן 80X80 ",
+                    "זיגוג כפול בכל החלונות",
+                    "ארונות נגרות בחדרים",
+                    "אינטרקום מסך צבעוני בכניסה לדירה",
+                    "מיזוג אוויר דירתי מלא",
+                    "חלונות אלומיניום ברמה גבוהה",
+                    "גופי תאורה",
+                    "מרפסת שמש"
+                  ]
+                },
+                {
+                  "category": "חדרי רחצה / כלים סניטריים",
+                  "labels": [
+                    "ארון נגרות מעוצב עם משטח אבן קיסר, כיור ומראה",
+                    "אסלות תלויות עם מיכל הדחה סמוי",
+                    "אינטרפוץ 4 דרך וברזים יוקרתיים"
+                  ]
+                }
+              ],
+              "buildings": 1,
+              "apartments": 210,
+              "isOnSale": false,
+              "bank": "",
+              "hideDealsHistory": false
+            },
+            "address": {
+              "region": {
+                "id": "3",
+                "text": "תל אביב והסביבה"
+              },
+              "topArea": {
+                "id": "2",
+                "text": "מרכז"
+              },
+              "area": {
+                "id": "1",
+                "text": "אזור תל אביב יפו"
+              },
+              "city": {
+                "id": "5000",
+                "text": "תל אביב יפו"
+              },
+              "neighborhood": {
+                "id": "485",
+                "text": "מונטיפיורי, הרכבת"
+              },
+              "street": {
+                "id": "1555",
+                "text": "דרך מנחם בגין"
+              },
+              "coords": {
+                "lat": 32.07793,
+                "lon": 34.794659
+              },
+              "house": {
+                "number": 146
+              },
+              "addressMasterId": "9647040",
+              "display": "דרך מנחם בגין 146, תל אביב יפו"
+            },
+            "dates": {
+              "updatedAt": "2026-06-30T15:26:13",
+              "createdAt": "2025-01-12T11:01:21"
+            },
+            "abovePrice": "20000",
+            "packageId": 104
+          }
+        ],
+        "basic": [
+          {
+            "token": "1006197",
+            "treedisId": "1016956",
+            "listingId": "1006197",
+            "listingOrder": 4,
+            "orderId": 1006197,
+            "adNumber": 1016956,
+            "adType": "yad1",
+            "categoryId": 2,
+            "slug": "1a994f30",
+            "subcategoryId": 98,
+            "statusId": 1,
+            "price": 9486,
+            "projectId": 1016956,
+            "projectYzerId": 13555,
+            "additionalDetails": {
+              "propertyTypes": [
+                "apartment"
+              ],
+              "property": {
+                "id": "apartment",
+                "text": "דירה",
+                "textEng": "apartment"
+              },
+              "projectCategories": [
+                2
+              ],
+              "companyIds": [
+                "1597"
+              ],
+              "roomsCount": 5
+            },
+            "packages": {
+              "displayInAreaPageYad1": true,
+              "displayInCityPageYad1": true,
+              "displayInCompanyPageYad1": true,
+              "displayInMapListing": true,
+              "displayInMapLogos": true,
+              "displayInNeighborhoodPageYad1": true,
+              "displayInTopGallery": true,
+              "isBasicListing": true,
+              "isSameEntrepreneurPromotion": true,
+              "isYad1ListingPromo": true,
+              "isYad1ListingSoloAd": true,
+              "lidInImageGallery": true,
+              "hasMiniSite": true
+            },
+            "metaData": {
+              "flag": "פרויקט חדש",
+              "info": "אשטרום מגורים להשכרה מציעה לכם חוויית מגורים חדשנית שתיתן לכם שקט לשנים קדימה: שכר דירה ידוע מראש ל- ‏10 שנים, אפשרות סיום חוזה מדי שנה, תמהיל דירות של ‏2-5 חד' כולל ממ\"ד, מגוון חדרי דיירים, מיקום מנצח קרוב לתחנת רכבת הקלה, חיי קהילה מגוונים ושירותי תחזוקה שוטפים.\n\n\n• הגב והמוניטין של אשטרום מגורים להשכרה מקבוצת אשטרום\n• גמישות ניתן לסיים את הסכם השכירות בתום כל שנה.\n• נוחות - גישה נוחה ומהירה לצירי תנועה מרכזיים, תחנת הרכבת הקלה\n• דירה חדשה, ישירות מקבלן\n• ודאות במחיר השכירות לטווח ארוך.\n• כמעט כל מה שצריך נמצא מתחת לבניין (בתי עסק, חנויות, מרפאה, גן משחקים)\n• חיי קהילה מלאים ומגוונים\n• שכר דירה ידוע מראש ל- ‏10 שנים\n• שירותי תחזוקה שוטפת\n• מגוון חדרי דיירים חדרי, אופניים ועגלות, מועדון דיירים ועוד.\n\n\nאשטרום מגורים להשכרה מביאה את היציבות של אשטרום לשוק השכירות הבלתי צפוי.\nהחוסן הכלכלי של הקבוצה מאפשר לנו לספק לכם קרקע יציבה לטווח ארוך לכל לקוחותיה, בהתבסס על תפיסת מגורים מתקדמת ואטרקטיבית ‏– בלי התחייבויות ובלי הפתעות.\nיש לכם גב באשטרום.\n\n\nבאשטרום מגורים להשכרה אנו משקיעים משאבים רבים בכל פרויקט, מהנראות החיצונית דרך החללים המשותפים ועד הדירות עצמן. חשיבה זו היא שמאפשרת ליצור חיי קהילה מודרניים וסביבת מגורים שמבינה את הצרכים של לקוחותינו . לשכונת אופי משפחתי וקהילה אכפתית שתגרום לכם להרגיש בבית מהרגע הראשון.\n\n\nהעוצמה של אשטרום, עכשיו בדירות להשכרה\nקבוצת אשטרום היא מחברות הבנייה והנדל\"ן הגדולות והוותיקות בישראל, עם ניסיון של למעלה מ- ‏60 שנה.\nאשטרום מתעסקת גם בבניית תשתיות והנדסה, נכסי מסחר ומשרדים ואנרגיה מתחדשת. את העוצמה והמסירות הללו השקענו גם במאות דירות לשכירות הוגנת ברחבי הארץ, בבתים ששווה להשתקע בהם.\n\n\n**המוצג לעיל ו/או להלן אינו מהווה הצעה מחייבת מטעם אשטרום הגדנ\"ע שותפות מוגבלת וכפוף לשינויים. כל אחד מהפרטים המוצגים לגבי הפרויקט, לרבות נראות ו/או תמונות הדירות ו/או הבניינים ו/או סביבתם, מיקום הפרויקט ו/או הדירות, שכר הדירה, תכניות ו/או מפרטי הדירות, משך השכירות, תמהיל הדירות ו/או כל פרט ו/או נתון אחר נועד להמחשה בלבד, אינו מחייב את החברה ועשוי להשתנות בהתאם לשיקול דעת החברה ו/או דרישות הרשויות. ההתקשרות בפועל ו/או תנאיה כפופים לשיקול דעת החברה ו/או להסכם השכירות כפי שייחתם בין הצדדים בפועל. מבלי לגרוע מהאמור, התמונות ו/או הסרטונים לעיל ו/או להלן הינם הדמיה ונועדו להמחשה בלבד.\n",
+              "infoStyled": "<p><strong>אשטרום מגורים להשכרה מציעה לכם חוויית מגורים חדשנית שתיתן לכם שקט לשנים קדימה:</strong> שכר דירה ידוע מראש ל- ‏10 שנים, אפשרות סיום חוזה מדי שנה, תמהיל דירות של ‏2-5 חד' כולל ממ\"ד, מגוון חדרי דיירים, מיקום מנצח קרוב לתחנת רכבת הקלה, חיי קהילה מגוונים ושירותי תחזוקה שוטפים.</p><p><br /></p><p>• הגב והמוניטין של אשטרום מגורים להשכרה מקבוצת אשטרום</p><p>• גמישות ניתן לסיים את הסכם השכירות בתום כל שנה.</p><p>• נוחות - גישה נוחה ומהירה לצירי תנועה מרכזיים, תחנת הרכבת הקלה</p><p>• דירה חדשה, ישירות מקבלן</p><p>• ודאות במחיר השכירות לטווח ארוך.</p><p>• כמעט כל מה שצריך נמצא מתחת לבניין (בתי עסק, חנויות, מרפאה, גן משחקים)</p><p>• חיי קהילה מלאים ומגוונים</p><p>• שכר דירה ידוע מראש ל- ‏10 שנים</p><p>• שירותי תחזוקה שוטפת</p><p>• מגוון חדרי דיירים חדרי, אופניים ועגלות, מועדון דיירים ועוד.</p><p><br /></p><p>אשטרום מגורים להשכרה מביאה את היציבות של אשטרום לשוק השכירות הבלתי צפוי.</p><p>החוסן הכלכלי של הקבוצה מאפשר לנו לספק לכם קרקע יציבה לטווח ארוך לכל לקוחותיה, בהתבסס על תפיסת מגורים מתקדמת ואטרקטיבית ‏– בלי התחייבויות ובלי הפתעות.</p><p>יש לכם גב באשטרום.</p><p><br /></p><p>באשטרום מגורים להשכרה אנו משקיעים משאבים רבים בכל פרויקט, מהנראות החיצונית דרך החללים המשותפים ועד הדירות עצמן. חשיבה זו היא שמאפשרת ליצור חיי קהילה מודרניים וסביבת מגורים שמבינה את הצרכים של לקוחותינו . לשכונת אופי משפחתי וקהילה אכפתית שתגרום לכם להרגיש בבית מהרגע הראשון.</p><p><br /></p><p>העוצמה של אשטרום, עכשיו בדירות להשכרה</p><p>קבוצת אשטרום היא מחברות הבנייה והנדל\"ן הגדולות והוותיקות בישראל, עם ניסיון של למעלה מ- ‏60 שנה.</p><p>אשטרום מתעסקת גם בבניית תשתיות והנדסה, נכסי מסחר ומשרדים ואנרגיה מתחדשת. את העוצמה והמסירות הללו השקענו גם במאות דירות לשכירות הוגנת ברחבי הארץ, בבתים ששווה להשתקע בהם.</p><p><br /></p><p>**המוצג לעיל ו/או להלן אינו מהווה הצעה מחייבת מטעם אשטרום הגדנ\"ע שותפות מוגבלת וכפוף לשינויים. כל אחד מהפרטים המוצגים לגבי הפרויקט, לרבות נראות ו/או תמונות הדירות ו/או הבניינים ו/או סביבתם, מיקום הפרויקט ו/או הדירות, שכר הדירה, תכניות ו/או מפרטי הדירות, משך השכירות, תמהיל הדירות ו/או כל פרט ו/או נתון אחר נועד להמחשה בלבד, אינו מחייב את החברה ועשוי להשתנות בהתאם לשיקול דעת החברה ו/או דרישות הרשויות. ההתקשרות בפועל ו/או תנאיה כפופים לשיקול דעת החברה ו/או להסכם השכירות כפי שייחתם בין הצדדים בפועל. מבלי לגרוע מהאמור, התמונות ו/או הסרטונים לעיל ו/או להלן הינם הדמיה ונועדו להמחשה בלבד.</p>",
+              "infoHeader": "בואו ליהנות מכל היתרונות של מגורים בשכירות לטווח ארוך!\nדירות ‏2 חד' החל מ-‏₪6,583 לחודש\nדירות 4 חד' החל מ־8,502 ₪ לחודש\n",
+              "infoHeaderStyled": "<p><strong>בואו ליהנות מכל היתרונות של מגורים בשכירות לטווח ארוך!</strong></p><p><strong>דירות ‏2 חד' החל מ-‏₪6,583 לחודש</strong></p><p><span><strong>דירות 4 חד' החל מ־8,502 ₪ לחודש</strong></span></p>",
+              "promotionText": "מהפכת השכירות בתל אביב",
+              "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/logo/723d070e-66e0-4239-a281-9adc2e75428f.webp",
+              "coverImage": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/mainImage/9fa4d80f-3d26-4c93-bd55-5775b7456fdb.webp",
+              "images": [
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/mainImage/9fa4d80f-3d26-4c93-bd55-5775b7456fdb.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/445f4a48-d049-4bf6-ae6f-8f7791cc3268.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/005d1aac-b83f-4872-b384-0bb4d451eae1.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/0ee9f1e8-73a6-4c83-9842-69f8b1b677d8.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/b758ace4-2ebf-47e3-87ae-80dcb862f5bb.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/6f796d58-728e-432f-b501-bb6500c04ee0.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/f1d82cc6-36e0-4c94-ab5b-843b7ccc14e8.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/d81ea431-bb78-4e30-9e1b-c271603b1525.webp"
+              ],
+              "tmunotInformation": [
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/445f4a48-d049-4bf6-ae6f-8f7791cc3268.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/005d1aac-b83f-4872-b384-0bb4d451eae1.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/0ee9f1e8-73a6-4c83-9842-69f8b1b677d8.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/b758ace4-2ebf-47e3-87ae-80dcb862f5bb.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/6f796d58-728e-432f-b501-bb6500c04ee0.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/f1d82cc6-36e0-4c94-ab5b-843b7ccc14e8.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1016956/assets/gallery/d81ea431-bb78-4e30-9e1b-c271603b1525.webp",
+                  "hasAiRedesign": false
+                }
+              ],
+              "previewType": "2d",
+              "immediateOccupancy": true,
+              "buildings": 6,
+              "apartments": 370,
+              "isOnSale": false,
+              "bank": "",
+              "hideDealsHistory": false
+            },
+            "address": {
+              "region": {
+                "id": "3",
+                "text": "תל אביב והסביבה"
+              },
+              "topArea": {
+                "id": "2",
+                "text": "מרכז"
+              },
+              "area": {
+                "id": "1",
+                "text": "אזור תל אביב יפו"
+              },
+              "city": {
+                "id": "5000",
+                "text": "תל אביב יפו"
+              },
+              "neighborhood": {
+                "id": "213",
+                "text": "נווה עופר, תל כביר"
+              },
+              "street": {
+                "id": "0646",
+                "text": "ברתיני גארי"
+              },
+              "coords": {
+                "lat": 32.04080963,
+                "lon": 34.76896667
+              },
+              "house": {
+                "number": 1
+              },
+              "addressMasterId": "22080032",
+              "display": "ברתיני גארי 1, נווה עופר, תל כביר, תל אביב יפו"
+            },
+            "dates": {
+              "updatedAt": "2026-09-16T16:28:23",
+              "createdAt": "2025-03-12T11:28:36"
+            },
+            "abovePrice": "7000",
+            "packageId": 102
+          },
+          {
+            "token": "1000617",
+            "treedisId": "1000144",
+            "listingId": "1000617",
+            "listingOrder": 4,
+            "orderId": 9204,
+            "adNumber": 1000144,
+            "adType": "yad1",
+            "categoryId": 2,
+            "slug": "9b3974ea",
+            "subcategoryId": 98,
+            "statusId": 1,
+            "price": 11521,
+            "projectId": 1000144,
+            "projectYzerId": 11438,
+            "additionalDetails": {
+              "propertyTypes": [
+                "apartment"
+              ],
+              "property": {
+                "id": "apartment",
+                "text": "דירה",
+                "textEng": "apartment"
+              },
+              "projectCategories": [
+                2
+              ],
+              "companyIds": [
+                "1597"
+              ],
+              "roomsCount": 4,
+              "includeParking": true,
+              "includeWarehouse": true,
+              "includeElevator": true,
+              "includeSecurityRoom": false,
+              "includeFloorShelter": false,
+              "includeAirCondition": false,
+              "includeBalcony": false,
+              "includeBars": false,
+              "isHandicapped": false,
+              "includeFurniture": false,
+              "isAssetExclusive": false,
+              "hasHighCeiling": false,
+              "includeAlarm": false,
+              "includeKitchenette": false,
+              "includeCameras": false,
+              "includeMeetingRoom": false,
+              "includeCoolingRoom": false,
+              "includeLoadingRamp": false,
+              "includeCommunicationRoom": false
+            },
+            "packages": {
+              "displayInAreaPageYad1": true,
+              "displayInCityPageYad1": true,
+              "displayInCompanyPageYad1": true,
+              "displayInMapListing": true,
+              "displayInMapLogos": true,
+              "displayInNeighborhoodPageYad1": true,
+              "displayInTopGallery": true,
+              "isBasicListing": true,
+              "isSameEntrepreneurPromotion": true,
+              "isYad1ListingPromo": true,
+              "isYad1ListingSoloAd": true,
+              "lidInImageGallery": true,
+              "hasMiniSite": true
+            },
+            "metaData": {
+              "flag": "פרויקט חדש",
+              "info": "אשטרום מגורים להשכרה נותנת לכם את היציבות בשוק שמשתנה כל הזמן,\nומציעה לכם שכירות לטווח ארוך ששמה אתכם במרכז.\n\n\nתתכוננו להתאהב בבית החדש שלכם.\n\n\nבלי הפתעות‏- שכ\"ד ידוע מראש לתקופה של עד ‏10 שנים\nהכוח אצל השוכר‏- אפשרות יציאה בכל שנה \nיש חנייה ומחסן בתל אביב‏- חנייה מקורה ומחסן לכל דירה\nקרוב להכל‏- גישה לכל צירי התחבורה המרכזיים\nסביבה קהילתית‏- קרוב למוסדות לימוד וגני ילדים\n",
+              "infoStyled": "<p>אשטרום מגורים להשכרה נותנת לכם את היציבות בשוק שמשתנה כל הזמן,</p><p>ומציעה לכם שכירות לטווח ארוך ששמה אתכם במרכז.</p><p><br /></p><p><strong>תתכוננו להתאהב בבית החדש שלכם.</strong></p><p><br /></p><p><strong>בלי הפתעות</strong>‏- שכ\"ד ידוע מראש לתקופה של עד ‏10 שנים</p><p><strong>הכוח אצל השוכר</strong>‏- אפשרות יציאה בכל שנה </p><p><strong>יש חנייה ומחסן בתל אביב</strong>‏- חנייה מקורה ומחסן לכל דירה</p><p><strong>קרוב להכל</strong>‏- גישה לכל צירי התחבורה המרכזיים</p><p><strong>סביבה קהילתית</strong>‏- קרוב למוסדות לימוד וגני ילדים</p>",
+              "infoHeader": "בואו להנות מכל היתרונות של מגורים לטווח ארוך בשכונת המשתלה עם חניה, מרפסת וממ\"ד\nדירות ‏2 חדרים החל מ ‏-7,645‏ ₪ לחודש\n",
+              "infoHeaderStyled": "<p><strong>בואו להנות מכל היתרונות של מגורים לטווח ארוך בשכונת המשתלה עם חניה, מרפסת וממ\"ד</strong></p><p><strong>דירות ‏2 חדרים החל מ ‏-7,645‏ ₪ לחודש</strong></p>",
+              "promotionText": "שכירות לטווח ארוך!",
+              "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/logo/4d691843-6614-47df-b346-6c4920962b73.webp",
+              "coverImage": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/mainImage/d5eeb0a1-92bc-4833-9204-c6e82ae0ae24.webp",
+              "images": [
+                "https://treedis-cdn.yad2.co.il/projects/1000144/assets/mainImage/d5eeb0a1-92bc-4833-9204-c6e82ae0ae24.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/525dac4a-4afa-4f44-a0f6-05c01dd38e43.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/519eba78-a487-4505-a921-3e6e8af2b689.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/7730e2d8-01aa-4c5b-a7a4-0873323503d3.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/b93d001e-ebd8-49ef-bab3-fcb47c1b25c6.webp",
+                "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/b8d331a3-68bc-443a-9913-00b9c7f37476.webp"
+              ],
+              "tmunotInformation": [
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/525dac4a-4afa-4f44-a0f6-05c01dd38e43.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/519eba78-a487-4505-a921-3e6e8af2b689.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/7730e2d8-01aa-4c5b-a7a4-0873323503d3.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/b93d001e-ebd8-49ef-bab3-fcb47c1b25c6.webp",
+                  "hasAiRedesign": false
+                },
+                {
+                  "url": "https://treedis-cdn.yad2.co.il/projects/1000144/assets/gallery/b8d331a3-68bc-443a-9913-00b9c7f37476.webp",
+                  "hasAiRedesign": false
+                }
+              ],
+              "previewType": "2d",
+              "immediateOccupancy": false,
+              "buildings": 4,
+              "apartments": 176,
+              "isOnSale": false,
+              "bank": "",
+              "hideDealsHistory": true
+            },
+            "address": {
+              "region": {
+                "id": "3",
+                "text": "תל אביב והסביבה"
+              },
+              "topArea": {
+                "id": "2",
+                "text": "מרכז"
+              },
+              "area": {
+                "id": "1",
+                "text": "אזור תל אביב יפו"
+              },
+              "city": {
+                "id": "5000",
+                "text": "תל אביב יפו"
+              },
+              "neighborhood": {
+                "id": "315",
+                "text": "המשתלה"
+              },
+              "street": {
+                "id": "4621",
+                "text": "משה וילנסקי"
+              },
+              "coords": {
+                "lat": 32.12815475,
+                "lon": 34.83084869
+              },
+              "house": {
+                "number": 17
+              },
+              "addressMasterId": "5860649",
+              "display": "משה וילנסקי 17, המשתלה, תל אביב יפו"
+            },
+            "dates": {
+              "updatedAt": "2026-09-08T10:36:02",
+              "createdAt": "2025-01-12T11:00:51"
+            },
+            "abovePrice": "10000",
+            "packageId": 102
+          }
+        ],
+        "gray": [
+          {
+            "token": "48",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "הצפון החדש - צפון",
+              "street": "שטריקר",
+              "houseNumber": "3",
+              "coords": {
+                "lat": 32.09132766723633,
+                "lon": 34.78783798217773
+              }
+            },
+            "property": {
+              "id": "12",
+              "text": "בניני ציבור"
+            }
+          },
+          {
+            "token": "74",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "ביצרון ורמת ישראל",
+              "street": "עמינדב",
+              "houseNumber": "18",
+              "coords": {
+                "lat": 32.06458282470703,
+                "lon": 34.79492950439453
+              }
+            },
+            "property": {
+              "id": "9",
+              "text": "בית בודד"
+            }
+          },
+          {
+            "token": "77",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "הצפון החדש - כיכר המדינה",
+              "street": "דוד ילין",
+              "houseNumber": "20",
+              "coords": {
+                "lat": 32.08813095092773,
+                "lon": 34.78560638427734
+              }
+            },
+            "property": {
+              "id": "12",
+              "text": "בניני ציבור"
+            }
+          },
+          {
+            "token": "192",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "הצפון החדש - דרום",
+              "street": "שטרוק",
+              "houseNumber": "8",
+              "coords": {
+                "lat": 32.08319473266602,
+                "lon": 34.78226089477539
+              }
+            },
+            "property": {
+              "id": "12",
+              "text": "בניני ציבור"
+            }
+          },
+          {
+            "token": "236",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "רמת אביב",
+              "street": "שביל ברלינר",
+              "houseNumber": "10",
+              "coords": {
+                "lat": 32.11179733276367,
+                "lon": 34.80007171630859
+              }
+            },
+            "property": {
+              "id": "9",
+              "text": "בית בודד"
+            }
+          },
+          {
+            "token": "321",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "לב תל אביב, לב העיר צפון",
+              "street": "נס ציונה",
+              "houseNumber": "3",
+              "coords": {
+                "lat": 32.07510757446289,
+                "lon": 34.76676940917969
+              }
+            },
+            "property": {
+              "id": "12",
+              "text": "בניני ציבור"
+            }
+          },
+          {
+            "token": "377",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "נווה חן",
+              "street": "מעפילי אגוז",
+              "houseNumber": "15",
+              "coords": {
+                "lat": 32.05081558227539,
+                "lon": 34.81153106689453
+              }
+            },
+            "property": {
+              "id": "9",
+              "text": "בית בודד"
+            }
+          },
+          {
+            "token": "415",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "הצפון הישן - צפון",
+              "street": "שדרות נורדאו",
+              "houseNumber": "65",
+              "coords": {
+                "lat": 32.09228897094727,
+                "lon": 34.77950668334961
+              }
+            },
+            "property": {
+              "id": "12",
+              "text": "בניני ציבור"
+            }
+          },
+          {
+            "token": "424",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "כרם התימנים",
+              "street": "מל\"ן",
+              "houseNumber": "23",
+              "coords": {
+                "lat": 32.06936645507812,
+                "lon": 34.76774215698242
+              }
+            },
+            "property": {
+              "id": "9",
+              "text": "בית בודד"
+            }
+          },
+          {
+            "token": "428",
+            "address": {
+              "city": "תל אביב יפו",
+              "neighborhood": "שיכון דן, נווה דן",
+              "street": "יצחק חילו",
+              "houseNumber": "24",
+              "coords": {
+                "lat": 32.11410522460938,
+                "lon": 34.82839202880859
+              }
+            },
+            "property": {
+              "id": "12",
+              "text": "בניני ציבור"
+            }
+          }
+        ]
+      },
+      "solo": [
+        {
+          "token": "1000919",
+          "treedisId": "1000216",
+          "listingId": "1000919",
+          "listingOrder": 1,
+          "orderId": 7363,
+          "adNumber": 1000216,
+          "adType": "yad1",
+          "categoryId": 2,
+          "slug": "28706f6e",
+          "subcategoryId": 98,
+          "statusId": 1,
+          "projectId": 1000216,
+          "projectYzerId": 14810,
+          "additionalDetails": {
+            "propertyTypes": [
+              "penthouse"
+            ],
+            "property": {
+              "id": "penthouse",
+              "text": "גג/פנטהאוז",
+              "textEng": "penthouse"
+            },
+            "projectCategories": [
+              2
+            ],
+            "companyIds": [
+              "1531"
+            ],
+            "roomsCount": 5,
+            "maxFloor": 50,
+            "minFloor": 50,
+            "timelineStatus": "4",
+            "includeParking": true,
+            "includeWarehouse": true,
+            "includeElevator": true,
+            "includeSecurityRoom": true,
+            "includeFloorShelter": false,
+            "includeAirCondition": false,
+            "includeBalcony": true,
+            "includeBars": false,
+            "isHandicapped": false,
+            "includeFurniture": false,
+            "isAssetExclusive": false,
+            "hasHighCeiling": false,
+            "includeAlarm": false,
+            "includeKitchenette": false,
+            "includeCameras": false,
+            "includeMeetingRoom": false,
+            "includeCoolingRoom": false,
+            "includeLoadingRamp": false,
+            "includeCommunicationRoom": false
+          },
+          "packages": {
+            "displayInAreaPageYad1": true,
+            "displayInCityPageYad1": true,
+            "displayInCompanyPageYad1": true,
+            "displayInMapListing": true,
+            "displayInMapLogos": true,
+            "displayInNeighborhoodPageYad1": true,
+            "displayInTopGallery": true,
+            "isImageGalleryPromotion": true,
+            "isProListing": true,
+            "isSameEntrepreneurPromotion": true,
+            "isYad1ListingPromo": true,
+            "isYad1ListingSoloAd": true,
+            "lidInImageGallery": true,
+            "hasMiniSite": true
+          },
+          "metaData": {
+            "flag": "פרויקט חדש",
+            "info": "הכירו את עזריאלי TOWN תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי.\nדמי שכירות ידועים מראש ללא הפתעות\nחנייה מקורה ומחסן לכל דירה\nחדר כושר יוקרתי ומאובזר\nמועדון דיירים מעוצב בקומה ה‏-‏51\nחללי עבודה משותפים\nלובי כניסה מפואר הכולל לוביסט 7\\24\nסביבה אורבנית חדשנית\nקרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה\nאפשרות יציאה בתום כל שנה\n \nשכירות – 11,480 ₪\nכולל מחסן\nחנייה אופציונלית – 820 ₪\nדמי ניהול החל מ1500 ₪ (תלוי גודל דירה)\nסך הכל כולל חנייה: החל מ 13,800 ₪\n*בכפוף לתקנון\n",
+            "infoStyled": "<span>הכירו את עזריאלי </span><span>TOWN</span><span> תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי</span><span>.</span><br /><span>דמי שכירות ידועים מראש ללא הפתעות</span><br /><span>חנייה מקורה ומחסן לכל דירה</span><br /><span>חדר כושר יוקרתי ומאובזר</span><br /><span>מועדון דיירים מעוצב בקומה ה‏-‏51</span><br /><span>חללי עבודה משותפים</span><br />לובי כניסה מפואר הכולל לוביסט 7\\24<br /><span>סביבה אורבנית חדשנית</span><br /><span>קרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה</span><br /><span>אפשרות יציאה בתום כל שנה</span><br /> <br />שכירות – 11,480 ₪<br />כולל מחסן<br />חנייה אופציונלית – 820 ₪<br />דמי ניהול החל מ1500 ₪ (תלוי גודל דירה)<br />סך הכל כולל חנייה: החל מ 13,800 ₪<br /><strong><span>*</span><span>בכפוף לתקנון</span></strong><br />",
+            "infoHeader": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן\n",
+            "infoHeaderStyled": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן<br />",
+            "promotionText": "שכירות לטווח ארוך!",
+            "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/logo/de9f7a7e-16eb-4ce6-be19-dfae2d62bebd.webp",
+            "coverImage": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+            "images": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp"
+            ],
+            "tmunotInformation": [
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp",
+                "hasAiRedesign": false
+              }
+            ],
+            "videos": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bee93f7f-1009-4ea4-9502-f34564bad154.mp4"
+            ],
+            "previewType": "2d",
+            "immediateOccupancy": false,
+            "specs": [
+              {
+                "category": "מטבח",
+                "labels": [
+                  "מטבחים איכותיים בעיצוב קלאסי / מודרני הכוללים אי",
+                  "משטח אבן קיסר"
+                ]
+              },
+              {
+                "category": "דירה",
+                "labels": [
+                  "מוצרי חשמל יוקרתיים: מקרר, כיריים,  מיקרוגל, תנור, מדיח, מכונת כביסה ומייבש כביסה וארונות בכל החדרים",
+                  "דלתות פנים איכותיות \"פנדור\"",
+                  "דלת לממ\"ד בנוסף לדלת הבטחון",
+                  "דלת בטחון מעוצבת בכניסה לדירה",
+                  "ריצוף גרניט פורצלן 80X80 ",
+                  "זיגוג כפול בכל החלונות",
+                  "ארונות נגרות בחדרים",
+                  "אינטרקום מסך צבעוני בכניסה לדירה",
+                  "מיזוג אוויר דירתי מלא",
+                  "חלונות אלומיניום ברמה גבוהה",
+                  "גופי תאורה",
+                  "מרפסת שמש"
+                ]
+              },
+              {
+                "category": "חדרי רחצה / כלים סניטריים",
+                "labels": [
+                  "ארון נגרות מעוצב עם משטח אבן קיסר, כיור ומראה",
+                  "אסלות תלויות עם מיכל הדחה סמוי",
+                  "אינטרפוץ 4 דרך וברזים יוקרתיים"
+                ]
+              }
+            ],
+            "buildings": 1,
+            "apartments": 210,
+            "isOnSale": false,
+            "bank": "",
+            "hideDealsHistory": false
+          },
+          "address": {
+            "region": {
+              "id": "3",
+              "text": "תל אביב והסביבה"
+            },
+            "topArea": {
+              "id": "2",
+              "text": "מרכז"
+            },
+            "area": {
+              "id": "1",
+              "text": "אזור תל אביב יפו"
+            },
+            "city": {
+              "id": "5000",
+              "text": "תל אביב יפו"
+            },
+            "neighborhood": {
+              "id": "485",
+              "text": "מונטיפיורי, הרכבת"
+            },
+            "street": {
+              "id": "1555",
+              "text": "דרך מנחם בגין"
+            },
+            "coords": {
+              "lat": 32.07793,
+              "lon": 34.794659
+            },
+            "house": {
+              "number": 146
+            },
+            "addressMasterId": "9647040",
+            "display": "דרך מנחם בגין 146, תל אביב יפו"
+          },
+          "dates": {
+            "updatedAt": "2026-06-30T15:26:13",
+            "createdAt": "2025-01-12T11:01:21"
+          },
+          "abovePrice": "0",
+          "packageId": 104
+        }
+      ],
+      "listingOnly": [],
+      "boost": [],
+      "listingsByFullMatch": [
+        {
+          "token": "1000919",
+          "treedisId": "1000216",
+          "listingId": "1000919",
+          "listingOrder": 1,
+          "orderId": 7363,
+          "adNumber": 1000216,
+          "adType": "yad1",
+          "categoryId": 2,
+          "slug": "28706f6e",
+          "subcategoryId": 98,
+          "statusId": 1,
+          "projectId": 1000216,
+          "projectYzerId": 14810,
+          "additionalDetails": {
+            "propertyTypes": [
+              "penthouse"
+            ],
+            "property": {
+              "id": "penthouse",
+              "text": "גג/פנטהאוז",
+              "textEng": "penthouse"
+            },
+            "projectCategories": [
+              2
+            ],
+            "companyIds": [
+              "1531"
+            ],
+            "roomsCount": 5,
+            "maxFloor": 50,
+            "minFloor": 50,
+            "timelineStatus": "4",
+            "includeParking": true,
+            "includeWarehouse": true,
+            "includeElevator": true,
+            "includeSecurityRoom": true,
+            "includeFloorShelter": false,
+            "includeAirCondition": false,
+            "includeBalcony": true,
+            "includeBars": false,
+            "isHandicapped": false,
+            "includeFurniture": false,
+            "isAssetExclusive": false,
+            "hasHighCeiling": false,
+            "includeAlarm": false,
+            "includeKitchenette": false,
+            "includeCameras": false,
+            "includeMeetingRoom": false,
+            "includeCoolingRoom": false,
+            "includeLoadingRamp": false,
+            "includeCommunicationRoom": false
+          },
+          "packages": {
+            "displayInAreaPageYad1": true,
+            "displayInCityPageYad1": true,
+            "displayInCompanyPageYad1": true,
+            "displayInMapListing": true,
+            "displayInMapLogos": true,
+            "displayInNeighborhoodPageYad1": true,
+            "displayInTopGallery": true,
+            "isImageGalleryPromotion": true,
+            "isProListing": true,
+            "isSameEntrepreneurPromotion": true,
+            "isYad1ListingPromo": true,
+            "isYad1ListingSoloAd": true,
+            "lidInImageGallery": true,
+            "hasMiniSite": true
+          },
+          "metaData": {
+            "flag": "פרויקט חדש",
+            "info": "הכירו את עזריאלי TOWN תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי.\nדמי שכירות ידועים מראש ללא הפתעות\nחנייה מקורה ומחסן לכל דירה\nחדר כושר יוקרתי ומאובזר\nמועדון דיירים מעוצב בקומה ה‏-‏51\nחללי עבודה משותפים\nלובי כניסה מפואר הכולל לוביסט 7\\24\nסביבה אורבנית חדשנית\nקרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה\nאפשרות יציאה בתום כל שנה\n \nשכירות – 11,480 ₪\nכולל מחסן\nחנייה אופציונלית – 820 ₪\nדמי ניהול החל מ1500 ₪ (תלוי גודל דירה)\nסך הכל כולל חנייה: החל מ 13,800 ₪\n*בכפוף לתקנון\n",
+            "infoStyled": "<span>הכירו את עזריאלי </span><span>TOWN</span><span> תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי</span><span>.</span><br /><span>דמי שכירות ידועים מראש ללא הפתעות</span><br /><span>חנייה מקורה ומחסן לכל דירה</span><br /><span>חדר כושר יוקרתי ומאובזר</span><br /><span>מועדון דיירים מעוצב בקומה ה‏-‏51</span><br /><span>חללי עבודה משותפים</span><br />לובי כניסה מפואר הכולל לוביסט 7\\24<br /><span>סביבה אורבנית חדשנית</span><br /><span>קרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה</span><br /><span>אפשרות יציאה בתום כל שנה</span><br /> <br />שכירות – 11,480 ₪<br />כולל מחסן<br />חנייה אופציונלית – 820 ₪<br />דמי ניהול החל מ1500 ₪ (תלוי גודל דירה)<br />סך הכל כולל חנייה: החל מ 13,800 ₪<br /><strong><span>*</span><span>בכפוף לתקנון</span></strong><br />",
+            "infoHeader": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן\n",
+            "infoHeaderStyled": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן<br />",
+            "promotionText": "שכירות לטווח ארוך!",
+            "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/logo/de9f7a7e-16eb-4ce6-be19-dfae2d62bebd.webp",
+            "coverImage": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+            "images": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp"
+            ],
+            "tmunotInformation": [
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp",
+                "hasAiRedesign": false
+              }
+            ],
+            "videos": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bee93f7f-1009-4ea4-9502-f34564bad154.mp4"
+            ],
+            "previewType": "2d",
+            "immediateOccupancy": false,
+            "specs": [
+              {
+                "category": "מטבח",
+                "labels": [
+                  "מטבחים איכותיים בעיצוב קלאסי / מודרני הכוללים אי",
+                  "משטח אבן קיסר"
+                ]
+              },
+              {
+                "category": "דירה",
+                "labels": [
+                  "מוצרי חשמל יוקרתיים: מקרר, כיריים,  מיקרוגל, תנור, מדיח, מכונת כביסה ומייבש כביסה וארונות בכל החדרים",
+                  "דלתות פנים איכותיות \"פנדור\"",
+                  "דלת לממ\"ד בנוסף לדלת הבטחון",
+                  "דלת בטחון מעוצבת בכניסה לדירה",
+                  "ריצוף גרניט פורצלן 80X80 ",
+                  "זיגוג כפול בכל החלונות",
+                  "ארונות נגרות בחדרים",
+                  "אינטרקום מסך צבעוני בכניסה לדירה",
+                  "מיזוג אוויר דירתי מלא",
+                  "חלונות אלומיניום ברמה גבוהה",
+                  "גופי תאורה",
+                  "מרפסת שמש"
+                ]
+              },
+              {
+                "category": "חדרי רחצה / כלים סניטריים",
+                "labels": [
+                  "ארון נגרות מעוצב עם משטח אבן קיסר, כיור ומראה",
+                  "אסלות תלויות עם מיכל הדחה סמוי",
+                  "אינטרפוץ 4 דרך וברזים יוקרתיים"
+                ]
+              }
+            ],
+            "buildings": 1,
+            "apartments": 210,
+            "isOnSale": false,
+            "bank": "",
+            "hideDealsHistory": false
+          },
+          "address": {
+            "region": {
+              "id": "3",
+              "text": "תל אביב והסביבה"
+            },
+            "topArea": {
+              "id": "2",
+              "text": "מרכז"
+            },
+            "area": {
+              "id": "1",
+              "text": "אזור תל אביב יפו"
+            },
+            "city": {
+              "id": "5000",
+              "text": "תל אביב יפו"
+            },
+            "neighborhood": {
+              "id": "485",
+              "text": "מונטיפיורי, הרכבת"
+            },
+            "street": {
+              "id": "1555",
+              "text": "דרך מנחם בגין"
+            },
+            "coords": {
+              "lat": 32.07793,
+              "lon": 34.794659
+            },
+            "house": {
+              "number": 146
+            },
+            "addressMasterId": "9647040",
+            "display": "דרך מנחם בגין 146, תל אביב יפו"
+          },
+          "dates": {
+            "updatedAt": "2026-06-30T15:26:13",
+            "createdAt": "2025-01-12T11:01:21"
+          },
+          "abovePrice": "0",
+          "packageId": 104
+        }
+      ],
+      "listingsByTiersMatch": [
+        {
+          "token": "1000919",
+          "treedisId": "1000216",
+          "listingId": "1000919",
+          "listingOrder": 1,
+          "orderId": 7363,
+          "adNumber": 1000216,
+          "adType": "yad1",
+          "categoryId": 2,
+          "slug": "28706f6e",
+          "subcategoryId": 98,
+          "statusId": 1,
+          "projectId": 1000216,
+          "projectYzerId": 14810,
+          "additionalDetails": {
+            "propertyTypes": [
+              "penthouse"
+            ],
+            "property": {
+              "id": "penthouse",
+              "text": "גג/פנטהאוז",
+              "textEng": "penthouse"
+            },
+            "projectCategories": [
+              2
+            ],
+            "companyIds": [
+              "1531"
+            ],
+            "roomsCount": 5,
+            "maxFloor": 50,
+            "minFloor": 50,
+            "timelineStatus": "4",
+            "includeParking": true,
+            "includeWarehouse": true,
+            "includeElevator": true,
+            "includeSecurityRoom": true,
+            "includeFloorShelter": false,
+            "includeAirCondition": false,
+            "includeBalcony": true,
+            "includeBars": false,
+            "isHandicapped": false,
+            "includeFurniture": false,
+            "isAssetExclusive": false,
+            "hasHighCeiling": false,
+            "includeAlarm": false,
+            "includeKitchenette": false,
+            "includeCameras": false,
+            "includeMeetingRoom": false,
+            "includeCoolingRoom": false,
+            "includeLoadingRamp": false,
+            "includeCommunicationRoom": false
+          },
+          "packages": {
+            "displayInAreaPageYad1": true,
+            "displayInCityPageYad1": true,
+            "displayInCompanyPageYad1": true,
+            "displayInMapListing": true,
+            "displayInMapLogos": true,
+            "displayInNeighborhoodPageYad1": true,
+            "displayInTopGallery": true,
+            "isImageGalleryPromotion": true,
+            "isProListing": true,
+            "isSameEntrepreneurPromotion": true,
+            "isYad1ListingPromo": true,
+            "isYad1ListingSoloAd": true,
+            "lidInImageGallery": true,
+            "hasMiniSite": true
+          },
+          "metaData": {
+            "flag": "פרויקט חדש",
+            "info": "הכירו את עזריאלי TOWN תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי.\nדמי שכירות ידועים מראש ללא הפתעות\nחנייה מקורה ומחסן לכל דירה\nחדר כושר יוקרתי ומאובזר\nמועדון דיירים מעוצב בקומה ה‏-‏51\nחללי עבודה משותפים\nלובי כניסה מפואר הכולל לוביסט 7\\24\nסביבה אורבנית חדשנית\nקרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה\nאפשרות יציאה בתום כל שנה\n \nשכירות – 11,480 ₪\nכולל מחסן\nחנייה אופציונלית – 820 ₪\nדמי ניהול החל מ1500 ₪ (תלוי גודל דירה)\nסך הכל כולל חנייה: החל מ 13,800 ₪\n*בכפוף לתקנון\n",
+            "infoStyled": "<span>הכירו את עזריאלי </span><span>TOWN</span><span> תל אביב ‏– מגדל מגורים יוקרתי עם מגוון שירותים ייחודיים שיעניקו לכם חוויית מגורים בסטנדרט מתקדם ובראש שקט, הכוללת ניהול, תפעול ותחזוקה מבית עזריאלי</span><span>.</span><br /><span>דמי שכירות ידועים מראש ללא הפתעות</span><br /><span>חנייה מקורה ומחסן לכל דירה</span><br /><span>חדר כושר יוקרתי ומאובזר</span><br /><span>מועדון דיירים מעוצב בקומה ה‏-‏51</span><br /><span>חללי עבודה משותפים</span><br />לובי כניסה מפואר הכולל לוביסט 7\\24<br /><span>סביבה אורבנית חדשנית</span><br /><span>קרוב לצירי תחבורה מרכזיים, סמוך לקו האדום של הרכבת הקלה</span><br /><span>אפשרות יציאה בתום כל שנה</span><br /> <br />שכירות – 11,480 ₪<br />כולל מחסן<br />חנייה אופציונלית – 820 ₪<br />דמי ניהול החל מ1500 ₪ (תלוי גודל דירה)<br />סך הכל כולל חנייה: החל מ 13,800 ₪<br /><strong><span>*</span><span>בכפוף לתקנון</span></strong><br />",
+            "infoHeader": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן\n",
+            "infoHeaderStyled": "דירות מעוצבות להשכרה ‏3 חדרים החל מ‏-‏11,480‏₪ כולל מחסן<br />",
+            "promotionText": "שכירות לטווח ארוך!",
+            "projectLogo": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/logo/de9f7a7e-16eb-4ce6-be19-dfae2d62bebd.webp",
+            "coverImage": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+            "images": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/mainImage/e473691e-1fd4-4d1c-970a-9070cdd3cdf0.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp"
+            ],
+            "tmunotInformation": [
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5b45d46f-8add-402d-8044-c6dbf0452157.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/2c6c3365-788a-4d94-8c67-1d9e7215ff7e.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/1fd0ad91-e7b9-48e9-9779-081b788466fc.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8765419f-192b-45c1-9912-d924a2893ba5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/70e22f69-b297-4777-aab5-d658060b8d78.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/f823cc5d-3ba5-4747-ae5e-7cb2611a8dbb.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bf000dce-1dcb-444e-8091-4c0111ba3d3a.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8bdaa1b0-e823-4054-a341-3685eaad668b.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/cf5e7048-ecb6-4dfe-8463-ef58976807cd.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/5a603088-9bc2-4089-a6f8-923cb985e579.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/dba993e1-a5c7-4fe5-bb61-5e8b795926f2.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/81816a0c-98ee-47a8-bc6f-5c8f3e82c88f.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/8aa8bbca-3c40-4eb3-8347-b39720d320a5.webp",
+                "hasAiRedesign": false
+              },
+              {
+                "url": "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/9cd3b6c3-f3d8-4f2b-9ce9-f2f0e90a95ce.webp",
+                "hasAiRedesign": false
+              }
+            ],
+            "videos": [
+              "https://treedis-cdn.yad2.co.il/projects/1000216/assets/gallery/bee93f7f-1009-4ea4-9502-f34564bad154.mp4"
+            ],
+            "previewType": "2d",
+            "immediateOccupancy": false,
+            "specs": [
+              {
+                "category": "מטבח",
+                "labels": [
+                  "מטבחים איכותיים בעיצוב קלאסי / מודרני הכוללים אי",
+                  "משטח אבן קיסר"
+                ]
+              },
+              {
+                "category": "דירה",
+                "labels": [
+                  "מוצרי חשמל יוקרתיים: מקרר, כיריים,  מיקרוגל, תנור, מדיח, מכונת כביסה ומייבש כביסה וארונות בכל החדרים",
+                  "דלתות פנים איכותיות \"פנדור\"",
+                  "דלת לממ\"ד בנוסף לדלת הבטחון",
+                  "דלת בטחון מעוצבת בכניסה לדירה",
+                  "ריצוף גרניט פורצלן 80X80 ",
+                  "זיגוג כפול בכל החלונות",
+                  "ארונות נגרות בחדרים",
+                  "אינטרקום מסך צבעוני בכניסה לדירה",
+                  "מיזוג אוויר דירתי מלא",
+                  "חלונות אלומיניום ברמה גבוהה",
+                  "גופי תאורה",
+                  "מרפסת שמש"
+                ]
+              },
+              {
+                "category": "חדרי רחצה / כלים סניטריים",
+                "labels": [
+                  "ארון נגרות מעוצב עם משטח אבן קיסר, כיור ומראה",
+                  "אסלות תלויות עם מיכל הדחה סמוי",
+                  "אינטרפוץ 4 דרך וברזים יוקרתיים"
+                ]
+              }
+            ],
+            "buildings": 1,
+            "apartments": 210,
+            "isOnSale": false,
+            "bank": "",
+            "hideDealsHistory": false
+          },
+          "address": {
+            "region": {
+              "id": "3",
+              "text": "תל אביב והסביבה"
+            },
+            "topArea": {
+              "id": "2",
+              "text": "מרכז"
+            },
+            "area": {
+              "id": "1",
+              "text": "אזור תל אביב יפו"
+            },
+            "city": {
+              "id": "5000",
+              "text": "תל אביב יפו"
+            },
+            "neighborhood": {
+              "id": "485",
+              "text": "מונטיפיורי, הרכבת"
+            },
+            "street": {
+              "id": "1555",
+              "text": "דרך מנחם בגין"
+            },
+            "coords": {
+              "lat": 32.07793,
+              "lon": 34.794659
+            },
+            "house": {
+              "number": 146
+            },
+            "addressMasterId": "9647040",
+            "display": "דרך מנחם בגין 146, תל אביב יפו"
+          },
+          "dates": {
+            "updatedAt": "2026-06-30T15:26:13",
+            "createdAt": "2025-01-12T11:01:21"
+          },
+          "abovePrice": "0",
+          "packageId": 104
+        }
+      ]
+    },
+    "platinum": [
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הדר יוסף"
+          },
+          "street": {
+            "text": "יד המעביר"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lat": 32.1101522142857,
+            "lon": 34.8244930952381
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 9000,
+        "token": "cxqd661l",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 96,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010722_20260819112142.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010722_20260819112142.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010380_20260819112142.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010559_20260819112142.jpeg",
+            "https://img.yad2.co.il/Pic/202608/19/2_6/o/y2_1pa_010291_20260819112142.jpeg"
+          ]
+        },
+        "tags": [],
+        "orderId": 57392324,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "neighborhood": {
+            "text": "הצפון הישן - החלק הצפוני"
+          },
+          "street": {
+            "text": "ויתקין"
+          },
+          "house": {
+            "floor": 3
+          },
+          "coords": {
+            "lon": 34.77337125,
+            "lat": 32.090641
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 6500,
+        "token": "peoff8wu",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 1.5,
+          "squareMeter": 70,
+          "propertyCondition": {
+            "id": 2
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/06/2_6/o/y2_1_U7zjOQoveF_20260706.png",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/06/2_6/o/y2_1_U7zjOQoveF_20260706.png",
+            "https://img.yad2.co.il/Pic/202607/06/2_6/o/y2_2_hF4NXelSS0_20260706.png",
+            "https://img.yad2.co.il/Pic/202607/06/2_6/o/y2_3_xB7i7GVqSe_20260706.png",
+            "https://img.yad2.co.il/Pic/202607/06/2_6/o/y2_4_QcvdmvZghe_20260706.png",
+            "https://img.yad2.co.il/Pic/202607/06/2_6/o/y2_5_lf24Dar9oz_20260706.png"
+          ],
+          "squareMeterBuild": 28
+        },
+        "tags": [],
+        "orderId": 57188227,
+        "priority": 1,
+        "packages": {}
+      },
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "street": {
+            "text": "ויסוצקי"
+          },
+          "house": {
+            "floor": 0
+          },
+          "coords": {
+            "lon": 34.7946028421053,
+            "lat": 32.0885649473684
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 14000,
+        "token": "3va1yn3m",
+        "additionalDetails": {
+          "property": {
+            "text": "דירת גן"
+          },
+          "roomsCount": 3,
+          "squareMeter": 138,
+          "propertyCondition": {
+            "id": 6
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010209_20260906122546.jpeg",
+          "images": [
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010209_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010135_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010152_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010769_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010853_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010232_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010520_20260906122546.jpeg",
+            "https://img.yad2.co.il/Pic/202609/06/2_6/o/y2_1pa_010745_20260906122546.jpeg"
+          ],
+          "squareMeterBuild": 88
+        },
+        "tags": [],
+        "orderId": 57470037,
+        "priority": 1,
+        "packages": {}
+      }
+    ],
+    "kingOfTheHar": [
+      {
+        "logo": "//images.yad2.co.il/Pic/TivMiniSite/c6666e9c-a0d8-4f1f-a41b-8c9b3ca08a39.png?t=1790144525469",
+        "agencyId": "3601072",
+        "adCount": 10
+      }
+    ],
+    "trio": [
+      {
+        "logo": "//images.yad2.co.il/Pic/TivMiniSite/bbe9d07d-0d26-4dd1-91ef-dfa7cc813205.jpg?t=1790143937854",
+        "agencyId": "3188911",
+        "adCount": 1
+      },
+      {
+        "logo": "//images.yad2.co.il/Pic/TivMiniSite/07864cc4-e91e-4497-b03e-83cbfbd25c86.png?t=1790145917461",
+        "agencyId": "8266147",
+        "adCount": 9
+      },
+      {
+        "logo": "//images.yad2.co.il/Pic/TivMiniSite/176e0d7a-38fc-43c1-871f-4ad1031c6d0a.png?t=1790144131258",
+        "agencyId": "6057805",
+        "adCount": 5
+      }
+    ],
+    "booster": [
+      {
+        "address": {
+          "region": {
+            "text": "תל אביב והסביבה",
+            "id": 3
+          },
+          "city": {
+            "text": "תל אביב יפו"
+          },
+          "area": {
+            "text": "אזור תל אביב יפו"
+          },
+          "street": {
+            "text": "וינגייט"
+          },
+          "house": {
+            "floor": 32
+          },
+          "coords": {
+            "lat": 32.0599047037037,
+            "lon": 34.7910062222222
+          }
+        },
+        "subcategoryId": 6,
+        "categoryId": 2,
+        "adType": "commercial",
+        "price": 22000,
+        "token": "l5mq2fb5",
+        "additionalDetails": {
+          "property": {
+            "text": "דירה"
+          },
+          "roomsCount": 4,
+          "squareMeter": 180,
+          "propertyCondition": {
+            "id": 1
+          },
+          "promotions": []
+        },
+        "metaData": {
+          "coverImage": "https://img.yad2.co.il/Pic/202607/16/2_6/o/y2_3_999441_20260716.png",
+          "images": [
+            "https://img.yad2.co.il/Pic/202607/16/2_6/o/y2_3_999441_20260716.png",
+            "https://img.yad2.co.il/Pic/202607/16/2_6/o/y2_2_991446_20260716.png",
+            "https://img.yad2.co.il/Pic/202607/16/2_6/o/y2_4_995964_20260716.png",
+            "https://img.yad2.co.il/Pic/202607/16/2_6/o/y2_4_991582_20260716.png",
+            "https://img.yad2.co.il/Pic/202607/16/2_6/o/y2_1_Aa7Ow7aqw_991722_20260716.png"
+          ]
+        },
+        "tags": [],
+        "orderId": 57240619,
+        "priority": 1,
+        "packages": {
+          "isNewFromContractor": true
+        }
+      }
+    ],
+    "leadingBroker": [
+      {
+        "agencyId": "5381262"
+      },
+      {
+        "agencyId": "5944050"
+      },
+      {
+        "agencyId": "2696400"
+      },
+      {
+        "agencyId": "445088"
+      },
+      {
+        "agencyId": "6333804"
+      },
+      {
+        "agencyId": "8056062"
+      }
+    ],
+    "pagination": {
+      "total": 4769,
+      "totalPages": 173
+    }
+  },
+  "message": "OK"
+}
