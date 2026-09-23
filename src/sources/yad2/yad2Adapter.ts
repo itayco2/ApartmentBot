@@ -33,12 +33,21 @@ export const MAX_PAGES = 10;
 export type FeedFetcher = (city: CityEntry, page: number) => Promise<string>;
 
 /**
- * Only `region`, `city` and `page` are ever sent. Any other parameter (`order=1` and
- * `sort=1` were tried) makes the gateway's firewall answer with a block record instead of
- * data, and that record carries the caller's IP address.
+ * The feed URL for one page. Only `region`, `city` and `page` are ever sent: any other
+ * parameter (`order=1` and `sort=1` were tried) makes the gateway's firewall answer with a
+ * block record instead of data, and that record carries the caller's IP address.
+ *
+ * The city code is four digits, zero-padded, as Yad2's own autocomplete writes it ("0168").
+ * Sent as `168`, Kfar Yona came back an empty city with HTTP 200, and so would every one of
+ * the ~660 localities whose official code is below 1000.
  */
+export function feedUrl(city: CityEntry, page: number): string {
+  const code = String(city.yad2CityCode).padStart(4, '0');
+  return `${FEED_API}?region=${city.yad2RegionCode}&city=${code}&page=${page}`;
+}
+
 export const fetchFeedPage: FeedFetcher = (city, page) =>
-  fetchText(`${FEED_API}?region=${city.yad2RegionCode}&city=${city.yad2CityCode}&page=${page}`, {
+  fetchText(feedUrl(city, page), {
     source: 'yad2',
     profile: 'desktop',
     headers: {

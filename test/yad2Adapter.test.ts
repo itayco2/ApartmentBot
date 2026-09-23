@@ -4,6 +4,7 @@ import { BlockedError, type CityEntry, type SavedSearch } from '../src/core/type
 import {
   MAX_PAGES,
   MIN_PAGES,
+  feedUrl,
   createYad2Adapter,
   type FeedFetcher,
 } from '../src/sources/yad2/yad2Adapter.js';
@@ -185,5 +186,21 @@ describe('yad2 page walking', () => {
   it('skips a city it has no codes for', () => {
     expect(createYad2Adapter().supports(search, { key: 'nowhere', name: 'x', aliases: [] })).toBe(false);
     expect(createYad2Adapter().supports(search, telAviv)).toBe(true);
+  });
+});
+
+describe('the yad2 feed url', () => {
+  it('zero-pads a city code below 1000, as Yad2 writes it', () => {
+    // Sent as 168, Kfar Yona came back an empty city with HTTP 200; as 0168 it has listings.
+    const kfarYona = { key: 'kefar-yona', name: 'כפר יונה', aliases: [], yad2CityCode: 168, yad2RegionCode: 1 };
+    expect(feedUrl(kfarYona, 1)).toBe(
+      'https://gw.yad2.co.il/realestate-feed/rent/feed?region=1&city=0168&page=1',
+    );
+  });
+
+  it('leaves a four-digit code alone and sends nothing but region, city and page', () => {
+    expect(feedUrl(telAviv, 3)).toBe(
+      'https://gw.yad2.co.il/realestate-feed/rent/feed?region=3&city=5000&page=3',
+    );
   });
 });
